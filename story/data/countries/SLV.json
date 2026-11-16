@@ -1,0 +1,102 @@
+{
+ "id": "SLV",
+ "theme": {
+  "scenery": "vulcoes_pacifico",
+  "palette": [
+   "#32150b",
+   "#74321b",
+   "#f2c94c",
+   "#d46945"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "duende",
+    "name": "El Duende",
+    "legend": "Pequeno ser travesso das matas que confunde e atrai crianças."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "izalco",
+    "name": "Fantasma do Izalco",
+    "legend": "Criatura inventada, inspirada no vulcão Izalco, o farol do Pacífico.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "carreta",
+    "name": "Carreta Chillona",
+    "legend": "Carroça fantasma de rodas rangentes que anuncia a morte pelas ruas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "cadejo",
+    "name": "El Cadejo",
+    "legend": "Cão espectral, ora protetor, ora maligno, que rodeia os noctívagos."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "torogoz",
+    "name": "Torogoz Sombrio",
+    "legend": "Criatura inventada, inspirada na ave nacional, o torogoz.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "santa_ana",
+    "name": "Espírito do Santa Ana",
+    "legend": "Criatura inventada, inspirada no vulcão mais alto do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "coruja",
+    "name": "Coruja do Cafezal",
+    "legend": "Criatura inventada, inspirada nas plantações de café.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "onda",
+    "name": "Onda Viva",
+    "legend": "Criatura inventada, inspirada nas ondas do litoral do Pacífico.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "cipitio",
+    "name": "El Cipitío",
+    "legend": "Menino eterno de pés virados para trás, filho da Ciguanaba."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "siguanaba",
+    "name": "La Ciguanaba",
+    "legend": "Bela mulher vista de costas que revela rosto de caveira a homens infiéis."
+   },
+   "boss": true,
+   "bossTitle": "A Mulher das Águas",
+   "rewardPower": "dica_unica"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "LTU",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#292e0f",
+   "#5f6b24",
+   "#f2c94c",
+   "#b2c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "kaukas",
+    "name": "Kaukas",
+    "legend": "Duende doméstico, protetor das casas lituanas."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "laume",
+    "name": "Laumė",
+    "legend": "Fada das águas e dos tecidos que premia ou castiga."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "aitvaras",
+    "name": "Aitvaras",
+    "legend": "Espírito doméstico, ave de fogo que traz riqueza ao dono."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "vilkolakis",
+    "name": "Vilkolakis",
+    "legend": "Lobisomem do folclore lituano."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "zaltys",
+    "name": "Žaltys",
+    "legend": "Cobra sagrada protetora das casas, na tradição báltica."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Lituânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sentinela_de_vilnius",
+    "name": "Sentinela de Vilnius",
+    "legend": "Criatura inventada que vigia Vilnius, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Lituânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Lituânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "velnias",
+    "name": "Velnias",
+    "legend": "O Diabo do folclore lituano, desajeitado e enganado pelo povo."
+   },
+   "bossTitle": "Velnias",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

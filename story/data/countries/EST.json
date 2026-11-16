@@ -1,0 +1,102 @@
+{
+ "id": "EST",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#140f2e",
+   "#2e246b",
+   "#f2c94c",
+   "#6453c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "kratt",
+    "name": "Kratt",
+    "legend": "Servo mágico feito de feno ou ferramentas, que trabalha para o dono."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "nakk",
+    "name": "Näkk",
+    "legend": "Espírito das águas que atrai e afoga quem se aproxima."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "metsavana",
+    "name": "Metsavana",
+    "legend": "Velho da floresta, protetor das matas, na tradição estoniana."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "suur_toll",
+    "name": "Suur Tõll",
+    "legend": "Gigante da ilha de Saaremaa, de força lendária."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_sentinela_de_tallinn",
+    "name": "Sentinela de Tallinn",
+    "legend": "Criatura inventada que vigia Tallinn, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Estónia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Estónia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Estónia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Estónia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "vanapagan",
+    "name": "Vanapagan",
+    "legend": "Velho Diabo das lendas estonianas, enganado pelos camponeses."
+   },
+   "bossTitle": "Vanapagan",
+   "rewardPower": "tempo_extra"
+  }
+ ]
+}

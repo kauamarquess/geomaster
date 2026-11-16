@@ -1,0 +1,102 @@
+{
+ "id": "NZL",
+ "theme": {
+  "scenery": "ilhas",
+  "palette": [
+   "#2e0f1a",
+   "#6b243d",
+   "#f2c94c",
+   "#c6537b"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "patupaiarehe",
+    "name": "Patupaiarehe",
+    "legend": "Povo das fadas das montanhas, de pele clara, na tradição maori."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "ponaturi",
+    "name": "Ponaturi",
+    "legend": "Seres do mar que morrem com a luz do sol, na tradição maori."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "kurangaituku",
+    "name": "Kurangaituku",
+    "legend": "Mulher-pássaro das florestas, na lenda maori."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "te_wheke_a_muturangi",
+    "name": "Te Wheke-a-Muturangi",
+    "legend": "Polvo gigante da lenda maori, caçado por Kupe."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Nova Zelândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Nova Zelândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Nova Zelândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Nova Zelândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Nova Zelândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "taniwha",
+    "name": "Taniwha",
+    "legend": "Guardião ou monstro de rios e mares, na tradição maori."
+   },
+   "bossTitle": "Taniwha",
+   "rewardPower": "escudo_lenda"
+  }
+ ]
+}

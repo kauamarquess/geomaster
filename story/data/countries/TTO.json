@@ -1,0 +1,99 @@
+{
+ "id": "TTO",
+ "theme": {
+  "scenery": "caribe_carnaval",
+  "palette": [
+   "#320b0b",
+   "#751919",
+   "#f2c94c",
+   "#d64242"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "douen",
+    "name": "Douen",
+    "legend": "Espíritos de crianças não batizadas, de pés virados para trás e chapéu grande."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "bolom",
+    "name": "Bolom",
+    "legend": "Espírito de uma criança que não nasceu, ligado a azar nas famílias."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "soucouyant",
+    "name": "Soucouyant",
+    "legend": "Bruxa que tira a pele à noite e vira bola de fogo no céu caribenho."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "pitch",
+    "name": "Espírito do Pitch Lake",
+    "legend": "Criatura inventada, inspirada no maior lago de asfalto natural.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "lagahoo",
+    "name": "Lagahoo",
+    "legend": "Criatura que muda de forma e vaga à noite, versão trinidadiana do lobisomem."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "papa_bois",
+    "name": "Papa Bois",
+    "legend": "Guardião da floresta, metade homem e metade cervo, que protege os animais."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "la_diablesse",
+    "name": "La Diablesse",
+    "legend": "Mulher elegante com pé de cabra escondido que atrai homens a precipícios."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "ibis",
+    "name": "Guará Fantasma",
+    "legend": "Criatura inventada, inspirada no guará-vermelho, ave nacional.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "moko",
+    "name": "Moko Jumbie",
+    "legend": "Espírito gigante de pernas de pau que protege as aldeias, de origem africana."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "mama_dleau",
+    "name": "Mama D'Leau",
+    "legend": "Rainha-serpente dos rios e pântanos, guardiã dos peixes e das águas."
+   },
+   "boss": true,
+   "bossTitle": "A Mãe das Águas",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

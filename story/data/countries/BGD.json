@@ -1,0 +1,105 @@
+{
+ "id": "BGD",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#262e0f",
+   "#596b24",
+   "#f2c94c",
+   "#a9c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "shakchunni",
+    "name": "Shakchunni",
+    "legend": "Fantasma feminino de pés virados que assusta quem passa por árvores."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sentinela_de_dhaka",
+    "name": "Sentinela de Dhaka",
+    "legend": "Criatura inventada que vigia Dhaka, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Bangladesh.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "brahmadaitya",
+    "name": "Brahmadaitya",
+    "legend": "Fantasma de brâmane que habita velhas árvores, no folclore bengali."
+   },
+   "bossTitle": "Brahmadaitya",
+   "rewardPower": "forca_vento"
+  }
+ ]
+}

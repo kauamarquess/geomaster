@@ -1,0 +1,99 @@
+{
+ "id": "DEU",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#110f2e",
+   "#27246b",
+   "#f2c94c",
+   "#5953c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "kobold",
+    "name": "Kobold",
+    "legend": "Duende travesso das casas e minas alemãs."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "klabautermann",
+    "name": "Klabautermann",
+    "legend": "Espírito dos navios que ajuda marinheiros, mas anuncia naufrágios."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "wolpertinger",
+    "name": "Wolpertinger",
+    "legend": "Criatura mista de lebre, veado e ave, da Baviera."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "nixe",
+    "name": "Nixe",
+    "legend": "Espírito feminino das águas que atrai e afoga quem se aproxima."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "rubezahl",
+    "name": "Rübezahl",
+    "legend": "Espírito das montanhas gigantes, senhor do tempo e das tempestades."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "lorelei",
+    "name": "Lorelei",
+    "legend": "Jovem do rochedo do Reno cujo canto atrai barqueiros para o naufrágio."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "erlkonig",
+    "name": "Erlkönig",
+    "legend": "Rei dos elfos que leva crianças no poema de Goethe."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Alemanha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Alemanha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "cacada_selvagem",
+    "name": "Caçada Selvagem",
+    "legend": "Cavalgada fantasmagórica que atravessa as noites de tempestade."
+   },
+   "bossTitle": "Caçada Selvagem",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

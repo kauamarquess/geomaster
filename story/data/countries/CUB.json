@@ -1,0 +1,103 @@
+{
+ "id": "CUB",
+ "theme": {
+  "scenery": "caribe_havana",
+  "palette": [
+   "#32260c",
+   "#74591b",
+   "#f2c94c",
+   "#d4a945"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "guije",
+    "name": "Güije",
+    "legend": "Pequeno ser de pele escura que vive em rios e lagoas e afoga os imprudentes."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "opia",
+    "name": "Opía",
+    "legend": "Espírito dos mortos na crença taína, que vaga à noite imitando os vivos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "maboya",
+    "name": "Maboya",
+    "legend": "Espírito maligno taíno, causador de desgraças."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "tocororo",
+    "name": "Tocororo Fantasma",
+    "legend": "Criatura inventada, inspirada na ave nacional, o tocororo.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "almiqui",
+    "name": "Almiquí Sombrio",
+    "legend": "Criatura inventada, inspirada no raro almiquí cubano.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "crocodilo",
+    "name": "Crocodilo de Zapata",
+    "legend": "Criatura inventada, inspirada nos pântanos da Ciénaga de Zapata.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "morro",
+    "name": "Guardião do Morro",
+    "legend": "Criatura inventada, inspirada na fortaleza do porto de Havana.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "tabaco",
+    "name": "Espírito do Tabaco",
+    "legend": "Criatura inventada, inspirada nas plantações de tabaco.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "malecon",
+    "name": "Onda do Malecón",
+    "legend": "Criatura inventada, inspirada na avenida à beira-mar de Havana.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "madre_aguas",
+    "name": "Madre de Aguas",
+    "legend": "Serpente gigante dos rios e lagoas cubanas, guardiã das águas."
+   },
+   "boss": true,
+   "bossTitle": "A Mãe das Águas",
+   "rewardPower": "cura_leve"
+  }
+ ]
+}

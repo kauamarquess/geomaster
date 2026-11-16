@@ -1,0 +1,104 @@
+{
+ "id": "ARM",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#172e0f",
+   "#366b24",
+   "#f2c94c",
+   "#70c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "aralez",
+    "name": "Aralez",
+    "legend": "Cães espirituais que lambem feridas de guerreiros e os revivem."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "nhang",
+    "name": "Nhang",
+    "legend": "Monstro de rio do folclore armênio."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Arménia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Arménia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Arménia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Arménia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Arménia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Arménia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sentinela_de_yerevan",
+    "name": "Sentinela de Yerevan",
+    "legend": "Criatura inventada que vigia Yerevan, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "vishap",
+    "name": "Vishap",
+    "legend": "Dragão armênio, associado às águas e às montanhas."
+   },
+   "bossTitle": "Vishap",
+   "rewardPower": "escudo_lenda"
+  }
+ ]
+}

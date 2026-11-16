@@ -1,0 +1,103 @@
+{
+ "id": "NIC",
+ "theme": {
+  "scenery": "lagos_vulcoes",
+  "palette": [
+   "#2f190e",
+   "#6e3a21",
+   "#f2c94c",
+   "#ca774f"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "padre",
+    "name": "Padre sin Cabeza",
+    "legend": "Padre sem cabeça que percorre caminhos escuros e assusta os noctívagos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "tubarao",
+    "name": "Tubarão do Cocibolca",
+    "legend": "Criatura inventada, inspirada nos tubarões do lago Nicarágua.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "momotombo",
+    "name": "Espírito do Momotombo",
+    "legend": "Criatura inventada, inspirada no vulcão Momotombo.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "carreta",
+    "name": "Carreta Nagua",
+    "legend": "Carroça fantasma que anuncia a morte pelas estradas do país."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "guardabarranco",
+    "name": "Guardabarranco Sombrio",
+    "legend": "Criatura inventada, inspirada na ave nacional.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "ometepe",
+    "name": "Espírito de Ometepe",
+    "legend": "Criatura inventada, inspirada na ilha dos dois vulcões.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "granada",
+    "name": "Fantasma de Granada",
+    "legend": "Criatura inventada, inspirada na cidade colonial de Granada.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "laguna",
+    "name": "Dragão da Laguna",
+    "legend": "Criatura inventada, inspirada nas lagoas vulcânicas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "guegense",
+    "name": "El Güegüense",
+    "legend": "Velho astuto e zombeteiro da comédia-baile tradicional, mestre em enganar autoridades."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "cegua",
+    "name": "La Cegua",
+    "legend": "Mulher que seduz viajantes e revela um rosto assustador na estrada."
+   },
+   "boss": true,
+   "bossTitle": "A Mulher da Estrada",
+   "rewardPower": "golpe_duplo"
+  }
+ ]
+}

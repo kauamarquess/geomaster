@@ -1,0 +1,107 @@
+{
+ "id": "OMN",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#0f2e22",
+   "#246b50",
+   "#f2c94c",
+   "#53c69a"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sentinela_de_muscat",
+    "name": "Sentinela de Muscat",
+    "legend": "Criatura inventada que vigia Muscat, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Omã.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "gen_guardiao",
+    "name": "Guardião de Omã",
+    "legend": "Criatura inventada que protege Omã: troque por uma lenda local.",
+    "invented": true
+   },
+   "bossTitle": "Guardião de Omã",
+   "rewardPower": "congelar_tempo"
+  }
+ ]
+}

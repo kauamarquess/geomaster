@@ -1,0 +1,443 @@
+{
+  "version": 2,
+  "description": "Banco reduzido de desenvolvimento com os três tipos de questão.",
+  "questions": [
+    {
+      "id": "dev-mc-01",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital da França?",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Marselha",
+        "Nice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paris é a capital e a maior cidade da França."
+    },
+    {
+      "id": "dev-mc-02",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital do Brasil?",
+      "options": [
+        "Brasília",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brasília é a capital federal desde 1960."
+    },
+    {
+      "id": "dev-mc-03",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "oceans",
+      "text": "Qual é o maior oceano do planeta?",
+      "options": [
+        "Atlântico",
+        "Índico",
+        "Pacífico",
+        "Ártico"
+      ],
+      "correctIndex": 2,
+      "explanation": "O Pacífico cobre cerca de um terço da superfície da Terra."
+    },
+    {
+      "id": "dev-mc-04",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Em qual continente fica o Brasil?",
+      "options": [
+        "Europa",
+        "América do Sul",
+        "África",
+        "Ásia"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Brasil ocupa quase metade da América do Sul."
+    },
+    {
+      "id": "dev-mc-05",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital do Japão?",
+      "options": [
+        "Quioto",
+        "Osaka",
+        "Tóquio",
+        "Nagoia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tóquio é a capital e a maior área metropolitana do Japão."
+    },
+    {
+      "id": "dev-mc-06",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "countries",
+      "text": "Qual é o maior país do mundo em área territorial?",
+      "options": [
+        "Canadá",
+        "China",
+        "Rússia",
+        "Estados Unidos"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Rússia tem cerca de 17 milhões de km²."
+    },
+    {
+      "id": "dev-mc-07",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual é o idioma oficial do Brasil?",
+      "options": [
+        "Espanhol",
+        "Português",
+        "Inglês",
+        "Francês"
+      ],
+      "correctIndex": 1,
+      "explanation": "O português é o idioma oficial e o mais falado no Brasil."
+    },
+    {
+      "id": "dev-mc-08",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital da Austrália?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Camberra",
+        "Perth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Camberra foi planejada para ser a capital, no lugar de Sydney ou Melbourne."
+    },
+    {
+      "id": "dev-mc-09",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital do Canadá?",
+      "options": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ottawa é a capital; Toronto é a maior cidade do país."
+    },
+    {
+      "id": "dev-mc-10",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "physical",
+      "text": "Qual é a montanha mais alta do mundo acima do nível do mar?",
+      "options": [
+        "K2",
+        "Monte Everest",
+        "Kangchenjunga",
+        "Mont Blanc"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Everest, no Himalaia, tem cerca de 8.850 metros."
+    },
+    {
+      "id": "dev-mc-11",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital da Turquia?",
+      "options": [
+        "Istambul",
+        "Ancara",
+        "Esmirna",
+        "Antália"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ancara é a capital desde 1923; Istambul é a maior cidade."
+    },
+    {
+      "id": "dev-mc-12",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "countries",
+      "text": "Qual é o menor país do mundo em área?",
+      "options": [
+        "Mônaco",
+        "Vaticano",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Cidade do Vaticano tem cerca de 0,44 km²."
+    },
+    {
+      "id": "dev-mc-13",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países NÃO faz fronteira com o Brasil?",
+      "options": [
+        "Argentina",
+        "Peru",
+        "Uruguai",
+        "Chile"
+      ],
+      "correctIndex": 3,
+      "explanation": "O Chile e o Equador são os únicos países sul-americanos que não fazem fronteira com o Brasil."
+    },
+    {
+      "id": "dev-mc-14",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Qual estreito liga o Mar Mediterrâneo ao Oceano Atlântico, separando a Europa da África?",
+      "options": [
+        "Estreito de Gibraltar",
+        "Estreito de Bering",
+        "Estreito de Magalhães",
+        "Canal de Suez"
+      ],
+      "correctIndex": 0,
+      "explanation": "O Estreito de Gibraltar separa a Espanha do Marrocos."
+    },
+    {
+      "id": "dev-mc-15",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital da Nova Zelândia?",
+      "options": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Hamilton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wellington é a capital; Auckland é a maior cidade."
+    },
+    {
+      "id": "dev-mc-16",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital do Quirguistão?",
+      "options": [
+        "Bisqueque",
+        "Taskent",
+        "Almaty",
+        "Duchambé"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bisqueque é a capital e a maior cidade do Quirguistão."
+    },
+    {
+      "id": "dev-mc-17",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Mianmar?",
+      "options": [
+        "Yangon",
+        "Naypyidaw",
+        "Mandalay",
+        "Bangkok"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naypyidaw é a capital desde 2006; Yangon é a maior cidade."
+    },
+    {
+      "id": "dev-mc-18",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "countries",
+      "text": "Qual país tem a maior extensão de litoral do mundo?",
+      "options": [
+        "Rússia",
+        "Indonésia",
+        "Canadá",
+        "Austrália"
+      ],
+      "correctIndex": 2,
+      "explanation": "O Canadá tem o litoral mais extenso, graças às suas ilhas e ao Ártico."
+    },
+    {
+      "id": "dev-mc-19",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "physical",
+      "text": "Qual é o lago mais profundo do mundo?",
+      "options": [
+        "Lago Vitória",
+        "Lago Baikal",
+        "Lago Tanganica",
+        "Lago Superior"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Baikal, na Rússia, tem mais de 1.600 metros de profundidade."
+    },
+    {
+      "id": "dev-map-01",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Clique no Brasil.",
+      "targetId": "BRA",
+      "targetName": "Brasil",
+      "explanation": "O Brasil é o maior país da América do Sul."
+    },
+    {
+      "id": "dev-map-02",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Clique no Egito.",
+      "targetId": "EGY",
+      "targetName": "Egito",
+      "explanation": "O Egito fica no nordeste da África, às margens do rio Nilo."
+    },
+    {
+      "id": "dev-map-03",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Clique na Austrália.",
+      "targetId": "AUS",
+      "targetName": "Austrália",
+      "explanation": "A Austrália é um país-continente da Oceania."
+    },
+    {
+      "id": "dev-map-04",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Clique na Índia.",
+      "targetId": "IND",
+      "targetName": "Índia",
+      "explanation": "A Índia fica no sul da Ásia."
+    },
+    {
+      "id": "dev-map-05",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Clique no Canadá.",
+      "targetId": "CAN",
+      "targetName": "Canadá",
+      "explanation": "O Canadá é o segundo maior país do mundo em área."
+    },
+    {
+      "id": "dev-map-06",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Clique na Argentina.",
+      "targetId": "ARG",
+      "targetName": "Argentina",
+      "explanation": "A Argentina ocupa grande parte do sul da América do Sul."
+    },
+    {
+      "id": "dev-map-07",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Clique na Mongólia.",
+      "targetId": "MNG",
+      "targetName": "Mongólia",
+      "explanation": "A Mongólia fica entre a Rússia e a China."
+    },
+    {
+      "id": "dev-map-08",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Clique no Quirguistão.",
+      "targetId": "KGZ",
+      "targetName": "Quirguistão",
+      "explanation": "O Quirguistão fica na Ásia Central, ao lado do Cazaquistão, da China, do Tajiquistão e do Uzbequistão."
+    },
+    {
+      "id": "gm-flag-001",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 001)",
+      "flagCode": "zw",
+      "targetId": "ZWE",
+      "targetName": "Zimbábue",
+      "options": [
+        "Samoa",
+        "Malásia",
+        "Zimbábue",
+        "Antígua e Barbuda"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Zimbábue."
+    },
+    {
+      "id": "gm-flag-002",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 002)",
+      "flagCode": "zm",
+      "targetId": "ZMB",
+      "targetName": "Zâmbia",
+      "options": [
+        "Paraguai",
+        "Brunei",
+        "Finlândia",
+        "Zâmbia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Zâmbia."
+    },
+    {
+      "id": "gm-flag-003",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 003)",
+      "flagCode": "ye",
+      "targetId": "YEM",
+      "targetName": "Iémen",
+      "options": [
+        "Lesoto",
+        "Ilhas Marianas do Norte",
+        "Iémen",
+        "Libéria"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Iémen."
+    },
+    {
+      "id": "gm-flag-004",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 004)",
+      "flagCode": "vn",
+      "targetId": "VNM",
+      "targetName": "Vietname",
+      "options": [
+        "Niue",
+        "Vietname",
+        "Equador",
+        "Ilha de Man"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Vietname."
+    }
+  ]
+}

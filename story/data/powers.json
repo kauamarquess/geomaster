@@ -1,0 +1,95 @@
+{
+  "fogo_fatuo": {
+    "name": "Fogo-Fátuo",
+    "type": "active",
+    "usesPerBattle": 1,
+    "effect": "eliminate_two_options",
+    "description": "Elimina duas alternativas erradas de uma pergunta."
+  },
+  "tempo_extra": {
+    "name": "Fôlego da Floresta",
+    "type": "passive",
+    "effect": "extra_seconds",
+    "value": 5,
+    "description": "+5 segundos em todas as perguntas."
+  },
+  "golpe_duplo": {
+    "name": "Golpe Duplo",
+    "type": "active",
+    "usesPerBattle": 1,
+    "effect": "double_damage",
+    "description": "O próximo acerto causa o dobro de dano."
+  },
+  "segunda_chance": {
+    "name": "Segunda Chance",
+    "type": "active",
+    "usesPerBattle": 1,
+    "effect": "retry_question",
+    "description": "Permite responder de novo uma pergunta errada."
+  },
+  "escudo_lenda": {
+    "name": "Escudo da Lenda",
+    "type": "passive",
+    "effect": "damage_reduction",
+    "value": 0.2,
+    "description": "Reduz em 20% o dano sofrido."
+  },
+  "cura_leve": {
+    "name": "Bênção da Cura",
+    "type": "active",
+    "usesPerBattle": 1,
+    "effect": "heal",
+    "value": 25,
+    "description": "Recupera 25 de vida uma vez por combate."
+  },
+  "congelar_tempo": {
+    "name": "Tempo Congelado",
+    "type": "active",
+    "usesPerBattle": 1,
+    "effect": "freeze_timer",
+    "value": 10,
+    "description": "Para o relógio por 10 segundos numa pergunta."
+  },
+  "vida_extra": {
+    "name": "Coração Forte",
+    "type": "passive",
+    "effect": "max_hp",
+    "value": 20,
+    "description": "+20 de vida máxima."
+  },
+  "sequencia_inicial": {
+    "name": "Ímpeto",
+    "type": "passive",
+    "effect": "starting_streak",
+    "value": 2,
+    "description": "Começa cada combate com 2 acertos seguidos."
+  },
+  "dano_extra": {
+    "name": "Picareta do Tío",
+    "type": "passive",
+    "effect": "damage_bonus",
+    "value": 0.15,
+    "description": "+15% de dano nos acertos."
+  },
+  "dica_unica": {
+    "name": "Luz que Guia",
+    "type": "active",
+    "usesPerBattle": 2,
+    "effect": "eliminate_one_option",
+    "description": "Elimina uma alternativa errada, duas vezes por combate."
+  },
+  "passo_leve": {
+    "name": "Passo Leve",
+    "type": "passive",
+    "effect": "dodge_chance",
+    "value": 0.2,
+    "description": "20% de chance de evitar o dano de um erro."
+  },
+  "forca_vento": {
+    "name": "Rajada do Vento Sul",
+    "type": "passive",
+    "effect": "first_hit_bonus",
+    "value": 0.5,
+    "description": "+50% de dano no primeiro acerto de cada combate."
+  }
+}

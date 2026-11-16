@@ -1,0 +1,99 @@
+{
+ "id": "IND",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#2e0f2a",
+   "#6b2463",
+   "#f2c94c",
+   "#c653b8"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "pishacha",
+    "name": "Pishacha",
+    "legend": "Demônio que ataca na escuridão, nas histórias indianas."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "vetala",
+    "name": "Vetala",
+    "legend": "Espírito que habita cadáveres, nos contos do Vetala Panchavimshati."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "naga",
+    "name": "Naga",
+    "legend": "Serpente divina que guarda tesouros e águas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "makara",
+    "name": "Makara",
+    "legend": "Criatura aquática mista de crocodilo e elefante."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "yaksha",
+    "name": "Yaksha",
+    "legend": "Espírito da natureza que guarda tesouros."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "rakshasa",
+    "name": "Rakshasa",
+    "legend": "Demônio que muda de forma e ataca à noite."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "kumbhakarna",
+    "name": "Kumbhakarna",
+    "legend": "Gigante irmão de Ravana, que dormia por meses, no Ramayana."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Índia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Índia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "ravana",
+    "name": "Ravana",
+    "legend": "Rei demônio de dez cabeças do Ramayana."
+   },
+   "bossTitle": "Ravana",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

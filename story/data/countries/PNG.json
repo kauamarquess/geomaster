@@ -1,0 +1,105 @@
+{
+ "id": "PNG",
+ "theme": {
+  "scenery": "ilhas",
+  "palette": [
+   "#0f222e",
+   "#244f6b",
+   "#f2c94c",
+   "#5398c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "ropen",
+    "name": "Ropen",
+    "legend": "Criatura voadora luminosa das ilhas de Papua-Nova Guiné."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sentinela_de_port_moresby",
+    "name": "Sentinela de Port Moresby",
+    "legend": "Criatura inventada que vigia Port Moresby, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Papua-Nova Guiné.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "masalai",
+    "name": "Masalai",
+    "legend": "Espírito da natureza das tradições de Papua-Nova Guiné."
+   },
+   "bossTitle": "Masalai",
+   "rewardPower": "cura_leve"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "PHL",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#0f1f2e",
+   "#24476b",
+   "#f2c94c",
+   "#538cc6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "duwende",
+    "name": "Duwende",
+    "legend": "Duende que vive em casas e montes de terra."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "nuno_sa_punso",
+    "name": "Nuno sa Punso",
+    "legend": "Velho duende que vive em montes de terra e pune quem os pisa."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "kapre",
+    "name": "Kapre",
+    "legend": "Gigante peludo que fuma sob as árvores."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "tikbalang",
+    "name": "Tikbalang",
+    "legend": "Criatura de cavalo com pernas longas que engana viajantes."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "tiyanak",
+    "name": "Tiyanak",
+    "legend": "Criatura que imita bebês choronos para atrair quem os ouve."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "engkanto",
+    "name": "Engkanto",
+    "legend": "Seres encantados da natureza, belos e enganadores."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "aswang",
+    "name": "Aswang",
+    "legend": "Criatura que muda de forma e ataca à noite."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "manananggal",
+    "name": "Manananggal",
+    "legend": "Mulher que separa o tronco e voa à noite."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Filipinas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "bakunawa",
+    "name": "Bakunawa",
+    "legend": "Dragão que engole a lua e causa eclipses."
+   },
+   "bossTitle": "Bakunawa",
+   "rewardPower": "passo_leve"
+  }
+ ]
+}

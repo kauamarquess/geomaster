@@ -1,0 +1,102 @@
+{
+ "id": "JAM",
+ "theme": {
+  "scenery": "blue_mountains",
+  "palette": [
+   "#0f2e18",
+   "#236c38",
+   "#f2c94c",
+   "#51c773"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "doctor",
+    "name": "Doctor Bird Sombrio",
+    "legend": "Criatura inventada, inspirada na ave nacional da Jamaica.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "duppy",
+    "name": "Duppy",
+    "legend": "Espírito dos mortos que, no folclore jamaicano, assombra os vivos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "blue",
+    "name": "Eco das Blue Mountains",
+    "legend": "Criatura inventada, inspirada nas montanhas azuis da ilha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "old_hige",
+    "name": "Old Hige",
+    "legend": "Velha que tira a pele à noite e vira bola de fogo para assustar vizinhos."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "river_mumma",
+    "name": "River Mumma",
+    "legend": "Sereia dos rios jamaicanos, guardiã de tesouros no fundo das nascentes."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "crocodilo",
+    "name": "Crocodilo de Black River",
+    "legend": "Criatura inventada, inspirada nos crocodilos do rio Black River.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "anansi",
+    "name": "Anansi",
+    "legend": "Aranha astuta das histórias africanas e caribenhas, mestra dos truques."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "portroyal",
+    "name": "Pirata de Port Royal",
+    "legend": "Criatura inventada, inspirada na cidade pirata de Port Royal.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "morcego",
+    "name": "Morcego das Cavernas",
+    "legend": "Criatura inventada, inspirada nas cavernas da ilha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "rolling_calf",
+    "name": "Rolling Calf",
+    "legend": "Bezerro fantasma de olhos de fogo e correntes, que assombra noites rurais."
+   },
+   "boss": true,
+   "bossTitle": "O Bezerro de Olhos de Fogo",
+   "rewardPower": "fogo_fatuo"
+  }
+ ]
+}

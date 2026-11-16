@@ -1,0 +1,107 @@
+{
+ "id": "FLK",
+ "theme": {
+  "scenery": "ilhas_vento",
+  "palette": [
+   "#13202a",
+   "#2c4b63",
+   "#f2c94c",
+   "#6092b9"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "caracara",
+    "name": "Caracará Ladrão",
+    "legend": "Criatura inventada, inspirada na ave que rouba nas ilhas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "elefante",
+    "name": "Elefante-Marinho Gigante",
+    "legend": "Criatura inventada, inspirada nas colônias das praias.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "pinguim",
+    "name": "Pinguim Fantasma",
+    "legend": "Criatura inventada, inspirada nos pinguins das ilhas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "albatroz",
+    "name": "Albatroz Sombrio",
+    "legend": "Criatura inventada, inspirada nos albatrozes-de-sobrancelha-negra.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "lobo_marinho",
+    "name": "Lobo-Marinho Espectral",
+    "legend": "Criatura inventada, inspirada nas focas das costas rochosas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "baleia",
+    "name": "Baleia Fantasma",
+    "legend": "Criatura inventada, inspirada nas baleias que passam pelas ilhas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "farol",
+    "name": "Farol Assombrado",
+    "legend": "Criatura inventada, inspirada nos marcos de navegação.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "naufragio",
+    "name": "Naufrágio Vivo",
+    "legend": "Criatura inventada, inspirada nos naufrágios da região.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "kelp",
+    "name": "Floresta de Kelp Viva",
+    "legend": "Criatura inventada, inspirada nas algas gigantes do mar.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "warrah",
+    "name": "Espírito do Warrah",
+    "legend": "Criatura inventada, inspirada na raposa extinta das ilhas.",
+    "invented": true
+   },
+   "boss": true,
+   "bossTitle": "O Lobo das Ilhas",
+   "rewardPower": "forca_vento"
+  }
+ ]
+}

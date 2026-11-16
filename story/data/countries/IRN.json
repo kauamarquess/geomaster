@@ -1,0 +1,102 @@
+{
+ "id": "IRN",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#170f2e",
+   "#36246b",
+   "#f2c94c",
+   "#7053c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "peri",
+    "name": "Peri",
+    "legend": "Ser feérico persa, belo e inconstante."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "azhdaha",
+    "name": "Azhdaha",
+    "legend": "Dragão-serpente persa, de grande poder."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "simurgh",
+    "name": "Simurgh",
+    "legend": "Ave gigante e sábia do Shahnameh."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "div_e_sepid",
+    "name": "Div-e Sepid",
+    "legend": "O Demônio Branco, inimigo de Rostam no Shahnameh."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Irão.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Irão.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Irão.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Irão.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Irão.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "zahhak",
+    "name": "Zahhak",
+    "legend": "Rei tirano, de duas serpentes nos ombros, do Shahnameh."
+   },
+   "bossTitle": "Zahhak",
+   "rewardPower": "forca_vento"
+  }
+ ]
+}

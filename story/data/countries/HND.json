@@ -1,0 +1,103 @@
+{
+ "id": "HND",
+ "theme": {
+  "scenery": "maia_caribe",
+  "palette": [
+   "#31240c",
+   "#72531d",
+   "#f2c94c",
+   "#d19f47"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "duende",
+    "name": "El Duende",
+    "legend": "Pequeno ser travesso das matas que confunde e atrai crianças."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "sucia",
+    "name": "La Sucia",
+    "legend": "Mulher que seduz homens à beira de rios e os leva à perdição."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "copan",
+    "name": "Guardião de Copán",
+    "legend": "Criatura inventada, inspirada nas ruínas maias de Copán.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos à beira d'água."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "arara",
+    "name": "Arara de Copán",
+    "legend": "Criatura inventada, inspirada na arara-vermelha, ave nacional.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "recife",
+    "name": "Serpente do Recife",
+    "legend": "Criatura inventada, inspirada no recife das Ilhas da Baía.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "cusuco",
+    "name": "Tatu Blindado",
+    "legend": "Criatura inventada, inspirada nos tatus das florestas hondurenhas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "mangue",
+    "name": "Espírito do Manguezal",
+    "legend": "Criatura inventada, inspirada nos manguezais da costa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "omoa",
+    "name": "Fantasma do Forte de Omoa",
+    "legend": "Criatura inventada, inspirada na fortaleza colonial de Omoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "sisimite",
+    "name": "El Sisimite",
+    "legend": "Gigante peludo da floresta, de pés virados para trás, que rapta pessoas."
+   },
+   "boss": true,
+   "bossTitle": "O Gigante da Floresta",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

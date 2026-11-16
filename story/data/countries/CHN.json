@@ -1,0 +1,98 @@
+{
+ "id": "CHN",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#0f182e",
+   "#24396b",
+   "#f2c94c",
+   "#5375c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "jiangshi",
+    "name": "Jiangshi",
+    "legend": "Cadáver saltitante que suga a energia dos vivos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "hulijing",
+    "name": "Hulijing",
+    "legend": "Espírito-raposa que seduz humanos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "nian",
+    "name": "Nian",
+    "legend": "Fera de ano-novo, espantada por vermelho e fogos."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "taotie",
+    "name": "Taotie",
+    "legend": "Monstro voraz dos bronzes antigos."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "pixiu",
+    "name": "Pixiu",
+    "legend": "Criatura alada que atrai riqueza e devora tudo."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "qilin",
+    "name": "Qilin",
+    "legend": "Criatura mítica de corpo de cervo e escamas, símbolo de boa sorte."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "fenghuang",
+    "name": "Fenghuang",
+    "legend": "A fênix chinesa, de grandes asas coloridas."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "xiangliu",
+    "name": "Xiangliu",
+    "legend": "Serpente de nove cabeças dos Clássicos das Montanhas e Mares."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de China.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "long",
+    "name": "Long",
+    "legend": "O dragão chinês, senhor das águas e das chuvas."
+   },
+   "bossTitle": "Long",
+   "rewardPower": "sequencia_inicial"
+  }
+ ]
+}

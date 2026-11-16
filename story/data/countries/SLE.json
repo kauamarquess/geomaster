@@ -1,0 +1,107 @@
+{
+ "id": "SLE",
+ "theme": {
+  "scenery": "savana",
+  "palette": [
+   "#242e0f",
+   "#536b24",
+   "#f2c94c",
+   "#9fc653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "gen_sentinela_de_freetown",
+    "name": "Sentinela de Freetown",
+    "legend": "Criatura inventada que vigia Freetown, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Serra Leoa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "gen_guardiao",
+    "name": "Guardião de Serra Leoa",
+    "legend": "Criatura inventada que protege Serra Leoa: troque por uma lenda local.",
+    "invented": true
+   },
+   "bossTitle": "Guardião de Serra Leoa",
+   "rewardPower": "congelar_tempo"
+  }
+ ]
+}

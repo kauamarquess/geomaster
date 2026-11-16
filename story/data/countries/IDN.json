@@ -1,0 +1,98 @@
+{
+ "id": "IDN",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#2e2d0f",
+   "#6b6924",
+   "#f2c94c",
+   "#c6c253"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tuyul",
+    "name": "Tuyul",
+    "legend": "Espírito-criança que rouba para o dono."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "pocong",
+    "name": "Pocong",
+    "legend": "Fantasma envolto em mortalha branca, que pula pelas noites."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "wewe_gombel",
+    "name": "Wewe Gombel",
+    "legend": "Espírito feminino que rapta crianças mal-cuidadas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "genderuwo",
+    "name": "Genderuwo",
+    "legend": "Espírito peludo e grande que assombra casas e árvores."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "kuntilanak",
+    "name": "Kuntilanak",
+    "legend": "Fantasma feminino que ataca à noite."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "leak",
+    "name": "Leak",
+    "legend": "Bruxo balinês que se transforma em cabeça voadora."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "barong",
+    "name": "Barong",
+    "legend": "Criatura protetora balinesa, de forma de leão."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "nyai_roro_kidul",
+    "name": "Nyai Roro Kidul",
+    "legend": "Rainha do Mar do Sul, de grande poder, na tradição javanesa."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Indonésia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "rangda",
+    "name": "Rangda",
+    "legend": "Rainha das bruxas balinesas, rival de Barong."
+   },
+   "bossTitle": "Rangda",
+   "rewardPower": "dica_unica"
+  }
+ ]
+}

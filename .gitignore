@@ -1,0 +1,7 @@
+__pycache__/
+story/save.json
+story/build/
+_build_story/
+story/web-backup/
+cdn/
+node_modules/

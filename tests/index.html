@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoMaster — Testes do motor (Etapa 3)</title>
+  <style>
+    body { font-family: Inter, system-ui, sans-serif; background: #f3f7ff; color: #173b75; margin: 0; padding: 32px; }
+    main { max-width: 760px; margin: 0 auto; }
+    h1 { margin-top: 0; }
+    #summary { font-weight: 700; padding: 14px 18px; border-radius: 14px; background: #fff; box-shadow: 0 2px 8px rgba(23,59,117,.08); }
+    #summary.ok { color: #15803d; } #summary.fail { color: #dc2626; }
+    ul { list-style: none; padding: 0; }
+    li { background: #fff; margin: 8px 0; padding: 10px 14px; border-radius: 12px; }
+    li.fail { border-left: 4px solid #dc2626; } li.pass { border-left: 4px solid #16a34a; }
+    small { display: block; color: #dc2626; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Testes do motor do GeoMaster</h1>
+    <p id="summary">Executando…</p>
+    <ul id="list"></ul>
+  </main>
+  <script type="module">
+    import { runAllTests } from "./engine-tests.js";
+    const { results, passed, failed } = await runAllTests();
+    const summary = document.getElementById("summary");
+    summary.textContent = failed === 0
+      ? `✓ Todos os ${results.length} testes passaram.`
+      : `✗ ${failed} teste(s) falharam, ${passed} passaram.`;
+    summary.className = failed === 0 ? "ok" : "fail";
+    const list = document.getElementById("list");
+    for (const r of results) {
+      const li = document.createElement("li");
+      li.className = r.ok ? "pass" : "fail";
+      li.textContent = `${r.ok ? "✓" : "✗"} ${r.name}`;
+      if (!r.ok) { const small = document.createElement("small"); small.textContent = r.error; li.append(small); }
+      list.append(li);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+{
+ "id": "URY",
+ "theme": {
+  "scenery": "campo_costa",
+  "palette": [
+   "#1e2816",
+   "#455c33",
+   "#f2c94c",
+   "#89ae6b"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tero",
+    "name": "Quero-Quero Sombrio",
+    "legend": "Criatura inventada, inspirada no pássaro tero, vigia dos campos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "pombero",
+    "name": "Pombero",
+    "legend": "Duende guarani do rio da Prata que protege a noite e os pássaros."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "zorro",
+    "name": "Zorro do Pampa",
+    "legend": "Criatura inventada, inspirada na raposa dos campos uruguaios.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "caa_yara",
+    "name": "Caá Yará",
+    "legend": "Espírito guarani guardião das ervas e das plantações de mate."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "farol",
+    "name": "Fantasma do Farol",
+    "legend": "Criatura inventada, inspirada nos faróis da costa de Rocha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "mandinga",
+    "name": "Mandinga",
+    "legend": "Nome popular do diabo no folclore rio-platense."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "capivara",
+    "name": "Capivara Gigante",
+    "legend": "Criatura inventada, inspirada nos banhados uruguaios.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "lobizon",
+    "name": "Lobisón",
+    "legend": "Versão uruguaia do lobisomem, ligada ao sétimo filho homem."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gaucho",
+    "name": "Gaúcho Sem Rosto",
+    "legend": "Criatura inventada, inspirada nos peões das estâncias.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "luz_mala",
+    "name": "Luz Mala",
+    "legend": "Luz errante dos campos, ligada a almas e a tesouros enterrados."
+   },
+   "boss": true,
+   "bossTitle": "A Luz que Guia",
+   "rewardPower": "dica_unica"
+  }
+ ]
+}

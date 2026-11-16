@@ -1,0 +1,105 @@
+{
+ "id": "HTI",
+ "theme": {
+  "scenery": "cidadela_caribe",
+  "palette": [
+   "#0f1d2e",
+   "#23446b",
+   "#f2c94c",
+   "#5286c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "canhao",
+    "name": "Canhão Vivo",
+    "legend": "Criatura inventada, inspirada nos canhões da Cidadela Laferrière.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "lougarou",
+    "name": "Lougarou",
+    "legend": "Criatura do folclore haitiano que muda de forma e ataca à noite."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "pic",
+    "name": "Espírito do Pic la Selle",
+    "legend": "Criatura inventada, inspirada na montanha mais alta do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "soucouyan",
+    "name": "Soucouyan",
+    "legend": "Bruxa do folclore caribenho que tira a pele e voa como bola de fogo."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "arvore",
+    "name": "Árvore Gigante da Montanha",
+    "legend": "Criatura inventada, inspirada nas florestas das montanhas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "colibri",
+    "name": "Colibri Sombrio",
+    "legend": "Criatura inventada, inspirada nos colibris da ilha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "fortaleza",
+    "name": "Fantasma da Fortaleza",
+    "legend": "Criatura inventada, inspirada nas fortalezas da independência.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "mangue",
+    "name": "Rei do Manguezal",
+    "legend": "Criatura inventada, inspirada nos manguezais da costa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "cafe",
+    "name": "Colhedor do Cafezal",
+    "legend": "Criatura inventada, inspirada nas plantações das encostas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "cidadela",
+    "name": "Guardião da Cidadela",
+    "legend": "Criatura inventada, inspirada na grande fortaleza do Norte do Haiti.",
+    "invented": true
+   },
+   "boss": true,
+   "bossTitle": "O Guardião da Cidadela",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

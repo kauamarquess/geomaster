@@ -1,0 +1,99 @@
+{
+ "id": "GBR",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f272e",
+   "#245a6b",
+   "#f2c94c",
+   "#53abc6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "boggart",
+    "name": "Boggart",
+    "legend": "Espírito doméstico que provoca desordem nas casas do norte da Inglaterra."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "jenny_greenteeth",
+    "name": "Jenny Greenteeth",
+    "legend": "Hag das águas que puxa para o fundo quem se aproxima de lagoas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "barghest",
+    "name": "Barghest",
+    "legend": "Cão negro de olhos de fogo, presságio de morte em Yorkshire."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "kelpie",
+    "name": "Kelpie",
+    "legend": "Cavalo das águas escocesas que afoga quem o monta."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "black_shuck",
+    "name": "Black Shuck",
+    "legend": "Cão negro espectral, de olhos flamejantes, das estradas de East Anglia."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "herne_o_cacador",
+    "name": "Herne, o Caçador",
+    "legend": "Caçador fantasma com chifres que cavalga na floresta de Windsor."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "nessie",
+    "name": "Nessie",
+    "legend": "Monstro do lago Ness, nas Terras Altas da Escócia."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_sentinela_de_london",
+    "name": "Sentinela de London",
+    "legend": "Criatura inventada que vigia London, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Reino Unido.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "y_ddraig_goch",
+    "name": "Y Ddraig Goch",
+    "legend": "O dragão vermelho do País de Gales, símbolo do povo galês."
+   },
+   "bossTitle": "Y Ddraig Goch",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

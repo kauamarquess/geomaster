@@ -1,0 +1,101 @@
+{
+ "id": "DOM",
+ "theme": {
+  "scenery": "caribe_praias",
+  "palette": [
+   "#0e3024",
+   "#206f55",
+   "#f2c94c",
+   "#4dcca2"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "baca",
+    "name": "Bacá",
+    "legend": "Espírito guardião de riquezas que serve ao dono em troca de comida e cuidado."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "galipote",
+    "name": "Galipote",
+    "legend": "Homem que usa um unguento para virar animal e assustar vilarejos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "lugaru",
+    "name": "Lugarú",
+    "legend": "Criatura do folclore dominicano que muda de forma para atacar à noite."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "baleia",
+    "name": "Baleia de Samaná",
+    "legend": "Criatura inventada, inspirada nas baleias-jubarte da baía de Samaná.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "iguana",
+    "name": "Iguana Rinoceronte",
+    "legend": "Criatura inventada, inspirada nas iguanas da ilha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "colonial",
+    "name": "Fantasma da Zona Colonial",
+    "legend": "Criatura inventada, inspirada na cidade mais antiga das Américas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "palmera",
+    "name": "Cigua Palmera Sombria",
+    "legend": "Criatura inventada, inspirada na ave nacional.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "guabancex",
+    "name": "Guabancex",
+    "legend": "Espírito taíno dos ventos e das tempestades, que traz furacões e inundações."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "juracan",
+    "name": "Juracán",
+    "legend": "Deus taíno dos furacões, cujo nome deu origem à palavra furacão."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "ciguapa",
+    "name": "La Ciguapa",
+    "legend": "Mulher de longos cabelos e pés virados para trás, que atrai homens para a mata."
+   },
+   "boss": true,
+   "bossTitle": "A Mulher dos Pés Virados",
+   "rewardPower": "forca_vento"
+  }
+ ]
+}

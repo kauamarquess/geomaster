@@ -1,0 +1,99 @@
+{
+ "id": "FIN",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#230f2e",
+   "#51246b",
+   "#f2c94c",
+   "#9c53c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tonttu",
+    "name": "Tonttu",
+    "legend": "Duende protetor das casas e fazendas finlandesas."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "maahinen",
+    "name": "Maahinen",
+    "legend": "Povo-fada que vive sob a terra, no folclore finlandês."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "nakki",
+    "name": "Näkki",
+    "legend": "Espírito das águas que atrai e afoga quem se aproxima."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "menninkainen",
+    "name": "Menninkäinen",
+    "legend": "Pequeno ser da floresta e das casas, do folclore finlandês."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "vetehinen",
+    "name": "Vetehinen",
+    "legend": "Espírito das águas do Kalevala, de pele esverdeada."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "lempo",
+    "name": "Lempo",
+    "legend": "Espírito maligno das florestas, na tradição finlandesa."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "iku_turso",
+    "name": "Iku-Turso",
+    "legend": "Monstro marinho de muitos tentáculos, do Kalevala."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Finlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Finlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "louhi",
+    "name": "Louhi",
+    "legend": "Rainha bruxa de Pohjola, vilã do Kalevala."
+   },
+   "bossTitle": "Louhi",
+   "rewardPower": "forca_vento"
+  }
+ ]
+}

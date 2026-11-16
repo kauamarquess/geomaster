@@ -1,0 +1,2706 @@
+{
+  "version": 2,
+  "description": "GeoMaster — desafios de bandeiras, parte 3.",
+  "questions": [
+    {
+      "id": "gm-flag-401",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 401)",
+      "flagCode": "nc",
+      "targetId": "NCL",
+      "targetName": "Nova Caledónia",
+      "options": [
+        "Nova Caledónia",
+        "Ucrânia",
+        "República Dominicana",
+        "Antártida"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Nova Caledónia."
+    },
+    {
+      "id": "gm-flag-402",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 402)",
+      "flagCode": "tf",
+      "targetId": "ATF",
+      "targetName": "Terras Austrais e Antárticas Francesas",
+      "options": [
+        "Nova Caledónia",
+        "Terras Austrais e Antárticas Francesas",
+        "Iraque",
+        "Tailândia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Terras Austrais e Antárticas Francesas."
+    },
+    {
+      "id": "gm-flag-403",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 403)",
+      "flagCode": "ax",
+      "targetId": "ALA",
+      "targetName": "Åland",
+      "options": [
+        "Turquia",
+        "Jamaica",
+        "Åland",
+        "Guiné Equatorial"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Åland."
+    },
+    {
+      "id": "gm-flag-404",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 404)",
+      "flagCode": "fi",
+      "targetId": "FIN",
+      "targetName": "Finlândia",
+      "options": [
+        "Eritreia",
+        "Dinamarca",
+        "Uzbequistão",
+        "Finlândia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Finlândia."
+    },
+    {
+      "id": "gm-flag-405",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 405)",
+      "flagCode": "fj",
+      "targetId": "FJI",
+      "targetName": "Fiji",
+      "options": [
+        "Fiji",
+        "República Democrática do Congo",
+        "Moçambique",
+        "Uganda"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Fiji."
+    },
+    {
+      "id": "gm-flag-406",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 406)",
+      "flagCode": "et",
+      "targetId": "ETH",
+      "targetName": "Etiópia",
+      "options": [
+        "Emirados Árabes Unidos",
+        "Etiópia",
+        "Afeganistão",
+        "Colômbia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Etiópia."
+    },
+    {
+      "id": "gm-flag-407",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 407)",
+      "flagCode": "ee",
+      "targetId": "EST",
+      "targetName": "Estónia",
+      "options": [
+        "Palau",
+        "Bahamas",
+        "Estónia",
+        "Ilhas Cook"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Estónia."
+    },
+    {
+      "id": "gm-flag-408",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 408)",
+      "flagCode": "er",
+      "targetId": "ERI",
+      "targetName": "Eritreia",
+      "options": [
+        "Angola",
+        "Eritreia",
+        "São Vicente e Granadinas",
+        "Palestina"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Eritreia."
+    },
+    {
+      "id": "gm-flag-409",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 409)",
+      "flagCode": "gq",
+      "targetId": "GNQ",
+      "targetName": "Guiné Equatorial",
+      "options": [
+        "Guiné Equatorial",
+        "Áustria",
+        "Burkina Faso",
+        "Cabo Verde"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Guiné Equatorial."
+    },
+    {
+      "id": "gm-flag-410",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 410)",
+      "flagCode": "sv",
+      "targetId": "SLV",
+      "targetName": "El Salvador",
+      "options": [
+        "Paraguai",
+        "Haiti",
+        "El Salvador",
+        "Quirguistão"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a El Salvador."
+    },
+    {
+      "id": "gm-flag-411",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 411)",
+      "flagCode": "eg",
+      "targetId": "EGY",
+      "targetName": "Egito",
+      "options": [
+        "Mónaco",
+        "Ilha Norfolk",
+        "Egito",
+        "Bermudas"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Egito."
+    },
+    {
+      "id": "gm-flag-412",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 412)",
+      "flagCode": "ec",
+      "targetId": "ECU",
+      "targetName": "Equador",
+      "options": [
+        "Chade",
+        "Equador",
+        "Roménia",
+        "Samoa Americana"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Equador."
+    },
+    {
+      "id": "gm-flag-413",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 413)",
+      "flagCode": "do",
+      "targetId": "DOM",
+      "targetName": "República Dominicana",
+      "options": [
+        "República Dominicana",
+        "Essuatíni",
+        "Wallis e Futuna",
+        "Chade"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a República Dominicana."
+    },
+    {
+      "id": "gm-flag-414",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 414)",
+      "flagCode": "dm",
+      "targetId": "DMA",
+      "targetName": "Dominica",
+      "options": [
+        "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "Camboja",
+        "Dominica",
+        "Lesoto"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Dominica."
+    },
+    {
+      "id": "gm-flag-415",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 415)",
+      "flagCode": "dj",
+      "targetId": "DJI",
+      "targetName": "Djibouti",
+      "options": [
+        "Djibouti",
+        "Estados Unidos",
+        "Madagáscar",
+        "Brasil"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Djibouti."
+    },
+    {
+      "id": "gm-flag-416",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 416)",
+      "flagCode": "gl",
+      "targetId": "GRL",
+      "targetName": "Groenlândia",
+      "options": [
+        "República do Congo",
+        "Uruguai",
+        "Papua-Nova Guiné",
+        "Groenlândia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Groenlândia."
+    },
+    {
+      "id": "gm-flag-417",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 417)",
+      "flagCode": "fo",
+      "targetId": "FRO",
+      "targetName": "Ilhas Feroe",
+      "options": [
+        "Taiwan",
+        "Libéria",
+        "Ilhas Feroe",
+        "Cabo Verde"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Ilhas Feroe."
+    },
+    {
+      "id": "gm-flag-418",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 418)",
+      "flagCode": "dk",
+      "targetId": "DNK",
+      "targetName": "Dinamarca",
+      "options": [
+        "Dinamarca",
+        "Estónia",
+        "Dominica",
+        "Ilhas Cook"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Dinamarca."
+    },
+    {
+      "id": "gm-flag-419",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 419)",
+      "flagCode": "cz",
+      "targetId": "CZE",
+      "targetName": "Chéquia",
+      "options": [
+        "Burundi",
+        "Chéquia",
+        "Letónia",
+        "Myanmar"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Chéquia."
+    },
+    {
+      "id": "gm-flag-420",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 420)",
+      "flagCode": "cy",
+      "targetId": "CYP",
+      "targetName": "Chipre",
+      "options": [
+        "Chipre",
+        "Brunei",
+        "Zimbábue",
+        "Sudão"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Chipre."
+    },
+    {
+      "id": "gm-flag-421",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 421)",
+      "flagCode": "cu",
+      "targetId": "CUB",
+      "targetName": "Cuba",
+      "options": [
+        "Comores",
+        "Iémen",
+        "Cuba",
+        "Serra Leoa"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Cuba."
+    },
+    {
+      "id": "gm-flag-422",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 422)",
+      "flagCode": "hr",
+      "targetId": "HRV",
+      "targetName": "Croácia",
+      "options": [
+        "Nauru",
+        "Micronésia",
+        "Croácia",
+        "Anguilla"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Croácia."
+    },
+    {
+      "id": "gm-flag-423",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 423)",
+      "flagCode": "ci",
+      "targetId": "CIV",
+      "targetName": "Costa do Marfim",
+      "options": [
+        "Bangladesh",
+        "Costa do Marfim",
+        "Colômbia",
+        "Sri Lanka"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Costa do Marfim."
+    },
+    {
+      "id": "gm-flag-424",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 424)",
+      "flagCode": "cr",
+      "targetId": "CRI",
+      "targetName": "Costa Rica",
+      "options": [
+        "Antígua e Barbuda",
+        "Costa Rica",
+        "Nauru",
+        "Santa Helena"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Costa Rica."
+    },
+    {
+      "id": "gm-flag-425",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 425)",
+      "flagCode": "cd",
+      "targetId": "COD",
+      "targetName": "República Democrática do Congo",
+      "options": [
+        "Letónia",
+        "República Democrática do Congo",
+        "Aruba",
+        "Cuba"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a República Democrática do Congo."
+    },
+    {
+      "id": "gm-flag-426",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 426)",
+      "flagCode": "cg",
+      "targetId": "COG",
+      "targetName": "República do Congo",
+      "options": [
+        "Hungria",
+        "Bósnia e Herzegovina",
+        "Groenlândia",
+        "República do Congo"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a República do Congo."
+    },
+    {
+      "id": "gm-flag-427",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 427)",
+      "flagCode": "km",
+      "targetId": "COM",
+      "targetName": "Comores",
+      "options": [
+        "Zimbábue",
+        "Comores",
+        "Bolívia",
+        "Montserrat"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Comores."
+    },
+    {
+      "id": "gm-flag-428",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 428)",
+      "flagCode": "co",
+      "targetId": "COL",
+      "targetName": "Colômbia",
+      "options": [
+        "Peru",
+        "Colômbia",
+        "Omã",
+        "El Salvador"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Colômbia."
+    },
+    {
+      "id": "gm-flag-429",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 429)",
+      "flagCode": "cn",
+      "targetId": "CHN",
+      "targetName": "China",
+      "options": [
+        "Antártida",
+        "China",
+        "República da Irlanda",
+        "Gana"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a China."
+    },
+    {
+      "id": "gm-flag-430",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 430)",
+      "flagCode": "mo",
+      "targetId": "MAC",
+      "targetName": "Macau",
+      "options": [
+        "Bahamas",
+        "Ilhas Marianas do Norte",
+        "Quénia",
+        "Macau"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Macau."
+    },
+    {
+      "id": "gm-flag-431",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 431)",
+      "flagCode": "hk",
+      "targetId": "HKG",
+      "targetName": "Hong Kong",
+      "options": [
+        "Bangladesh",
+        "Bermudas",
+        "Hong Kong",
+        "Suíça"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Hong Kong."
+    },
+    {
+      "id": "gm-flag-432",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 432)",
+      "flagCode": "cl",
+      "targetId": "CHL",
+      "targetName": "Chile",
+      "options": [
+        "Aruba",
+        "Chile",
+        "Trinidad e Tobago",
+        "Noruega"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Chile."
+    },
+    {
+      "id": "gm-flag-433",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 433)",
+      "flagCode": "td",
+      "targetId": "TCD",
+      "targetName": "Chade",
+      "options": [
+        "Chade",
+        "Palau",
+        "Etiópia",
+        "Catar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Chade."
+    },
+    {
+      "id": "gm-flag-434",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 434)",
+      "flagCode": "cf",
+      "targetId": "CAF",
+      "targetName": "República Centro-Africana",
+      "options": [
+        "Andorra",
+        "Uzbequistão",
+        "Laos",
+        "República Centro-Africana"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a República Centro-Africana."
+    },
+    {
+      "id": "gm-flag-435",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 435)",
+      "flagCode": "cv",
+      "targetId": "CPV",
+      "targetName": "Cabo Verde",
+      "options": [
+        "Cabo Verde",
+        "Itália",
+        "Bolívia",
+        "Filipinas"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Cabo Verde."
+    },
+    {
+      "id": "gm-flag-436",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 436)",
+      "flagCode": "ca",
+      "targetId": "CAN",
+      "targetName": "Canadá",
+      "options": [
+        "Tuvalu",
+        "Canadá",
+        "República Democrática do Congo",
+        "São Martinho"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Canadá."
+    },
+    {
+      "id": "gm-flag-437",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 437)",
+      "flagCode": "cm",
+      "targetId": "CMR",
+      "targetName": "Camarões",
+      "options": [
+        "Nicarágua",
+        "Alemanha",
+        "Camarões",
+        "Suriname"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Camarões."
+    },
+    {
+      "id": "gm-flag-438",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 438)",
+      "flagCode": "kh",
+      "targetId": "KHM",
+      "targetName": "Camboja",
+      "options": [
+        "Camboja",
+        "Sudão",
+        "Países Baixos",
+        "Macedónia do Norte"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Camboja."
+    },
+    {
+      "id": "gm-flag-439",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 439)",
+      "flagCode": "mm",
+      "targetId": "MMR",
+      "targetName": "Myanmar",
+      "options": [
+        "Arábia Saudita",
+        "Saint-Pierre e Miquelon",
+        "Myanmar",
+        "Honduras"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Myanmar."
+    },
+    {
+      "id": "gm-flag-440",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 440)",
+      "flagCode": "bi",
+      "targetId": "BDI",
+      "targetName": "Burundi",
+      "options": [
+        "Israel",
+        "Chéquia",
+        "Burundi",
+        "Ilhas Caimão"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Burundi."
+    },
+    {
+      "id": "gm-flag-441",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 441)",
+      "flagCode": "bf",
+      "targetId": "BFA",
+      "targetName": "Burkina Faso",
+      "options": [
+        "Burkina Faso",
+        "Portugal",
+        "Ilhas Caimão",
+        "Honduras"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Burkina Faso."
+    },
+    {
+      "id": "gm-flag-442",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 442)",
+      "flagCode": "bg",
+      "targetId": "BGR",
+      "targetName": "Bulgária",
+      "options": [
+        "Bulgária",
+        "Chéquia",
+        "Åland",
+        "Tajiquistão"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Bulgária."
+    },
+    {
+      "id": "gm-flag-443",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 443)",
+      "flagCode": "bn",
+      "targetId": "BRN",
+      "targetName": "Brunei",
+      "options": [
+        "Canadá",
+        "Brunei",
+        "Ruanda",
+        "São Martinho"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Brunei."
+    },
+    {
+      "id": "gm-flag-444",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 444)",
+      "flagCode": "br",
+      "targetId": "BRA",
+      "targetName": "Brasil",
+      "options": [
+        "Belize",
+        "Brasil",
+        "Ilhas Salomão",
+        "Aruba"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Brasil."
+    },
+    {
+      "id": "gm-flag-445",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 445)",
+      "flagCode": "bw",
+      "targetId": "BWA",
+      "targetName": "Botsuana",
+      "options": [
+        "Filipinas",
+        "Granada",
+        "Polónia",
+        "Botsuana"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Botsuana."
+    },
+    {
+      "id": "gm-flag-446",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 446)",
+      "flagCode": "ba",
+      "targetId": "BIH",
+      "targetName": "Bósnia e Herzegovina",
+      "options": [
+        "Cuba",
+        "Ilhas Virgens Americanas",
+        "Bósnia e Herzegovina",
+        "Vaticano"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Bósnia e Herzegovina."
+    },
+    {
+      "id": "gm-flag-447",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 447)",
+      "flagCode": "bo",
+      "targetId": "BOL",
+      "targetName": "Bolívia",
+      "options": [
+        "Cuba",
+        "Bolívia",
+        "Malta",
+        "Camboja"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Bolívia."
+    },
+    {
+      "id": "gm-flag-448",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 448)",
+      "flagCode": "bt",
+      "targetId": "BTN",
+      "targetName": "Butão",
+      "options": [
+        "Bulgária",
+        "Butão",
+        "Dominica",
+        "Arábia Saudita"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Butão."
+    },
+    {
+      "id": "gm-flag-449",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 449)",
+      "flagCode": "bj",
+      "targetId": "BEN",
+      "targetName": "Benim",
+      "options": [
+        "Terras Austrais e Antárticas Francesas",
+        "Mongólia",
+        "Benim",
+        "Chéquia"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Benim."
+    },
+    {
+      "id": "gm-flag-450",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 450)",
+      "flagCode": "bz",
+      "targetId": "BLZ",
+      "targetName": "Belize",
+      "options": [
+        "Belize",
+        "Brunei",
+        "Vanuatu",
+        "República Democrática do Congo"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Belize."
+    },
+    {
+      "id": "gm-flag-451",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 451)",
+      "flagCode": "be",
+      "targetId": "BEL",
+      "targetName": "Bélgica",
+      "options": [
+        "Tajiquistão",
+        "Bélgica",
+        "Jamaica",
+        "Tailândia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Bélgica."
+    },
+    {
+      "id": "gm-flag-452",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 452)",
+      "flagCode": "by",
+      "targetId": "BLR",
+      "targetName": "Bielorrússia",
+      "options": [
+        "Ilhas Marianas do Norte",
+        "Ilhas Pitcairn",
+        "Bielorrússia",
+        "Samoa Americana"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Bielorrússia."
+    },
+    {
+      "id": "gm-flag-453",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 453)",
+      "flagCode": "bb",
+      "targetId": "BRB",
+      "targetName": "Barbados",
+      "options": [
+        "São Vicente e Granadinas",
+        "Arábia Saudita",
+        "Líbia",
+        "Barbados"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Barbados."
+    },
+    {
+      "id": "gm-flag-454",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 454)",
+      "flagCode": "bd",
+      "targetId": "BGD",
+      "targetName": "Bangladesh",
+      "options": [
+        "Bangladesh",
+        "Sudão",
+        "Somália",
+        "Luxemburgo"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Bangladesh."
+    },
+    {
+      "id": "gm-flag-455",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 455)",
+      "flagCode": "bh",
+      "targetId": "BHR",
+      "targetName": "Bahrein",
+      "options": [
+        "Bahrein",
+        "Santa Lúcia",
+        "Cuba",
+        "Marrocos"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Bahrein."
+    },
+    {
+      "id": "gm-flag-456",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 456)",
+      "flagCode": "bs",
+      "targetId": "BHS",
+      "targetName": "Bahamas",
+      "options": [
+        "Bahamas",
+        "Mauritânia",
+        "Cuba",
+        "Sara Ocidental"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Bahamas."
+    },
+    {
+      "id": "gm-flag-457",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 457)",
+      "flagCode": "az",
+      "targetId": "AZE",
+      "targetName": "Azerbaijão",
+      "options": [
+        "Honduras",
+        "Suíça",
+        "Azerbaijão",
+        "Costa do Marfim"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Azerbaijão."
+    },
+    {
+      "id": "gm-flag-458",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 458)",
+      "flagCode": "at",
+      "targetId": "AUT",
+      "targetName": "Áustria",
+      "options": [
+        "Montserrat",
+        "Ilhas Cook",
+        "Emirados Árabes Unidos",
+        "Áustria"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Áustria."
+    },
+    {
+      "id": "gm-flag-459",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 459)",
+      "flagCode": "au",
+      "targetId": "AUS",
+      "targetName": "Austrália",
+      "options": [
+        "Equador",
+        "Polónia",
+        "Geórgia",
+        "Austrália"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Austrália."
+    },
+    {
+      "id": "gm-flag-460",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 460)",
+      "flagCode": "hm",
+      "targetId": "HMD",
+      "targetName": "Ilha Heard e Ilhas McDonald",
+      "options": [
+        "Ilha Heard e Ilhas McDonald",
+        "México",
+        "Jersey",
+        "Tajiquistão"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Ilha Heard e Ilhas McDonald."
+    },
+    {
+      "id": "gm-flag-461",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 461)",
+      "flagCode": "nf",
+      "targetId": "NFK",
+      "targetName": "Ilha Norfolk",
+      "options": [
+        "Ilha Norfolk",
+        "Guiana",
+        "Andorra",
+        "Botsuana"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Ilha Norfolk."
+    },
+    {
+      "id": "gm-flag-462",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 462)",
+      "flagCode": "am",
+      "targetId": "ARM",
+      "targetName": "Arménia",
+      "options": [
+        "Ucrânia",
+        "Ilhas Feroe",
+        "Arménia",
+        "Malásia"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Arménia."
+    },
+    {
+      "id": "gm-flag-463",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 463)",
+      "flagCode": "ar",
+      "targetId": "ARG",
+      "targetName": "Argentina",
+      "options": [
+        "Uruguai",
+        "Botsuana",
+        "Peru",
+        "Argentina"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Argentina."
+    },
+    {
+      "id": "gm-flag-464",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 464)",
+      "flagCode": "ag",
+      "targetId": "ATG",
+      "targetName": "Antígua e Barbuda",
+      "options": [
+        "Espanha",
+        "Porto Rico",
+        "Serra Leoa",
+        "Antígua e Barbuda"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Antígua e Barbuda."
+    },
+    {
+      "id": "gm-flag-465",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 465)",
+      "flagCode": "ao",
+      "targetId": "AGO",
+      "targetName": "Angola",
+      "options": [
+        "Angola",
+        "Myanmar",
+        "Dominica",
+        "Hong Kong"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Angola."
+    },
+    {
+      "id": "gm-flag-466",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 466)",
+      "flagCode": "ad",
+      "targetId": "AND",
+      "targetName": "Andorra",
+      "options": [
+        "Honduras",
+        "Santa Helena",
+        "Andorra",
+        "Costa Rica"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Andorra."
+    },
+    {
+      "id": "gm-flag-467",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 467)",
+      "flagCode": "dz",
+      "targetId": "DZA",
+      "targetName": "Argélia",
+      "options": [
+        "Granada",
+        "Quirguistão",
+        "Argélia",
+        "Israel"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Argélia."
+    },
+    {
+      "id": "gm-flag-468",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 468)",
+      "flagCode": "al",
+      "targetId": "ALB",
+      "targetName": "Albânia",
+      "options": [
+        "Albânia",
+        "Portugal",
+        "Porto Rico",
+        "Ilhas Virgens Britânicas"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Albânia."
+    },
+    {
+      "id": "gm-flag-469",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 469)",
+      "flagCode": "af",
+      "targetId": "AFG",
+      "targetName": "Afeganistão",
+      "options": [
+        "Ilha Heard e Ilhas McDonald",
+        "Quénia",
+        "Afeganistão",
+        "Granada"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Afeganistão."
+    },
+    {
+      "id": "gm-flag-470",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 470)",
+      "flagCode": "aq",
+      "targetId": "ATA",
+      "targetName": "Antártida",
+      "options": [
+        "Myanmar",
+        "Coreia do Norte",
+        "Antártida",
+        "Haiti"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Antártida."
+    },
+    {
+      "id": "gm-flag-471",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 471)",
+      "flagCode": "sx",
+      "targetId": "SXM",
+      "targetName": "São Martinho",
+      "options": [
+        "São Martinho",
+        "República Dominicana",
+        "Argélia",
+        "Egito"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a São Martinho."
+    },
+    {
+      "id": "gm-flag-472",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 472)",
+      "flagCode": "tv",
+      "targetId": "TUV",
+      "targetName": "Tuvalu",
+      "options": [
+        "Hungria",
+        "Tuvalu",
+        "República da Irlanda",
+        "Burundi"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Tuvalu."
+    },
+    {
+      "id": "gm-flag-473",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 473)",
+      "flagCode": "zw",
+      "targetId": "ZWE",
+      "targetName": "Zimbábue",
+      "options": [
+        "Irão",
+        "Zimbábue",
+        "Letónia",
+        "Jersey"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Zimbábue."
+    },
+    {
+      "id": "gm-flag-474",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 474)",
+      "flagCode": "zm",
+      "targetId": "ZMB",
+      "targetName": "Zâmbia",
+      "options": [
+        "Gana",
+        "Cuba",
+        "Ilhas Marianas do Norte",
+        "Zâmbia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Zâmbia."
+    },
+    {
+      "id": "gm-flag-475",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 475)",
+      "flagCode": "ye",
+      "targetId": "YEM",
+      "targetName": "Iémen",
+      "options": [
+        "Santa Helena",
+        "Iémen",
+        "Irão",
+        "Kiribati"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Iémen."
+    },
+    {
+      "id": "gm-flag-476",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 476)",
+      "flagCode": "vn",
+      "targetId": "VNM",
+      "targetName": "Vietname",
+      "options": [
+        "República da Irlanda",
+        "Sara Ocidental",
+        "Trinidad e Tobago",
+        "Vietname"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Vietname."
+    },
+    {
+      "id": "gm-flag-477",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 477)",
+      "flagCode": "ve",
+      "targetId": "VEN",
+      "targetName": "Venezuela",
+      "options": [
+        "Líbano",
+        "São Martinho",
+        "Venezuela",
+        "Libéria"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Venezuela."
+    },
+    {
+      "id": "gm-flag-478",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 478)",
+      "flagCode": "va",
+      "targetId": "VAT",
+      "targetName": "Vaticano",
+      "options": [
+        "Seychelles",
+        "Lesoto",
+        "Áustria",
+        "Vaticano"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Vaticano."
+    },
+    {
+      "id": "gm-flag-479",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 479)",
+      "flagCode": "vu",
+      "targetId": "VUT",
+      "targetName": "Vanuatu",
+      "options": [
+        "Tuvalu",
+        "Turquemenistão",
+        "Vanuatu",
+        "Montserrat"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Vanuatu."
+    },
+    {
+      "id": "gm-flag-480",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 480)",
+      "flagCode": "uz",
+      "targetId": "UZB",
+      "targetName": "Uzbequistão",
+      "options": [
+        "Eritreia",
+        "Ilha Norfolk",
+        "Paraguai",
+        "Uzbequistão"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Uzbequistão."
+    },
+    {
+      "id": "gm-flag-481",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 481)",
+      "flagCode": "uy",
+      "targetId": "URY",
+      "targetName": "Uruguai",
+      "options": [
+        "Paraguai",
+        "Uganda",
+        "Uruguai",
+        "Etiópia"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Uruguai."
+    },
+    {
+      "id": "gm-flag-482",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 482)",
+      "flagCode": "fm",
+      "targetId": "FSM",
+      "targetName": "Micronésia",
+      "options": [
+        "Micronésia",
+        "Trinidad e Tobago",
+        "Sudão",
+        "Camarões"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Micronésia."
+    },
+    {
+      "id": "gm-flag-483",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 483)",
+      "flagCode": "mh",
+      "targetId": "MHL",
+      "targetName": "Ilhas Marshall",
+      "options": [
+        "Namíbia",
+        "Groenlândia",
+        "Andorra",
+        "Ilhas Marshall"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Ilhas Marshall."
+    },
+    {
+      "id": "gm-flag-484",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 484)",
+      "flagCode": "mp",
+      "targetId": "MNP",
+      "targetName": "Ilhas Marianas do Norte",
+      "options": [
+        "Trinidad e Tobago",
+        "Madagáscar",
+        "Sudão",
+        "Ilhas Marianas do Norte"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Ilhas Marianas do Norte."
+    },
+    {
+      "id": "gm-flag-485",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 485)",
+      "flagCode": "vi",
+      "targetId": "VIR",
+      "targetName": "Ilhas Virgens Americanas",
+      "options": [
+        "Santa Lúcia",
+        "China",
+        "Ilhas Virgens Americanas",
+        "Timor-Leste"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Ilhas Virgens Americanas."
+    },
+    {
+      "id": "gm-flag-486",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 486)",
+      "flagCode": "gu",
+      "targetId": "GUM",
+      "targetName": "Guam",
+      "options": [
+        "Guam",
+        "Reino Unido",
+        "Zimbábue",
+        "Senegal"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Guam."
+    },
+    {
+      "id": "gm-flag-487",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 487)",
+      "flagCode": "as",
+      "targetId": "ASM",
+      "targetName": "Samoa Americana",
+      "options": [
+        "Chipre",
+        "Ilha Norfolk",
+        "Samoa Americana",
+        "Bahamas"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Samoa Americana."
+    },
+    {
+      "id": "gm-flag-488",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 488)",
+      "flagCode": "pr",
+      "targetId": "PRI",
+      "targetName": "Porto Rico",
+      "options": [
+        "Nova Zelândia",
+        "Coreia do Sul",
+        "Porto Rico",
+        "Chade"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Porto Rico."
+    },
+    {
+      "id": "gm-flag-489",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 489)",
+      "flagCode": "us",
+      "targetId": "USA",
+      "targetName": "Estados Unidos",
+      "options": [
+        "Libéria",
+        "Estados Unidos",
+        "Djibouti",
+        "Equador"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Estados Unidos."
+    },
+    {
+      "id": "gm-flag-490",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 490)",
+      "flagCode": "gs",
+      "targetId": "SGS",
+      "targetName": "Ilhas Geórgia do Sul e Sandwich do Sul",
+      "options": [
+        "Sudão do Sul",
+        "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "Senegal",
+        "Mali"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Ilhas Geórgia do Sul e Sandwich do Sul."
+    },
+    {
+      "id": "gm-flag-491",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 491)",
+      "flagCode": "io",
+      "targetId": "IOT",
+      "targetName": "Território Britânico do Oceano Índico",
+      "options": [
+        "Ilhas Cook",
+        "Malásia",
+        "Território Britânico do Oceano Índico",
+        "Ilhas Salomão"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Território Britânico do Oceano Índico."
+    },
+    {
+      "id": "gm-flag-492",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 492)",
+      "flagCode": "sh",
+      "targetId": "SHN",
+      "targetName": "Santa Helena",
+      "options": [
+        "Myanmar",
+        "Santa Helena",
+        "Espanha",
+        "Curaçao"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Santa Helena."
+    },
+    {
+      "id": "gm-flag-493",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 493)",
+      "flagCode": "pn",
+      "targetId": "PCN",
+      "targetName": "Ilhas Pitcairn",
+      "options": [
+        "Ilha Heard e Ilhas McDonald",
+        "Camarões",
+        "Peru",
+        "Ilhas Pitcairn"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Ilhas Pitcairn."
+    },
+    {
+      "id": "gm-flag-494",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 494)",
+      "flagCode": "ai",
+      "targetId": "AIA",
+      "targetName": "Anguilla",
+      "options": [
+        "Vanuatu",
+        "Hungria",
+        "Anguilla",
+        "Cazaquistão"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Anguilla."
+    },
+    {
+      "id": "gm-flag-495",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 495)",
+      "flagCode": "fk",
+      "targetId": "FLK",
+      "targetName": "Ilhas Malvinas",
+      "options": [
+        "Ilhas Pitcairn",
+        "Palau",
+        "Micronésia",
+        "Ilhas Malvinas"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Ilhas Malvinas."
+    },
+    {
+      "id": "gm-flag-496",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 496)",
+      "flagCode": "ky",
+      "targetId": "CYM",
+      "targetName": "Ilhas Caimão",
+      "options": [
+        "Sara Ocidental",
+        "Ilhas Caimão",
+        "Åland",
+        "Tuvalu"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Ilhas Caimão."
+    },
+    {
+      "id": "gm-flag-497",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 497)",
+      "flagCode": "bm",
+      "targetId": "BMU",
+      "targetName": "Bermudas",
+      "options": [
+        "Trinidad e Tobago",
+        "Bermudas",
+        "Barbados",
+        "Líbano"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Bermudas."
+    },
+    {
+      "id": "gm-flag-498",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 498)",
+      "flagCode": "vg",
+      "targetId": "VGB",
+      "targetName": "Ilhas Virgens Britânicas",
+      "options": [
+        "Arábia Saudita",
+        "Mongólia",
+        "Ilhas Virgens Britânicas",
+        "Austrália"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Ilhas Virgens Britânicas."
+    },
+    {
+      "id": "gm-flag-499",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 499)",
+      "flagCode": "tc",
+      "targetId": "TCA",
+      "targetName": "Turks e Caicos",
+      "options": [
+        "Camarões",
+        "Montserrat",
+        "Kuwait",
+        "Turks e Caicos"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Turks e Caicos."
+    },
+    {
+      "id": "gm-flag-500",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 500)",
+      "flagCode": "ms",
+      "targetId": "MSR",
+      "targetName": "Montserrat",
+      "options": [
+        "Iraque",
+        "Montserrat",
+        "Portugal",
+        "Camarões"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Montserrat."
+    },
+    {
+      "id": "gm-flag-501",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 501)",
+      "flagCode": "je",
+      "targetId": "JEY",
+      "targetName": "Jersey",
+      "options": [
+        "Jersey",
+        "Guiné-Bissau",
+        "Butão",
+        "Belize"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Jersey."
+    },
+    {
+      "id": "gm-flag-502",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 502)",
+      "flagCode": "gg",
+      "targetId": "GGY",
+      "targetName": "Guernsey",
+      "options": [
+        "Macedónia do Norte",
+        "Eritreia",
+        "Guernsey",
+        "Taiwan"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Guernsey."
+    },
+    {
+      "id": "gm-flag-503",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 503)",
+      "flagCode": "im",
+      "targetId": "IMN",
+      "targetName": "Ilha de Man",
+      "options": [
+        "Niue",
+        "Ilha de Man",
+        "Myanmar",
+        "Eritreia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Ilha de Man."
+    },
+    {
+      "id": "gm-flag-504",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 504)",
+      "flagCode": "gb",
+      "targetId": "GBR",
+      "targetName": "Reino Unido",
+      "options": [
+        "Guiné",
+        "Moçambique",
+        "Reino Unido",
+        "Sudão"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Reino Unido."
+    },
+    {
+      "id": "gm-flag-505",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 505)",
+      "flagCode": "ae",
+      "targetId": "ARE",
+      "targetName": "Emirados Árabes Unidos",
+      "options": [
+        "Egito",
+        "Terras Austrais e Antárticas Francesas",
+        "Emirados Árabes Unidos",
+        "Palestina"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Emirados Árabes Unidos."
+    },
+    {
+      "id": "gm-flag-506",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 506)",
+      "flagCode": "ua",
+      "targetId": "UKR",
+      "targetName": "Ucrânia",
+      "options": [
+        "Montenegro",
+        "São Martinho",
+        "Curaçao",
+        "Ucrânia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Ucrânia."
+    },
+    {
+      "id": "gm-flag-507",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 507)",
+      "flagCode": "ug",
+      "targetId": "UGA",
+      "targetName": "Uganda",
+      "options": [
+        "Austrália",
+        "Uganda",
+        "Nicarágua",
+        "Guam"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Uganda."
+    },
+    {
+      "id": "gm-flag-508",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 508)",
+      "flagCode": "tm",
+      "targetId": "TKM",
+      "targetName": "Turquemenistão",
+      "options": [
+        "Bahamas",
+        "Indonésia",
+        "Chéquia",
+        "Turquemenistão"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Turquemenistão."
+    },
+    {
+      "id": "gm-flag-509",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 509)",
+      "flagCode": "tr",
+      "targetId": "TUR",
+      "targetName": "Turquia",
+      "options": [
+        "Alemanha",
+        "Turquia",
+        "Kiribati",
+        "Somália"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Turquia."
+    },
+    {
+      "id": "gm-flag-510",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 510)",
+      "flagCode": "tn",
+      "targetId": "TUN",
+      "targetName": "Tunísia",
+      "options": [
+        "Costa do Marfim",
+        "Sérvia",
+        "Tunísia",
+        "Montenegro"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Tunísia."
+    },
+    {
+      "id": "gm-flag-511",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 511)",
+      "flagCode": "tt",
+      "targetId": "TTO",
+      "targetName": "Trinidad e Tobago",
+      "options": [
+        "Trinidad e Tobago",
+        "Somália",
+        "Arménia",
+        "Guernsey"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Trinidad e Tobago."
+    },
+    {
+      "id": "gm-flag-512",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 512)",
+      "flagCode": "to",
+      "targetId": "TON",
+      "targetName": "Tonga",
+      "options": [
+        "Tonga",
+        "Cabo Verde",
+        "Suriname",
+        "Equador"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Tonga."
+    },
+    {
+      "id": "gm-flag-513",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 513)",
+      "flagCode": "tg",
+      "targetId": "TGO",
+      "targetName": "Togo",
+      "options": [
+        "Togo",
+        "Dinamarca",
+        "Iémen",
+        "Mali"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Togo."
+    },
+    {
+      "id": "gm-flag-514",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 514)",
+      "flagCode": "tl",
+      "targetId": "TLS",
+      "targetName": "Timor-Leste",
+      "options": [
+        "Haiti",
+        "Timor-Leste",
+        "Índia",
+        "Hong Kong"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Timor-Leste."
+    },
+    {
+      "id": "gm-flag-515",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 515)",
+      "flagCode": "th",
+      "targetId": "THA",
+      "targetName": "Tailândia",
+      "options": [
+        "Tailândia",
+        "Arábia Saudita",
+        "Marrocos",
+        "Brasil"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Tailândia."
+    },
+    {
+      "id": "gm-flag-516",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 516)",
+      "flagCode": "tz",
+      "targetId": "TZA",
+      "targetName": "Tanzânia",
+      "options": [
+        "Irão",
+        "Angola",
+        "Turks e Caicos",
+        "Tanzânia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Tanzânia."
+    },
+    {
+      "id": "gm-flag-517",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 517)",
+      "flagCode": "tj",
+      "targetId": "TJK",
+      "targetName": "Tajiquistão",
+      "options": [
+        "Reino Unido",
+        "Tajiquistão",
+        "Saint-Pierre e Miquelon",
+        "Bangladesh"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Tajiquistão."
+    },
+    {
+      "id": "gm-flag-518",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 518)",
+      "flagCode": "tw",
+      "targetId": "TWN",
+      "targetName": "Taiwan",
+      "options": [
+        "Portugal",
+        "China",
+        "Lituânia",
+        "Taiwan"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Taiwan."
+    },
+    {
+      "id": "gm-flag-519",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 519)",
+      "flagCode": "sy",
+      "targetId": "SYR",
+      "targetName": "Síria",
+      "options": [
+        "Arábia Saudita",
+        "Bielorrússia",
+        "Síria",
+        "Omã"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Síria."
+    },
+    {
+      "id": "gm-flag-520",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 520)",
+      "flagCode": "ch",
+      "targetId": "CHE",
+      "targetName": "Suíça",
+      "options": [
+        "Tunísia",
+        "Macau",
+        "Suíça",
+        "Haiti"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Suíça."
+    },
+    {
+      "id": "gm-flag-521",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 521)",
+      "flagCode": "se",
+      "targetId": "SWE",
+      "targetName": "Suécia",
+      "options": [
+        "Sudão",
+        "Jamaica",
+        "Guiné Equatorial",
+        "Suécia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Suécia."
+    },
+    {
+      "id": "gm-flag-522",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 522)",
+      "flagCode": "sz",
+      "targetId": "SWZ",
+      "targetName": "Essuatíni",
+      "options": [
+        "Essuatíni",
+        "Coreia do Sul",
+        "Maldivas",
+        "Trinidad e Tobago"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Essuatíni."
+    },
+    {
+      "id": "gm-flag-523",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 523)",
+      "flagCode": "sr",
+      "targetId": "SUR",
+      "targetName": "Suriname",
+      "options": [
+        "Suriname",
+        "República Centro-Africana",
+        "Fiji",
+        "Maldivas"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Suriname."
+    },
+    {
+      "id": "gm-flag-524",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 524)",
+      "flagCode": "ss",
+      "targetId": "SSD",
+      "targetName": "Sudão do Sul",
+      "options": [
+        "Hungria",
+        "Sudão do Sul",
+        "Síria",
+        "Guiana"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Sudão do Sul."
+    },
+    {
+      "id": "gm-flag-525",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 525)",
+      "flagCode": "sd",
+      "targetId": "SDN",
+      "targetName": "Sudão",
+      "options": [
+        "Belize",
+        "México",
+        "Canadá",
+        "Sudão"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Sudão."
+    },
+    {
+      "id": "gm-flag-526",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 526)",
+      "flagCode": "lk",
+      "targetId": "LKA",
+      "targetName": "Sri Lanka",
+      "options": [
+        "Tonga",
+        "Sri Lanka",
+        "Eritreia",
+        "São Martinho"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Sri Lanka."
+    },
+    {
+      "id": "gm-flag-527",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 527)",
+      "flagCode": "es",
+      "targetId": "ESP",
+      "targetName": "Espanha",
+      "options": [
+        "Guiné",
+        "Espanha",
+        "São Vicente e Granadinas",
+        "Turquia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Espanha."
+    },
+    {
+      "id": "gm-flag-528",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 528)",
+      "flagCode": "kr",
+      "targetId": "KOR",
+      "targetName": "Coreia do Sul",
+      "options": [
+        "Coreia do Sul",
+        "Vietname",
+        "México",
+        "Ilhas Marshall"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Coreia do Sul."
+    },
+    {
+      "id": "gm-flag-529",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 529)",
+      "flagCode": "za",
+      "targetId": "ZAF",
+      "targetName": "África do Sul",
+      "options": [
+        "Eslovénia",
+        "África do Sul",
+        "Ilhas Malvinas",
+        "Ilha Heard e Ilhas McDonald"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a África do Sul."
+    },
+    {
+      "id": "gm-flag-530",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 530)",
+      "flagCode": "so",
+      "targetId": "SOM",
+      "targetName": "Somália",
+      "options": [
+        "Gabão",
+        "Somália",
+        "Malawi",
+        "Nicarágua"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Somália."
+    },
+    {
+      "id": "gm-flag-531",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 531)",
+      "flagCode": "sb",
+      "targetId": "SLB",
+      "targetName": "Ilhas Salomão",
+      "options": [
+        "Sudão do Sul",
+        "Ilhas Salomão",
+        "Letónia",
+        "Montserrat"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Ilhas Salomão."
+    },
+    {
+      "id": "gm-flag-532",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 532)",
+      "flagCode": "sk",
+      "targetId": "SVK",
+      "targetName": "Eslováquia",
+      "options": [
+        "Bósnia e Herzegovina",
+        "Singapura",
+        "Bielorrússia",
+        "Eslováquia"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Eslováquia."
+    },
+    {
+      "id": "gm-flag-533",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 533)",
+      "flagCode": "si",
+      "targetId": "SVN",
+      "targetName": "Eslovénia",
+      "options": [
+        "Costa Rica",
+        "Honduras",
+        "Eslovénia",
+        "Burundi"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Eslovénia."
+    },
+    {
+      "id": "gm-flag-534",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 534)",
+      "flagCode": "sg",
+      "targetId": "SGP",
+      "targetName": "Singapura",
+      "options": [
+        "Malawi",
+        "Costa Rica",
+        "Singapura",
+        "Polónia"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Singapura."
+    },
+    {
+      "id": "gm-flag-535",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 535)",
+      "flagCode": "sl",
+      "targetId": "SLE",
+      "targetName": "Serra Leoa",
+      "options": [
+        "Serra Leoa",
+        "Líbano",
+        "Gana",
+        "Mali"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Serra Leoa."
+    },
+    {
+      "id": "gm-flag-536",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 536)",
+      "flagCode": "sc",
+      "targetId": "SYC",
+      "targetName": "Seychelles",
+      "options": [
+        "Guam",
+        "Myanmar",
+        "Israel",
+        "Seychelles"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Seychelles."
+    },
+    {
+      "id": "gm-flag-537",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 537)",
+      "flagCode": "rs",
+      "targetId": "SRB",
+      "targetName": "Sérvia",
+      "options": [
+        "Sérvia",
+        "Coreia do Sul",
+        "Macedónia do Norte",
+        "Países Baixos"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Sérvia."
+    },
+    {
+      "id": "gm-flag-538",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 538)",
+      "flagCode": "sn",
+      "targetId": "SEN",
+      "targetName": "Senegal",
+      "options": [
+        "Uruguai",
+        "Senegal",
+        "Portugal",
+        "Estados Unidos"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Senegal."
+    },
+    {
+      "id": "gm-flag-539",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 539)",
+      "flagCode": "sa",
+      "targetId": "SAU",
+      "targetName": "Arábia Saudita",
+      "options": [
+        "Ilhas Marshall",
+        "Líbano",
+        "Taiwan",
+        "Arábia Saudita"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a Arábia Saudita."
+    },
+    {
+      "id": "gm-flag-540",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 540)",
+      "flagCode": "st",
+      "targetId": "STP",
+      "targetName": "São Tomé e Príncipe",
+      "options": [
+        "São Tomé e Príncipe",
+        "Vaticano",
+        "Coreia do Sul",
+        "Taiwan"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a São Tomé e Príncipe."
+    },
+    {
+      "id": "gm-flag-541",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 541)",
+      "flagCode": "sm",
+      "targetId": "SMR",
+      "targetName": "San Marino",
+      "options": [
+        "San Marino",
+        "Palestina",
+        "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "Bermudas"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a San Marino."
+    },
+    {
+      "id": "gm-flag-542",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 542)",
+      "flagCode": "ws",
+      "targetId": "WSM",
+      "targetName": "Samoa",
+      "options": [
+        "Paraguai",
+        "Samoa",
+        "Portugal",
+        "Timor-Leste"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Samoa."
+    },
+    {
+      "id": "gm-flag-543",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 543)",
+      "flagCode": "vc",
+      "targetId": "VCT",
+      "targetName": "São Vicente e Granadinas",
+      "options": [
+        "São Vicente e Granadinas",
+        "Barbados",
+        "Uganda",
+        "Guiné"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a São Vicente e Granadinas."
+    },
+    {
+      "id": "gm-flag-544",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 544)",
+      "flagCode": "lc",
+      "targetId": "LCA",
+      "targetName": "Santa Lúcia",
+      "options": [
+        "Coreia do Sul",
+        "Kiribati",
+        "Santa Lúcia",
+        "Ilha Heard e Ilhas McDonald"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Santa Lúcia."
+    },
+    {
+      "id": "gm-flag-545",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 545)",
+      "flagCode": "kn",
+      "targetId": "KNA",
+      "targetName": "São Cristóvão e Nevis",
+      "options": [
+        "Curaçao",
+        "Mónaco",
+        "Indonésia",
+        "São Cristóvão e Nevis"
+      ],
+      "correctIndex": 3,
+      "explanation": "A bandeira apresentada pertence a São Cristóvão e Nevis."
+    },
+    {
+      "id": "gm-flag-546",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 546)",
+      "flagCode": "rw",
+      "targetId": "RWA",
+      "targetName": "Ruanda",
+      "options": [
+        "Ruanda",
+        "Ilhas Caimão",
+        "Índia",
+        "Jamaica"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Ruanda."
+    },
+    {
+      "id": "gm-flag-547",
+      "type": "flag",
+      "difficulty": "easy",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 547)",
+      "flagCode": "ru",
+      "targetId": "RUS",
+      "targetName": "Rússia",
+      "options": [
+        "Ilhas Marianas do Norte",
+        "Rússia",
+        "Suíça",
+        "Áustria"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bandeira apresentada pertence a Rússia."
+    },
+    {
+      "id": "gm-flag-548",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 548)",
+      "flagCode": "ro",
+      "targetId": "ROU",
+      "targetName": "Roménia",
+      "options": [
+        "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "Líbano",
+        "Roménia",
+        "Guam"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Roménia."
+    },
+    {
+      "id": "gm-flag-549",
+      "type": "flag",
+      "difficulty": "medium",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 549)",
+      "flagCode": "qa",
+      "targetId": "QAT",
+      "targetName": "Catar",
+      "options": [
+        "Hungria",
+        "Afeganistão",
+        "Catar",
+        "Japão"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bandeira apresentada pertence a Catar."
+    },
+    {
+      "id": "gm-flag-550",
+      "type": "flag",
+      "difficulty": "hard",
+      "category": "flags",
+      "text": "Qual país é representado pela bandeira abaixo? (Desafio 550)",
+      "flagCode": "pt",
+      "targetId": "PRT",
+      "targetName": "Portugal",
+      "options": [
+        "Portugal",
+        "Namíbia",
+        "Ilhas Marianas do Norte",
+        "Montserrat"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bandeira apresentada pertence a Portugal."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="description" content="GeoMaster — teste seus conhecimentos geográficos.">
+  <title>GeoMaster — Explore o mundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/country-card.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="GeoMaster início" data-home>
+        <span class="brand-mark">◎</span><span>Geo<span class="brand-accent">Master</span></span>
+      </a>
+      <span class="topbar-tag">JOGO DE GEOGRAFIA <span class="dev-badge" id="dev-badge" hidden>MODO DE TESTE</span></span>
+    </header>
+
+    <main>
+      <section class="screen active" id="home-screen">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow"><span class="eyebrow-dot"></span> CONHECIMENTO SEM FRONTEIRAS</span>
+            <h1>Explore o mundo.<br><span>Domine o mapa.</span></h1>
+            <p>Desafie seus conhecimentos, descubra novos lugares e dispute o primeiro lugar com seus amigos.</p>
+            <div class="hero-actions">
+              <button class="button button-primary button-large" id="start-button">Jogar com amigos <span aria-hidden="true">→</span></button>
+              <button class="button button-secondary button-large" id="story-button">Modo História <span aria-hidden="true">⚔</span></button>
+              <button class="button button-quiet" id="how-button">Como funciona</button>
+            </div>
+            <div class="hero-meta">
+              <span>♙ Até 4 jogadores</span><span>◷ 30 segundos por resposta</span><span>◎ 1.550 perguntas</span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Ilustração decorativa de um globo">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="globe"><div class="globe-grid"></div><div class="land land-one"></div><div class="land land-two"></div><div class="land land-three"></div></div>
+            <span class="float-chip chip-top">🌎 Mundo inteiro</span>
+            <span class="float-chip chip-bottom">✦ Aprenda jogando</span>
+          </div>
+        </div>
+        <div class="feature-row">
+          <article class="feature-card"><span class="feature-icon">⌖</span><div><h3>Mapas interativos</h3><p>Encontre países e explore territórios.</p></div></article>
+          <article class="feature-card"><span class="feature-icon">♧</span><div><h3>Competição em grupo</h3><p>Até quatro participantes por partida.</p></div></article>
+          <article class="feature-card"><span class="feature-icon">✦</span><div><h3>Desafios variados</h3><p>Alternativas, mapas e identificação de bandeiras.</p></div></article>
+        </div>
+        <footer class="page-footer">GEOMASTER <span>•</span> APRENDA EXPLORANDO</footer>
+      </section>
+
+      <section class="screen" id="setup-screen">
+        <div class="screen-heading">
+          <button class="back-button" data-home aria-label="Voltar">←</button>
+          <div><span class="eyebrow">NOVA PARTIDA</span><h2>Quem vai jogar?</h2><p>Adicione de 1 a 4 participantes e defina os nomes.</p></div>
+        </div>
+        <div class="setup-layout">
+          <div class="setup-panel">
+            <div class="panel-heading"><div><h3>Participantes</h3><p>Os turnos seguirão a ordem abaixo.</p></div><span class="counter" id="player-counter">1 / 4</span></div>
+            <div id="player-list" class="player-list">
+              <label class="player-field"><span class="player-number">1</span><input class="player-input" maxlength="18" placeholder="Nome do jogador 1" value="Jogador 1" aria-label="Nome do jogador 1"><span class="player-status">●</span></label>
+            </div>
+            <button class="add-player" id="add-player">＋ Adicionar jogador</button>
+            <p class="field-hint" id="setup-hint">Você pode jogar sozinho ou chamar até três amigos.</p>
+          </div>
+          <aside class="rules-card">
+            <span class="rules-icon">♧</span><h3>Como será a disputa?</h3>
+            <ul><li><span>01</span> Cada pessoa responde na sua vez.</li><li><span>02</span> Cada partida tem 10 perguntas.</li><li><span>03</span> Você terá 30 segundos por resposta.</li><li><span>04</span> A pontuação depende da dificuldade.</li></ul>
+            <button class="button button-primary button-full" id="begin-button">Iniciar partida <span>→</span></button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="screen" id="how-screen">
+        <div class="screen-heading"><button class="back-button" data-home aria-label="Voltar">←</button><div><span class="eyebrow">GUIA RÁPIDO</span><h2>Como jogar</h2><p>Aprenda as regras antes de começar sua disputa.</p></div></div>
+        <div class="how-grid">
+          <article class="how-card"><b>01</b><h3>Monte sua equipe</h3><p>Escolha de um a quatro jogadores e informe os nomes.</p></article>
+          <article class="how-card"><b>02</b><h3>Responda no seu turno</h3><p>As perguntas são sorteadas e cada pessoa tem 30 segundos.</p></article>
+          <article class="how-card"><b>03</b><h3>Some pontos</h3><p>Questões fáceis valem 10, médias 20 e difíceis 30 pontos.</p></article>
+          <article class="how-card"><b>04</b><h3>Conquiste o topo</h3><p>Depois de 10 perguntas, confira o ranking da partida.</p></article>
+        </div>
+        <button class="button button-primary" data-start>Escolher jogadores →</button>
+      </section>
+
+      <section class="screen" id="quiz-screen" aria-label="Partida">
+        <div class="quiz-top">
+          <button class="back-button" id="quit-match" aria-label="Sair da partida" title="Sair da partida">←</button>
+          <div class="quiz-progress">
+            <span class="quiz-counter" id="quiz-counter">Pergunta 1 de 10</span>
+            <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="quiz-progress-bar"></div></div>
+          </div>
+          <div class="timer" id="quiz-timer" role="timer" aria-label="Tempo restante"><span id="timer-value">30</span><small>s</small></div>
+        </div>
+
+        <div class="scoreboard" id="scoreboard" aria-label="Placar da partida"></div>
+
+        <article class="question-card" id="question-card">
+          <div class="question-meta">
+            <span class="turn-badge" id="turn-player">Vez de Jogador</span>
+            <span class="tag" id="question-difficulty">Fácil</span>
+            <span class="tag tag-plain" id="question-category">Categoria</span>
+            <span class="tag tag-points" id="question-points">10 pts</span>
+          </div>
+          <h2 id="question-text">Pergunta</h2>
+          <div class="timer-bar" id="timer-bar" aria-hidden="true"><div id="timer-bar-fill"></div></div>
+          <div class="flag-challenge" id="flag-challenge" hidden></div>
+          <div class="options" id="options"></div>
+          <div class="map-challenge" id="map-challenge" hidden></div>
+        </article>
+
+        <div class="feedback-card" id="feedback-card" role="status" aria-live="polite" hidden>
+          <div class="feedback-head">
+            <span class="feedback-icon" id="feedback-icon" aria-hidden="true">✓</span>
+            <h3 class="feedback-title" id="feedback-title">Acertou!</h3>
+            <span class="feedback-points" id="feedback-points">+10 pontos</span>
+          </div>
+          <p class="feedback-answer" id="feedback-answer"></p>
+          <p class="feedback-explanation" id="feedback-explanation" hidden></p>
+          <p class="feedback-total" id="feedback-total"></p>
+          <section class="country-card" id="country-card" aria-label="Informações sobre o país" hidden></section>
+          <div class="feedback-actions">
+            <button class="button button-primary button-large" id="next-turn">Próxima pergunta <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="results-screen" aria-label="Resultado final">
+        <div class="screen-heading">
+          <div><span class="eyebrow">FIM DA PARTIDA</span><h2 id="results-title">Resultado final</h2><p id="results-subtitle"></p></div>
+        </div>
+        <div class="ranking" id="ranking"></div>
+        <div class="post-game" id="post-game-menu">
+          <button class="button button-primary button-large" id="replay-button">Jogar novamente</button>
+          <button class="button button-secondary button-large" id="new-match-button">Nova partida</button>
+          <button class="button button-quiet button-large" id="end-button">Encerrar</button>
+          <p class="menu-message" id="menu-message" hidden></p>
+        </div>
+        <p class="menu-help"><b>Jogar novamente</b> mantém os mesmos jogadores · <b>Nova partida</b> volta à escolha de jogadores · <b>Encerrar</b> volta ao início.</p>
+      </section>
+    </main>
+  </div>
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script>
+    // Verificador: avisa na tela se o jogo foi aberto do jeito errado ou se os scripts não carregaram.
+    (function () {
+      function banner(text) {
+        var el = document.createElement("div");
+        el.setAttribute("role", "alert");
+        el.style.cssText = "background:#fff1f1;color:#9b1c1c;border-bottom:2px solid #f5b5b5;padding:14px 20px;font:600 13px/1.6 Inter,system-ui,sans-serif;text-align:center";
+        el.textContent = text;
+        document.body.insertBefore(el, document.body.firstChild);
+      }
+      if (location.protocol === "file:") {
+        banner("Abra o GeoMaster pelo Live Server (botão direito em index.html > Open with Live Server). Abrir o arquivo direto pelo navegador bloqueia os scripts e os botões não funcionam.");
+        return;
+      }
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          if (!window.__geomasterReady) banner("Os scripts do jogo não carregaram. Confira se a pasta js foi copiada por completo, recarregue com Ctrl+F5 e veja o Console (F12) para detalhes.");
+        }, 1500);
+      });
+    })();
+  </script>
+</body>
+</html>

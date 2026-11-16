@@ -1,0 +1,97 @@
+{
+ "id": "ARG",
+ "theme": {
+  "scenery": "pampa_andes",
+  "palette": [
+   "#2b2212",
+   "#644f2b",
+   "#f2c94c",
+   "#ba985e"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "coquena",
+    "name": "Coquena",
+    "legend": "Guardião andino dos animais selvagens; pune quem caça demais."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "nahuelito",
+    "name": "Nahuelito",
+    "legend": "Suposto monstro do lago Nahuel Huapi, na Patagônia."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "futre",
+    "name": "El Futre",
+    "legend": "Figura do diabo, elegante e assustadora, do folclore dos campos."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "almamula",
+    "name": "Almamula",
+    "legend": "Mulher que vira animal-fantasma como castigo, no noroeste do país."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "runa_uturuncu",
+    "name": "Runa Uturuncu",
+    "legend": "Homem-onça das lendas andinas do noroeste argentino."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "ucumar",
+    "name": "Ucumar",
+    "legend": "Gigante peludo que vive nas serras de Tucumán."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "salamanca",
+    "name": "Brujas da Salamanca",
+    "legend": "Bruxas que se reúnem em cavernas escuras para rituais."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "familiar",
+    "name": "El Familiar",
+    "legend": "Cão enorme e demoníaco que ronda os canaviais de Tucumán."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos à beira d'água."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "lobizon",
+    "name": "Lobizón",
+    "legend": "Sétimo filho homem que vira lobo nas noites de lua cheia."
+   },
+   "boss": true,
+   "bossTitle": "El Rey de la Luna Llena",
+   "rewardPower": "golpe_duplo"
+  }
+ ]
+}

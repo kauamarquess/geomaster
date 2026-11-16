@@ -1,0 +1,97 @@
+{
+ "id": "RUS",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f1f2e",
+   "#24496b",
+   "#f2c94c",
+   "#538ec6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "domovoi",
+    "name": "Domovoi",
+    "legend": "Espírito protetor do lar russo, que castiga a desordem."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "kikimora",
+    "name": "Kikimora",
+    "legend": "Espírito feminino que mora atrás do fogão e perturba as casas bagunçadas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "rusalka",
+    "name": "Rusalka",
+    "legend": "Espírito feminino das águas, de beleza perigosa."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "vodyanoy",
+    "name": "Vodyanoy",
+    "legend": "Velho das águas, de pele esverdeada, que afoga imprudentes."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "leshy",
+    "name": "Leshy",
+    "legend": "Senhor da floresta, que confunde e protege os animais."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "likho",
+    "name": "Likho",
+    "legend": "Espírito de um olho só que traz azar e desgraça."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "solovei_razboinik",
+    "name": "Solovei Razboinik",
+    "legend": "O Rouxinol Ladrão, cujo assobio derruba viajantes."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "zmey_gorynych",
+    "name": "Zmey Gorynych",
+    "legend": "Dragão de três cabeças, derrotado pelos heróis."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "koschei",
+    "name": "Koschei",
+    "legend": "O Imortal, mago cuja morte está escondida em uma agulha."
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "baba_yaga",
+    "name": "Baba Yaga",
+    "legend": "Bruxa da casa sobre pernas de galinha, nas florestas russas."
+   },
+   "bossTitle": "Baba Yaga",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

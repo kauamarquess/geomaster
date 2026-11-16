@@ -1,0 +1,105 @@
+{
+ "id": "BHS",
+ "theme": {
+  "scenery": "caribe",
+  "palette": [
+   "#2e2c0f",
+   "#6b6624",
+   "#f2c94c",
+   "#c6be53"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "chickcharney",
+    "name": "Chickcharney",
+    "legend": "Criatura de três dedos que vive nos pinheiros da ilha Andros e traz sorte ou azar."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Bahamas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sentinela_de_nassau",
+    "name": "Sentinela de Nassau",
+    "legend": "Criatura inventada que vigia Nassau, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "lusca",
+    "name": "Lusca",
+    "legend": "Monstro marinho gigante das cavernas submersas de Andros."
+   },
+   "bossTitle": "Lusca",
+   "rewardPower": "fogo_fatuo"
+  }
+ ]
+}

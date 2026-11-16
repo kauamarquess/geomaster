@@ -1,0 +1,102 @@
+{
+ "id": "VEN",
+ "theme": {
+  "scenery": "llanos_tepuis",
+  "palette": [
+   "#31230c",
+   "#73521b",
+   "#f2c94c",
+   "#d39d45"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "carreta",
+    "name": "La Carreta Nocturna",
+    "legend": "Carroça fantasma que rangendo anuncia desgraça pelas ruas."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "sayona",
+    "name": "La Sayona",
+    "legend": "Mulher vingativa que assombra homens infiéis nos Llanos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "anima_sola",
+    "name": "Ánima Sola",
+    "legend": "Alma penada que pede orações e aparece nas noites."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "tepui",
+    "name": "Guardião do Tepui",
+    "legend": "Criatura inventada, inspirada nas montanhas de topo plano.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "jaguar",
+    "name": "Jaguar do Roraima",
+    "legend": "Criatura inventada, inspirada na fauna da Gran Sabana.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "catatumbo",
+    "name": "Relâmpago do Catatumbo",
+    "legend": "Criatura inventada, inspirada na tempestade eterna do lago de Maracaibo.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "orinoco",
+    "name": "Boto do Orinoco",
+    "legend": "Criatura inventada, inspirada nos golfinhos do rio Orinoco.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "salto",
+    "name": "Espírito do Salto Ángel",
+    "legend": "Criatura inventada, inspirada na maior queda d'água do mundo.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "maria_lionza",
+    "name": "María Lionza",
+    "legend": "Espírito da natureza venerado em Yaracuy, protetora dos animais."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "silbon",
+    "name": "El Silbón",
+    "legend": "Fantasma assobiador dos Llanos, que carrega ossos num saco."
+   },
+   "boss": true,
+   "bossTitle": "O Assobio da Noite",
+   "rewardPower": "passo_leve"
+  }
+ ]
+}

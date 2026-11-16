@@ -1,0 +1,23 @@
+{
+  "BRA": ["São Paulo", "Rio de Janeiro", "Salvador"], "ARG": ["Buenos Aires", "Córdoba", "Mendoza"],
+  "CHL": ["Santiago", "Valparaíso"], "PER": ["Lima", "Cusco", "Arequipa"],
+  "COL": ["Bogotá", "Medellín", "Cartagena"], "MEX": ["Mexico City", "Guadalajara", "Monterrey"],
+  "USA": ["New York City", "San Francisco", "Chicago"], "CAN": ["Toronto", "Vancouver", "Montreal"],
+  "GBR": ["London", "Edinburgh", "Manchester"], "FRA": ["Paris", "Lyon", "Marseille"],
+  "DEU": ["Berlin", "Munich", "Hamburg"], "ITA": ["Rome", "Venice", "Milan"],
+  "ESP": ["Madrid", "Barcelona", "Seville"], "PRT": ["Lisbon", "Porto", "Coimbra"],
+  "NLD": ["Amsterdam", "Rotterdam"], "BEL": ["Brussels", "Bruges"], "CHE": ["Zurich", "Geneva", "Bern"],
+  "AUT": ["Vienna", "Salzburg"], "GRC": ["Athens", "Thessaloniki"], "TUR": ["Istanbul", "Ankara", "Izmir"],
+  "RUS": ["Moscow", "Saint Petersburg"], "POL": ["Warsaw", "Kraków"], "SWE": ["Stockholm", "Gothenburg"],
+  "NOR": ["Oslo", "Bergen"], "DNK": ["Copenhagen", "Aarhus"], "FIN": ["Helsinki"], "IRL": ["Dublin", "Cork"],
+  "CZE": ["Prague", "Brno"], "HUN": ["Budapest"], "EGY": ["Cairo", "Alexandria"],
+  "ZAF": ["Cape Town", "Johannesburg", "Durban"], "MAR": ["Marrakesh", "Casablanca"],
+  "NGA": ["Lagos", "Abuja"], "KEN": ["Nairobi", "Mombasa"], "ETH": ["Addis Ababa"],
+  "IND": ["Mumbai", "Delhi", "Bangalore"], "CHN": ["Beijing", "Shanghai", "Chengdu"],
+  "JPN": ["Tokyo", "Kyoto", "Osaka"], "KOR": ["Seoul", "Busan"], "THA": ["Bangkok", "Chiang Mai"],
+  "VNM": ["Hanoi", "Ho Chi Minh City"], "IDN": ["Jakarta", "Bandung", "Yogyakarta"],
+  "PHL": ["Manila", "Cebu City"], "ARE": ["Dubai", "Abu Dhabi"], "SAU": ["Riyadh", "Jeddah"],
+  "ISR": ["Jerusalem", "Tel Aviv"], "IRN": ["Tehran", "Isfahan"], "AUS": ["Sydney", "Melbourne", "Perth"],
+  "NZL": ["Auckland", "Wellington"], "URY": ["Montevideo"], "PRY": ["Asunción"], "BOL": ["La Paz", "Sucre"],
+  "ECU": ["Quito", "Guayaquil"], "VEN": ["Caracas"], "CUB": ["Havana"], "PAN": ["Panama City"], "CRI": ["San José"]
+}

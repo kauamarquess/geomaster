@@ -1,0 +1,101 @@
+{
+ "id": "EGY",
+ "theme": {
+  "scenery": "savana",
+  "palette": [
+   "#2b2e0f",
+   "#656b24",
+   "#f2c94c",
+   "#bcc653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "bennu",
+    "name": "Bennu",
+    "legend": "Ave sagrada egípcia ligada ao renascimento e ao Sol."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "serket",
+    "name": "Serket",
+    "legend": "Deusa-escorpião egípcia, protetora e perigosa."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "sobek",
+    "name": "Sobek",
+    "legend": "Deus-crocodilo do Nilo, de grande força."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "esfinge",
+    "name": "Esfinge",
+    "legend": "Guardiã de corpo de leão e cabeça humana."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "ammit",
+    "name": "Ammit",
+    "legend": "Devoradora de corações indignos no julgamento dos mortos."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Egito.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Egito.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Egito.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sentinela_de_cairo",
+    "name": "Sentinela de Cairo",
+    "legend": "Criatura inventada que vigia Cairo, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "apep",
+    "name": "Apep",
+    "legend": "Serpente do caos que ataca a barca do Sol todas as noites."
+   },
+   "bossTitle": "Apep",
+   "rewardPower": "dica_unica"
+  }
+ ]
+}

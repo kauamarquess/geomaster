@@ -1,0 +1,98 @@
+{
+ "id": "GTM",
+ "theme": {
+  "scenery": "maia_vulcoes",
+  "palette": [
+   "#122b1c",
+   "#2a6542",
+   "#f2c94c",
+   "#5dbb83"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tatuana",
+    "name": "La Tatuana",
+    "legend": "Bruxa colonial da Cidade da Guatemala que fugiu da execução com um desenho."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "sombreron",
+    "name": "El Sombrerón",
+    "legend": "Homem baixinho de chapéu grande que seduz moças com o violão."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos à beira d'água."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "cadejo",
+    "name": "El Cadejo",
+    "legend": "Cão espectral, branco protetor ou negro maligno, que rodeia os noctívagos."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "zipacna",
+    "name": "Zipacná",
+    "legend": "Gigante do Popol Vuh que fazia montanhas, derrotado pelos Gêmeos Heróis."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "cabracan",
+    "name": "Cabracán",
+    "legend": "Gigante do Popol Vuh que abalava as montanhas, vencido pelos Gêmeos Heróis."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "camazotz",
+    "name": "Camazotz",
+    "legend": "Morcego-demônio da Casa dos Morcegos de Xibalbá, no Popol Vuh."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "vucub",
+    "name": "Vucub Caquix",
+    "legend": "Ave gigante e vaidosa do Popol Vuh que se fazia passar pelo sol."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "quetzal",
+    "name": "Quetzal Sombrio",
+    "legend": "Criatura inventada, inspirada no quetzal, ave nacional da Guatemala.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "xibalba",
+    "name": "Senhores de Xibalbá",
+    "legend": "Senhores do submundo maia, derrotados pelos Gêmeos Heróis no Popol Vuh."
+   },
+   "boss": true,
+   "bossTitle": "Senhores do Submundo Maia",
+   "rewardPower": "congelar_tempo"
+  }
+ ]
+}

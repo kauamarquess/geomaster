@@ -1,0 +1,97 @@
+{
+ "id": "JPN",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#130f2e",
+   "#2c246b",
+   "#f2c94c",
+   "#6053c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "kappa",
+    "name": "Kappa",
+    "legend": "Criatura aquática de casco e prato na cabeça que afoga os descuidados."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "tanuki",
+    "name": "Tanuki",
+    "legend": "Guaxinim-cão que muda de forma e prega peças."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "rokurokubi",
+    "name": "Rokurokubi",
+    "legend": "Mulher de pescoço que se estica à noite."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "jorogumo",
+    "name": "Jorōgumo",
+    "legend": "Aranha que se disfarça de mulher bela para capturar vítimas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "yurei",
+    "name": "Yūrei",
+    "legend": "Fantasma de quem morreu com rancor ou tristeza."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "tengu",
+    "name": "Tengu",
+    "legend": "Criatura de nariz longo e asas, mestre das artes marciais."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "kitsune",
+    "name": "Kitsune",
+    "legend": "Raposa mágica de várias caudas, mensageira e trapaceira."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "oni",
+    "name": "Oni",
+    "legend": "Ogro de chifres e clava que castiga os maus."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gashadokuro",
+    "name": "Gashadokuro",
+    "legend": "Esqueleto gigante formado por ossos de mortos sem sepultura."
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "yamata_no_orochi",
+    "name": "Yamata no Orochi",
+    "legend": "Serpente gigante de oito cabeças, vencida por Susanoo."
+   },
+   "bossTitle": "Yamata no Orochi",
+   "rewardPower": "tempo_extra"
+  }
+ ]
+}

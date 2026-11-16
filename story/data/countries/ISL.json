@@ -1,0 +1,100 @@
+{
+ "id": "ISL",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#132e0f",
+   "#2d6b24",
+   "#f2c94c",
+   "#62c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "nykur",
+    "name": "Nykur",
+    "legend": "Cavalo das águas que arrasta quem o monta para o fundo dos lagos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "huldufolk",
+    "name": "Huldufólk",
+    "legend": "Povo escondido das rochas islandesas, que castiga quem o ofende."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "draugr",
+    "name": "Draugr",
+    "legend": "Morto-vivo que guarda tesouros e assombra os vivos."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "jolakotturinn",
+    "name": "Jólakötturinn",
+    "legend": "Gato gigante que devora quem não ganha roupa nova no Natal."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "troll",
+    "name": "Tröll",
+    "legend": "Gigante de pedra que vira estátua ao nascer do sol."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "lagarfljotsormur",
+    "name": "Lagarfljótsormur",
+    "legend": "Serpente-monstro do lago Lagarfljót, no leste da Islândia."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sentinela_de_reykjavik",
+    "name": "Sentinela de Reykjavik",
+    "legend": "Criatura inventada que vigia Reykjavik, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Islândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Islândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "gryla",
+    "name": "Grýla",
+    "legend": "Ogra que leva crianças desobedientes, mãe dos trolls do Natal."
+   },
+   "bossTitle": "Grýla",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

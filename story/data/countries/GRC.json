@@ -1,0 +1,97 @@
+{
+ "id": "GRC",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f2e13",
+   "#246b2c",
+   "#f2c94c",
+   "#53c660"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "harpia",
+    "name": "Harpia",
+    "legend": "Monstro de rosto de mulher e corpo de ave, que rouba comida."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "sereia",
+    "name": "Sereia",
+    "legend": "Mulher-pássaro que atrai marinheiros com seu canto."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "quimera",
+    "name": "Quimera",
+    "legend": "Monstro com cabeça de leão, corpo de cabra e cauda de serpente."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "cerbero",
+    "name": "Cérbero",
+    "legend": "Cão de três cabeças que guarda o Hades."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "ciclope",
+    "name": "Ciclope",
+    "legend": "Gigante de um olho só, forjador e pastor."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "medusa",
+    "name": "Medusa",
+    "legend": "Górgona de cabelos de serpente, cujo olhar petrifica."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "minotauro",
+    "name": "Minotauro",
+    "legend": "Monstro com cabeça de touro no labirinto de Creta."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "esfinge",
+    "name": "Esfinge",
+    "legend": "Monstro de corpo de leão que propõe enigmas."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "hidra_de_lerna",
+    "name": "Hidra de Lerna",
+    "legend": "Serpente de muitas cabeças que renascem."
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "tifao",
+    "name": "Tifão",
+    "legend": "Pai de todos os monstros, que desafiou os deuses."
+   },
+   "bossTitle": "Tifão",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

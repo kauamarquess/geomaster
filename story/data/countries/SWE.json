@@ -1,0 +1,102 @@
+{
+ "id": "SWE",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#1b2e0f",
+   "#3e6b24",
+   "#f2c94c",
+   "#7dc653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tomte",
+    "name": "Tomte",
+    "legend": "Duende protetor das fazendas suecas, que fica irritado se for ignorado."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "nacken",
+    "name": "Näcken",
+    "legend": "Espírito das águas que toca violino e atrai quem o ouve."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "skogsra",
+    "name": "Skogsrå",
+    "legend": "Mulher da floresta, bela de frente e oca nas costas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "mara",
+    "name": "Mara",
+    "legend": "Espírito noturno que senta sobre o peito de quem dorme."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Suécia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Suécia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Suécia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Suécia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Suécia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "lindorm",
+    "name": "Lindorm",
+    "legend": "Dragão serpente das lendas escandinavas."
+   },
+   "bossTitle": "Lindorm",
+   "rewardPower": "dica_unica"
+  }
+ ]
+}

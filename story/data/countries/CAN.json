@@ -1,0 +1,98 @@
+{
+ "id": "CAN",
+ "theme": {
+  "scenery": "norte",
+  "palette": [
+   "#0f2e17",
+   "#246b36",
+   "#f2c94c",
+   "#53c670"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "ogopogo",
+    "name": "Ogopogo",
+    "legend": "Monstro do lago Okanagan, na Colúmbia Britânica."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "cadborosaurus",
+    "name": "Cadborosaurus",
+    "legend": "Serpente marinha avistada na costa da Colúmbia Britânica, apelidada de Caddy."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "memphre",
+    "name": "Memphré",
+    "legend": "Monstro do lago Memphrémagog, entre o Quebec e Vermont."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "chasse_galerie",
+    "name": "Chasse-galerie",
+    "legend": "Canoa voadora do folclore do Quebec, conduzida por quem faz pacto com o diabo."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "rougarou",
+    "name": "Rougarou",
+    "legend": "Lobisomem do folclore francófono da América do Norte."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "qalupalik",
+    "name": "Qalupalik",
+    "legend": "Criatura inuit de pele esverdeada que leva crianças que se afastam do gelo."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "mishipeshu",
+    "name": "Mishipeshu",
+    "legend": "Pantera aquática dos Grandes Lagos, na tradição anishinaabe."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "sasquatch",
+    "name": "Sasquatch",
+    "legend": "Gigante peludo das florestas, de tradições dos povos da costa oeste."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Canadá.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "wendigo",
+    "name": "Wendigo",
+    "legend": "Espírito faminto e gelado do inverno, nas tradições algonquinas."
+   },
+   "bossTitle": "Wendigo",
+   "rewardPower": "sequencia_inicial"
+  }
+ ]
+}

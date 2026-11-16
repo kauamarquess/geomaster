@@ -1,0 +1,105 @@
+{
+ "id": "PAN",
+ "theme": {
+  "scenery": "istmo_canal",
+  "palette": [
+   "#0d2730",
+   "#1f5a70",
+   "#f2c94c",
+   "#4babcd"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tucano",
+    "name": "Tucano do Istmo",
+    "legend": "Criatura inventada, inspirada nas aves da floresta panamenha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "tulivieja",
+    "name": "Tulivieja",
+    "legend": "Criatura peluda dos rios e lagos panamenhos, de choro assustador."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "sapo",
+    "name": "Sapo Dourado",
+    "legend": "Criatura inventada, inspirada no sapo-dourado, símbolo do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos à beira d'água."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "harpia",
+    "name": "Harpia do Darién",
+    "legend": "Criatura inventada, inspirada na harpia, ave nacional do Panamá.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "preguica",
+    "name": "Preguiça Gigante",
+    "legend": "Criatura inventada, inspirada nas florestas do istmo.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "mola",
+    "name": "Espírito da Mola",
+    "legend": "Criatura inventada, inspirada nos tecidos coloridos do povo guna.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "navio",
+    "name": "Navio Fantasma do Canal",
+    "legend": "Criatura inventada, inspirada nos navios que cruzam o canal.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "portobelo",
+    "name": "Espectro de Portobelo",
+    "legend": "Criatura inventada, inspirada nos fortes coloniais da costa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "canal",
+    "name": "Guardião do Canal",
+    "legend": "Criatura inventada, inspirada no canal que liga dois oceanos.",
+    "invented": true
+   },
+   "boss": true,
+   "bossTitle": "O Guardião do Canal",
+   "rewardPower": "escudo_lenda"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "id": "UKR",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f1c2e",
+   "#24416b",
+   "#f2c94c",
+   "#5383c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "domovyk",
+    "name": "Domovyk",
+    "legend": "Espírito protetor da casa ucraniana."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "lisovyk",
+    "name": "Lisovyk",
+    "legend": "Espírito da floresta que confunde caminhantes."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "mavka",
+    "name": "Mavka",
+    "legend": "Espírito feminino da floresta, de beleza perigosa."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "vodyanyk",
+    "name": "Vodyanyk",
+    "legend": "Espírito das águas que afoga imprudentes."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "poludnitsa",
+    "name": "Poludnitsa",
+    "legend": "Dama do Meio-Dia que castiga quem trabalha no campo."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "chuhaister",
+    "name": "Chuhaister",
+    "legend": "Gigante peludo dos Cárpatos, caçador solitário."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "vovkulaka",
+    "name": "Vovkulaka",
+    "legend": "Lobisomem do folclore ucraniano."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Ucrânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Ucrânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "zmiy",
+    "name": "Zmiy",
+    "legend": "Dragão ou serpente dos contos ucranianos."
+   },
+   "bossTitle": "Zmiy",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

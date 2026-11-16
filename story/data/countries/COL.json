@@ -1,0 +1,97 @@
+{
+ "id": "COL",
+ "theme": {
+  "scenery": "selva_rio",
+  "palette": [
+   "#0f2e1d",
+   "#236b44",
+   "#f2c94c",
+   "#52c686"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "candileja",
+    "name": "La Candileja",
+    "legend": "Fantasma envolto em chamas, na tradição popular de Antioquia."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "tunda",
+    "name": "La Tunda",
+    "legend": "Mulher da mata do Pacífico que atrai e perde quem a segue."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "patasola",
+    "name": "La Patasola",
+    "legend": "Mulher de uma perna só que atrai caçadores na selva."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "cura_sin_cabeza",
+    "name": "Cura sin Cabeza",
+    "legend": "Padre sem cabeça que percorre ruas e caminhos à noite."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "hombre_caiman",
+    "name": "El Hombre Caimán",
+    "legend": "Pescador transformado em caimão, na lenda do rio Magdalena."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "madremonte",
+    "name": "Madremonte",
+    "legend": "Espírito feminino da floresta que castiga quem a destrói."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "duende",
+    "name": "El Duende",
+    "legend": "Ser travesso que confunde e seduz pessoas nas matas."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "mohana",
+    "name": "La Mohana",
+    "legend": "Ninfa dos rios, parceira lendária do Mohán."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "mohan",
+    "name": "El Mohán",
+    "legend": "Espírito dos rios, guardião do ouro e das águas, de origem indígena."
+   },
+   "boss": true,
+   "bossTitle": "O Senhor dos Rios",
+   "rewardPower": "cura_leve"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "PER",
+ "theme": {
+  "scenery": "andes_amazonia",
+  "palette": [
+   "#231528",
+   "#52325d",
+   "#f2c94c",
+   "#9e6aaf"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "muki",
+    "name": "Muki",
+    "legend": "Duendezinho das minas andinas que cuida dos tesouros."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "ayaymama",
+    "name": "Ayaymama",
+    "legend": "Ave amazônica de canto triste, vista como alma penada."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "runamula",
+    "name": "Runamula",
+    "legend": "Mulher que vira mula de fogo como castigo, nos Andes."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "tunche",
+    "name": "Tunche",
+    "legend": "Espírito da Amazônia cujo assobio anuncia morte ou azar."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "pishtaco",
+    "name": "Pishtaco",
+    "legend": "Figura andina que ataca viajantes para roubar sua gordura."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "jarjacha",
+    "name": "Jarjacha",
+    "legend": "Demônio andino com corpo de homem e cabeça de lhama."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "chullachaqui",
+    "name": "Chullachaqui",
+    "legend": "Guardião da selva que imita pessoas queridas para perdê-las."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "sachamama",
+    "name": "Sachamama",
+    "legend": "Serpente gigante da selva, parecida com um tronco caído."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "yacumama",
+    "name": "Yacumama",
+    "legend": "Serpente gigante, mãe das águas amazônicas."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "amaru",
+    "name": "Amaru",
+    "legend": "Serpente-dragão andina, símbolo de poder na cultura inca."
+   },
+   "boss": true,
+   "bossTitle": "A Serpente Inca",
+   "rewardPower": "tempo_extra"
+  }
+ ]
+}

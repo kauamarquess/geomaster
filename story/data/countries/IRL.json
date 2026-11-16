@@ -1,0 +1,101 @@
+{
+ "id": "IRL",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f1d2e",
+   "#24436b",
+   "#f2c94c",
+   "#5385c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "leprechaun",
+    "name": "Leprechaun",
+    "legend": "Duende sapateiro que guarda um pote de ouro."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "puca",
+    "name": "Púca",
+    "legend": "Criatura que muda de forma e confunde viajantes nas noites."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "banshee",
+    "name": "Banshee",
+    "legend": "Espírito feminino cujo lamento anuncia uma morte na família."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "cu_sidhe",
+    "name": "Cú Sídhe",
+    "legend": "Cão feérico verde, de pelo longo, que vaga pelas colinas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "dullahan",
+    "name": "Dullahan",
+    "legend": "Cavaleiro sem cabeça que anuncia a morte."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre República da Irlanda.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa República da Irlanda.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de República da Irlanda.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por República da Irlanda.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "balor",
+    "name": "Balor",
+    "legend": "Rei dos Fomorianos, gigante de um olho só, de olhar mortífero."
+   },
+   "bossTitle": "Balor",
+   "rewardPower": "golpe_duplo"
+  }
+ ]
+}

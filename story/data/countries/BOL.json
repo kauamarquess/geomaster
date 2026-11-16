@@ -1,0 +1,100 @@
+{
+ "id": "BOL",
+ "theme": {
+  "scenery": "altiplano",
+  "palette": [
+   "#2d1c10",
+   "#6a4225",
+   "#f2c94c",
+   "#c48455"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "anchanchu",
+    "name": "Anchanchu",
+    "legend": "Espírito travesso e maligno do folclore aimará."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "kharisiri",
+    "name": "Kharisiri",
+    "legend": "Figura andina que rouba a gordura de suas vítimas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "ukuku",
+    "name": "Ukuku",
+    "legend": "Homem-urso das festas e lendas andinas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "condenado",
+    "name": "Condenado",
+    "legend": "Alma penada que vaga pelas montanhas andinas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "jichi",
+    "name": "Jichi",
+    "legend": "Serpente aquática das lagoas e rios do oriente boliviano."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "condor",
+    "name": "Cóndor de Sal",
+    "legend": "Criatura inventada, inspirada no Salar de Uyuni.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "supay",
+    "name": "Supay",
+    "legend": "Espírito do mundo subterrâneo na tradição quíchua e aimará."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "lhama",
+    "name": "Lhama Fantasma",
+    "legend": "Criatura inventada, inspirada nos rebanhos do altiplano.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "titicaca",
+    "name": "Espírito do Titicaca",
+    "legend": "Criatura inventada, inspirada no lago sagrado dos Andes.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "tio_mina",
+    "name": "Tío de la Mina",
+    "legend": "Senhor das minas de Potosí, a quem os mineiros fazem oferendas."
+   },
+   "boss": true,
+   "bossTitle": "O Senhor da Mina",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

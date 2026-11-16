@@ -1,0 +1,101 @@
+{
+ "id": "ITA",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#200f2e",
+   "#4b246b",
+   "#f2c94c",
+   "#9253c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "mazzamurello",
+    "name": "Mazzamurello",
+    "legend": "Duende travesso da tradição napolitana e romana."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "monaciello",
+    "name": "Monaciello",
+    "legend": "Espírito de monge encapuzado que traz sorte ou azar às casas napolitanas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "befana",
+    "name": "Befana",
+    "legend": "Bruxa que entrega presentes na noite da Epifania."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "janara",
+    "name": "Janara",
+    "legend": "Bruxa de Benevento que se reunia sob a nogueira."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "lupo_mannaro",
+    "name": "Lupo Mannaro",
+    "legend": "Lobisomem do folclore italiano."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Itália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Itália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Itália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Itália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "orco",
+    "name": "Orco",
+    "legend": "Ogro devorador de gente, presente nos contos italianos."
+   },
+   "bossTitle": "Orco",
+   "rewardPower": "passo_leve"
+  }
+ ]
+}

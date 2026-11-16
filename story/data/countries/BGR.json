@@ -1,0 +1,102 @@
+{
+ "id": "BGR",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#2e0f15",
+   "#6b2432",
+   "#f2c94c",
+   "#c6536a"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "talasam",
+    "name": "Talasam",
+    "legend": "Espírito do folclore búlgaro que atormenta famílias ou protege tesouros."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "karakondzul",
+    "name": "Karakondžul",
+    "legend": "Demônio dos Bálcãs de aparência peluda."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "samodiva",
+    "name": "Samodiva",
+    "legend": "Fada das florestas búlgaras, de dança hipnótica."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "zmey",
+    "name": "Zmey",
+    "legend": "Dragão dos contos búlgaros, ligado às tempestades."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Bulgária.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Bulgária.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Bulgária.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Bulgária.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Bulgária.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "lamya",
+    "name": "Lamya",
+    "legend": "Monstro de várias cabeças do folclore búlgaro."
+   },
+   "bossTitle": "Lamya",
+   "rewardPower": "escudo_lenda"
+  }
+ ]
+}

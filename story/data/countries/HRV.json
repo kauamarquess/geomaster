@@ -1,0 +1,101 @@
+{
+ "id": "HRV",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f2e16",
+   "#246b33",
+   "#f2c94c",
+   "#53c66c"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "mora",
+    "name": "Mora",
+    "legend": "Espírito noturno que senta no peito de quem dorme."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "striga",
+    "name": "Štriga",
+    "legend": "Bruxa croata que ataca à noite."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "bukavac",
+    "name": "Bukavac",
+    "legend": "Monstro de lagos e pântanos de rugido assustador."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "vila",
+    "name": "Vila",
+    "legend": "Fada eslava dos bosques e das montanhas, bela e perigosa."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "vukodlak",
+    "name": "Vukodlak",
+    "legend": "Lobisomem ou vampiro eslavo."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Croácia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Croácia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Croácia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Croácia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "veli_joze",
+    "name": "Veli Jože",
+    "legend": "Gigante da Ístria que protege os camponeses."
+   },
+   "bossTitle": "Veli Jože",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

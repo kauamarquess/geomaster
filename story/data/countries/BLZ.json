@@ -1,0 +1,104 @@
+{
+ "id": "BLZ",
+ "theme": {
+  "scenery": "recife_floresta",
+  "palette": [
+   "#0d2d30",
+   "#1e6870",
+   "#f2c94c",
+   "#4ac1ce"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tata",
+    "name": "Tata Duende",
+    "legend": "Duende da floresta de Belize, de pés virados para trás, que guarda as matas."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "raia",
+    "name": "Raia do Blue Hole",
+    "legend": "Criatura inventada, inspirada na grande caverna submersa do litoral.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "sisimito",
+    "name": "Sisimito",
+    "legend": "Gigante peludo da floresta, de pés virados para trás, que rapta caçadores."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "jaguar",
+    "name": "Jaguar do Cockscomb",
+    "legend": "Criatura inventada, inspirada na reserva de jaguares do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "manati",
+    "name": "Peixe-boi Fantasma",
+    "legend": "Criatura inventada, inspirada nos peixes-boi da costa.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "tubarao",
+    "name": "Tubarão-Baleia",
+    "legend": "Criatura inventada, inspirada nos tubarões-baleia do recife.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "tucano",
+    "name": "Tucano-de-Bico-Quilhado",
+    "legend": "Criatura inventada, inspirada na ave nacional.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "caracol",
+    "name": "Guardião de Caracol",
+    "legend": "Criatura inventada, inspirada no sítio maia de Caracol.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "caye",
+    "name": "Pirata de Caye Caulker",
+    "legend": "Criatura inventada, inspirada nas ilhas do litoral.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "xtabai",
+    "name": "Xtabai",
+    "legend": "Mulher misteriosa das matas maias que atrai homens para dentro da floresta."
+   },
+   "boss": true,
+   "bossTitle": "A Sedutora da Floresta",
+   "rewardPower": "sequencia_inicial"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "ALB",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#2e180f",
+   "#6b3824",
+   "#f2c94c",
+   "#c67353"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "zana",
+    "name": "Zana",
+    "legend": "Fada das montanhas albanesas, protetora dos bosques e dos heróis."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "shtriga",
+    "name": "Shtriga",
+    "legend": "Bruxa albanesa que suga a vitalidade das crianças."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "lugat",
+    "name": "Lugat",
+    "legend": "Espírito vampiresco do folclore albanês."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "bolla",
+    "name": "Bolla",
+    "legend": "Serpente que, segundo a lenda, ganha chifres e cresce em lugares escondidos."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Albânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Albânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Albânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Albânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Albânia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "kulshedra",
+    "name": "Kulshedra",
+    "legend": "Dragão-demônio que traz secas e tempestades, vencido por heróis."
+   },
+   "bossTitle": "Kulshedra",
+   "rewardPower": "tempo_extra"
+  }
+ ]
+}

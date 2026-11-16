@@ -1,0 +1,103 @@
+{
+ "id": "KOR",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#142e0f",
+   "#2e6b24",
+   "#f2c94c",
+   "#64c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "dokkaebi",
+    "name": "Dokkaebi",
+    "legend": "Duende de chifres que desafia humanos em jogos e lutas."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "cheonyeo_gwishin",
+    "name": "Cheonyeo Gwishin",
+    "legend": "Fantasma de virgem que morreu sem casar."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "dalgyal_gwishin",
+    "name": "Dalgyal Gwishin",
+    "legend": "Fantasma sem rosto, de cabeça lisa como um ovo."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_sentinela_de_seoul",
+    "name": "Sentinela de Seoul",
+    "legend": "Criatura inventada que vigia Seoul, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Coreia do Sul.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Coreia do Sul.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Coreia do Sul.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Coreia do Sul.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Coreia do Sul.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "gumiho",
+    "name": "Gumiho",
+    "legend": "Raposa de nove caudas que seduz humanos."
+   },
+   "bossTitle": "Gumiho",
+   "rewardPower": "fogo_fatuo"
+  }
+ ]
+}

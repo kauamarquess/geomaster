@@ -1,0 +1,14 @@
+/* Painel "Conheça o país" exibido no feedback de cada pergunta. */
+.country-card{margin-top:18px;padding-top:18px;border-top:1px dashed var(--line)}
+.country-card[hidden]{display:none}
+.country-card h4{margin:0 0 4px;font-size:16px;color:var(--blue-dark)}
+.country-fact{margin:12px 0;padding:12px 14px;border-radius:12px;background:#eef4ff;font-size:14px;line-height:1.55;color:var(--ink)}
+.country-fact b{color:var(--blue-dark)}
+.country-desc{margin:0;font-size:13px;line-height:1.7;color:var(--muted)}
+.country-source{margin:6px 0 0;font-size:11px;color:#8292aa}
+.country-source a{color:inherit}
+.country-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:14px}
+.country-gallery figure{margin:0;border-radius:12px;overflow:hidden;background:#e8eef8;border:1px solid var(--line)}
+.country-gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.country-gallery figcaption{padding:6px 10px;font-size:12px;font-weight:600;color:var(--blue-dark)}
+.country-loading{font-size:12px;color:#8292aa;margin:8px 0 0}

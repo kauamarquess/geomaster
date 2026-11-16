@@ -1,0 +1,103 @@
+{
+ "id": "AUT",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#2e0f27",
+   "#6b245a",
+   "#f2c94c",
+   "#c653ab"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "perchta",
+    "name": "Perchta",
+    "legend": "Mulher da floresta que premia os esforçados e castiga os preguiçosos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "wassermann",
+    "name": "Wassermann",
+    "legend": "Homem das águas dos lagos alpinos que arrasta banhistas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "lindwurm_de_klagenfurt",
+    "name": "Lindwurm de Klagenfurt",
+    "legend": "Dragão que a lenda diz ter ameaçado a cidade de Klagenfurt."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Áustria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Áustria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Áustria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Áustria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Áustria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Áustria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "krampus",
+    "name": "Krampus",
+    "legend": "Criatura de chifres que punia as crianças levadas, na tradição alpina."
+   },
+   "bossTitle": "Krampus",
+   "rewardPower": "dica_unica"
+  }
+ ]
+}

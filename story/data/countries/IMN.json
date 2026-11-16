@@ -1,0 +1,103 @@
+{
+ "id": "IMN",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#242e0f",
+   "#546b24",
+   "#f2c94c",
+   "#a1c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "fenodyree",
+    "name": "Fenodyree",
+    "legend": "Criatura peluda e forte da Ilha de Man, que realiza trabalhos para os fazendeiros."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "cabyll_ushtey",
+    "name": "Cabyll-ushtey",
+    "legend": "Cavalo das águas manx, que arrasta cavaleiros para o mar."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "buggane",
+    "name": "Buggane",
+    "legend": "Ogro encapuzado que assombra as igrejas em ruínas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Ilha de Man.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Ilha de Man.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Ilha de Man.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Ilha de Man.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_sentinela_de_douglas",
+    "name": "Sentinela de Douglas",
+    "legend": "Criatura inventada que vigia Douglas, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Ilha de Man.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "moddey_dhoo",
+    "name": "Moddey Dhoo",
+    "legend": "Cão negro espectral do castelo de Peel."
+   },
+   "bossTitle": "Moddey Dhoo",
+   "rewardPower": "escudo_lenda"
+  }
+ ]
+}

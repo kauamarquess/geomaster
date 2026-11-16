@@ -1,0 +1,103 @@
+{
+ "id": "HUN",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#0f1a2e",
+   "#243d6b",
+   "#f2c94c",
+   "#537bc6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "liderc",
+    "name": "Lidérc",
+    "legend": "Espírito de fogo que visita os solitários e os seduz."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "garaboncias",
+    "name": "Garabonciás",
+    "legend": "Mago que cavalga as nuvens e traz tempestades."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "sarkany",
+    "name": "Sárkány",
+    "legend": "Dragão de muitas cabeças dos contos húngaros."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_sentinela_de_budapest",
+    "name": "Sentinela de Budapest",
+    "legend": "Criatura inventada que vigia Budapest, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Hungria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Hungria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Hungria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Hungria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Hungria.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "turul",
+    "name": "Turul",
+    "legend": "Ave de rapina gigante, ancestral mítica dos húngaros."
+   },
+   "bossTitle": "Turul",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

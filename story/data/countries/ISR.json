@@ -1,0 +1,103 @@
+{
+ "id": "ISR",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#2e0f1d",
+   "#6b2444",
+   "#f2c94c",
+   "#c65387"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "dibuk",
+    "name": "Dibuk",
+    "legend": "Espírito inquieto que se apossa de pessoas, na tradição judaica."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "ziz",
+    "name": "Ziz",
+    "legend": "Ave gigante que cobre o céu, na tradição judaica."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "beemote",
+    "name": "Beemote",
+    "legend": "Monstro terrestre gigantesco da tradição judaica."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Israel.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Israel.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Israel.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Israel.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Israel.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sentinela_de_jerusalem",
+    "name": "Sentinela de Jerusalem",
+    "legend": "Criatura inventada que vigia Jerusalem, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "leviata",
+    "name": "Leviatã",
+    "legend": "Monstro marinho gigante do folclore bíblico."
+   },
+   "bossTitle": "Leviatã",
+   "rewardPower": "sequencia_inicial"
+  }
+ ]
+}

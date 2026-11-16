@@ -1,0 +1,102 @@
+{
+ "id": "SUR",
+ "theme": {
+  "scenery": "selva_rios",
+  "palette": [
+   "#0f2e23",
+   "#236b53",
+   "#f2c94c",
+   "#53c69f"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "bakru",
+    "name": "Bakru",
+    "legend": "Pequeno espírito engarrafado que traz riqueza ao dono, mas cobra caro."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "azeman",
+    "name": "Azeman",
+    "legend": "Bruxa-vampira que muda de forma, do folclore surinamês."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "watra_mama",
+    "name": "Watra Mama",
+    "legend": "Espírito feminino das águas, comum nas tradições afro-surinamesas."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "kankantri",
+    "name": "Kankantri",
+    "legend": "Árvore sagrada, morada de espíritos, nas tradições surinamesas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "rio",
+    "name": "Jacaré do Suriname",
+    "legend": "Criatura inventada, inspirada nos rios do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "macaco",
+    "name": "Macaco-Aranha Sombrio",
+    "legend": "Criatura inventada, inspirada na floresta tropical.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "tartaruga",
+    "name": "Tartaruga de Galibi",
+    "legend": "Criatura inventada, inspirada nas praias de desova.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "pantera",
+    "name": "Pantera da Floresta",
+    "legend": "Criatura inventada, inspirada na fauna do interior.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "cachoeira",
+    "name": "Guardião da Cachoeira",
+    "legend": "Criatura inventada, inspirada na floresta do interior.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "anansi",
+    "name": "Anansi",
+    "legend": "Aranha astuta das histórias afro-surinamesas, mestra das artimanhas."
+   },
+   "boss": true,
+   "bossTitle": "A Aranha Astuta",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

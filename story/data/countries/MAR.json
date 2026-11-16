@@ -1,0 +1,104 @@
+{
+ "id": "MAR",
+ "theme": {
+  "scenery": "savana",
+  "palette": [
+   "#2e0f2a",
+   "#6b2463",
+   "#f2c94c",
+   "#c653b8"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "ghoul",
+    "name": "Ghoul",
+    "legend": "Criatura do deserto que atrai viajantes, na tradição árabe e berbere."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "jnun",
+    "name": "Jnun",
+    "legend": "Espíritos do fogo, invisíveis e poderosos, que vivem em locais isolados."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Marrocos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Marrocos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Marrocos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_sentinela_de_rabat",
+    "name": "Sentinela de Rabat",
+    "legend": "Criatura inventada que vigia Rabat, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Marrocos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Marrocos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Marrocos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "aisha_qandisha",
+    "name": "Aisha Qandisha",
+    "legend": "Espírito feminino marroquino que seduz homens perto da água."
+   },
+   "bossTitle": "Aisha Qandisha",
+   "rewardPower": "tempo_extra"
+  }
+ ]
+}

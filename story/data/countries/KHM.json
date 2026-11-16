@@ -1,0 +1,104 @@
+{
+ "id": "KHM",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#2a0f2e",
+   "#63246b",
+   "#f2c94c",
+   "#b853c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "ahp",
+    "name": "Ahp",
+    "legend": "Espírito de feiticeira que ataca à noite."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "arak",
+    "name": "Arak",
+    "legend": "Espírito protetor ou vingativo do folclore khmer."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Camboja.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Camboja.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_sentinela_de_phnom_penh",
+    "name": "Sentinela de Phnom Penh",
+    "legend": "Criatura inventada que vigia Phnom Penh, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Camboja.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Camboja.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Camboja.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Camboja.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "neak",
+    "name": "Neak",
+    "legend": "Serpente naga, guardiã de rios e templos."
+   },
+   "bossTitle": "Neak",
+   "rewardPower": "cura_leve"
+  }
+ ]
+}

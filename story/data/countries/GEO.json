@@ -1,0 +1,104 @@
+{
+ "id": "GEO",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#0f2e2b",
+   "#246b65",
+   "#f2c94c",
+   "#53c6bc"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "ali",
+    "name": "Ali",
+    "legend": "Demônio feminino que rouba bebês, no folclore georgiano."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "kaji",
+    "name": "Kaji",
+    "legend": "Espíritos malignos que guardam tesouros, no folclore georgiano."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Geórgia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Geórgia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Geórgia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Geórgia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_sentinela_de_tbilisi",
+    "name": "Sentinela de Tbilisi",
+    "legend": "Criatura inventada que vigia Tbilisi, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Geórgia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Geórgia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "devi",
+    "name": "Devi",
+    "legend": "Gigante de várias cabeças que desafia os heróis georgianos."
+   },
+   "bossTitle": "Devi",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

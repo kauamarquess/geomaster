@@ -1,0 +1,97 @@
+{
+ "id": "PRY",
+ "theme": {
+  "scenery": "selva_guarani",
+  "palette": [
+   "#102d1c",
+   "#266842",
+   "#f2c94c",
+   "#57c184"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "pombero",
+    "name": "Pombero",
+    "legend": "Duende guarani que protege a noite; é preciso agradá-lo com mel e fumo."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "jasy",
+    "name": "Jasy Jatere",
+    "legend": "Pequeno ser loiro da sesta que atrai crianças para a mata."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "karai",
+    "name": "Karai Octubre",
+    "legend": "Figura do folclore que traz má sorte aos nascidos em outubro."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "monai",
+    "name": "Moñai",
+    "legend": "Ladrão e saqueador, um dos sete monstros da mitologia guarani."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "ao_ao",
+    "name": "Ao Ao",
+    "legend": "Criatura em forma de carneiro que ataca em bando, na lenda guarani."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "luison",
+    "name": "Luisón",
+    "legend": "Monstro da morte, protetor dos cemitérios, na mitologia guarani."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "kurupi",
+    "name": "Kurupi",
+    "legend": "Deus da fertilidade guarani, assustador, de grande poder."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "mboi_tui",
+    "name": "Mboi Tu'i",
+    "legend": "Serpente com cabeça de papagaio, protetora dos pântanos."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "teju",
+    "name": "Teju Jagua",
+    "legend": "O mais velho dos sete monstros guaranis: lagarto com sete cabeças de cão."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "tau",
+    "name": "Tau",
+    "legend": "Espírito do mal da mitologia guarani, pai dos sete monstros lendários."
+   },
+   "boss": true,
+   "bossTitle": "O Pai dos Sete Monstros",
+   "rewardPower": "escudo_lenda"
+  }
+ ]
+}

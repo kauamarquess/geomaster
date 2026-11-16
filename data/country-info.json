@@ -1,0 +1,2282 @@
+{
+"ABW": {
+"capital": "Oranjestad",
+"continent": "North America",
+"currency": "Florim arubano (AWG)",
+"name": "Aruba",
+"nameEn": "Aruba",
+"subregion": "Caribe"
+},
+"AFG": {
+"capital": "Kabul",
+"continent": "Asia",
+"currency": "Afegane afegão (AFN)",
+"name": "Afeganistão",
+"nameEn": "Afghanistan",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Meridional"
+},
+"AGO": {
+"capital": "Luanda",
+"continent": "Africa",
+"currency": "Kwanza angolano (AOA)",
+"name": "Angola",
+"nameEn": "Angola",
+"neighbors": [
+"República do Congo"
+],
+"subregion": "África Central"
+},
+"AIA": {
+"capital": "The Valley",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "Anguilla",
+"nameEn": "Anguilla",
+"subregion": "Caribe"
+},
+"ALA": {
+"continent": "Europe",
+"name": "Åland",
+"nameEn": "Åland"
+},
+"ALB": {
+"capital": "Tirana",
+"continent": "Europe",
+"currency": "Lek albanês (ALL)",
+"name": "Albânia",
+"nameEn": "Albania",
+"neighbors": [
+"Grécia"
+],
+"subregion": "Europa Meridional"
+},
+"AND": {
+"continent": "Europe",
+"name": "Andorra",
+"nameEn": "Andorra"
+},
+"ARE": {
+"capital": "Abu Dhabi",
+"continent": "Asia",
+"currency": "Dirham dos Emirados Árabes Unidos (AED)",
+"name": "Emirados Árabes Unidos",
+"nameEn": "United Arab Emirates",
+"neighbors": [
+"Arábia Saudita"
+],
+"subregion": "Ásia Ocidental"
+},
+"ARG": {
+"capital": "Buenos Aires",
+"continent": "South America",
+"currency": "Peso argentino (ARS)",
+"name": "Argentina",
+"nameEn": "Argentina",
+"neighbors": [
+"Uruguai"
+],
+"subregion": "América do Sul"
+},
+"ARM": {
+"capital": "Yerevan",
+"continent": "Asia",
+"currency": "Dram armênio (AMD)",
+"name": "Arménia",
+"nameEn": "Armenia",
+"neighbors": [
+"Geórgia"
+],
+"subregion": "Ásia Ocidental"
+},
+"ASM": {
+"capital": "Pago Pago",
+"continent": "Oceania",
+"currency": "Dólar americano (USD)",
+"name": "Samoa Americana",
+"nameEn": "American Samoa",
+"subregion": "Polinésia"
+},
+"ATA": {
+"continent": "Antarctica",
+"name": "Antártida",
+"nameEn": "Antarctica"
+},
+"ATC": {
+"continent": "Oceania",
+"name": "Ilhas Ashmore e Cartier",
+"nameEn": "Ashmore and Cartier Islands"
+},
+"ATF": {
+"capital": "Port-aux-Français",
+"continent": "Seven seas (open ocean)",
+"currency": "Euro (EUR)",
+"name": "Terras Austrais e Antárticas Francesas",
+"nameEn": "French Southern and Antarctic Lands"
+},
+"ATG": {
+"capital": "Saint John's",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "Antígua e Barbuda",
+"nameEn": "Antigua and Barbuda",
+"subregion": "Caribe"
+},
+"AUS": {
+"capital": "Canberra",
+"continent": "Oceania",
+"currency": "Dólar australiano (AUD)",
+"name": "Austrália",
+"nameEn": "Australia",
+"subregion": "Austrália e Nova Zelândia"
+},
+"AUT": {
+"capital": "Vienna",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Áustria",
+"nameEn": "Austria",
+"neighbors": [
+"Eslováquia"
+],
+"subregion": "Europa Ocidental"
+},
+"AZE": {
+"capital": "Baku",
+"continent": "Asia",
+"currency": "Manat azeri (AZN)",
+"name": "Azerbaijão",
+"nameEn": "Azerbaijan",
+"neighbors": [
+"Irão"
+],
+"subregion": "Ásia Ocidental"
+},
+"BDI": {
+"capital": "Bujumbura",
+"continent": "Africa",
+"currency": "Franco burundiano (BIF)",
+"name": "Burundi",
+"nameEn": "Burundi",
+"neighbors": [
+"Tanzânia"
+],
+"subregion": "África Oriental"
+},
+"BEL": {
+"capital": "Brussels",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Bélgica",
+"nameEn": "Belgium",
+"neighbors": [
+"França"
+],
+"subregion": "Europa Ocidental"
+},
+"BEN": {
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Benim",
+"nameEn": "Benin",
+"neighbors": [
+"Nigéria"
+],
+"subregion": "África Ocidental"
+},
+"BFA": {
+"capital": "Ouagadougou",
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Burkina Faso",
+"nameEn": "Burkina Faso",
+"neighbors": [
+"Togo"
+],
+"subregion": "África Ocidental"
+},
+"BGD": {
+"capital": "Dhaka",
+"continent": "Asia",
+"currency": "Taka bengali (BDT)",
+"name": "Bangladesh",
+"nameEn": "Bangladesh",
+"neighbors": [
+"Índia"
+],
+"subregion": "Ásia Meridional"
+},
+"BGR": {
+"capital": "Sofia",
+"continent": "Europe",
+"currency": "Lev búlgaro (BGN)",
+"name": "Bulgária",
+"nameEn": "Bulgaria",
+"neighbors": [
+"Sérvia"
+],
+"subregion": "Europa Oriental"
+},
+"BHR": {
+"capital": "Manama",
+"continent": "Asia",
+"currency": "Dinar bareinita (BHD)",
+"name": "Bahrein",
+"nameEn": "Bahrain",
+"subregion": "Ásia Ocidental"
+},
+"BHS": {
+"capital": "Nassau",
+"continent": "North America",
+"currency": "Dólar bahamense (BSD)",
+"name": "Bahamas",
+"nameEn": "The Bahamas",
+"subregion": "Caribe"
+},
+"BIH": {
+"capital": "Sarajevo",
+"continent": "Europe",
+"currency": "Marco conversível da Bósnia e Herzegovina (BAM)",
+"name": "Bósnia e Herzegovina",
+"nameEn": "Bosnia and Herzegovina",
+"neighbors": [
+"Croácia"
+],
+"subregion": "Europa Meridional"
+},
+"BLM": {
+"continent": "North America",
+"name": "Coletividade de São Bartolomeu",
+"nameEn": "Saint Barthélemy"
+},
+"BLR": {
+"capital": "Minsk",
+"continent": "Europe",
+"currency": "Rublo bielorrusso (2000–2016) (BYR)",
+"name": "Bielorrússia",
+"nameEn": "Belarus",
+"neighbors": [
+"Lituânia"
+],
+"subregion": "Europa Oriental"
+},
+"BLZ": {
+"capital": "Belmopan",
+"continent": "North America",
+"currency": "Dólar belizenho (BZD)",
+"name": "Belize",
+"nameEn": "Belize",
+"neighbors": [
+"Guatemala"
+],
+"subregion": "América Central"
+},
+"BMU": {
+"capital": "Hamilton",
+"continent": "North America",
+"currency": "Dólar bermudense (BMD)",
+"name": "Bermudas",
+"nameEn": "Bermuda",
+"subregion": "América do Norte"
+},
+"BOL": {
+"continent": "South America",
+"name": "Bolívia",
+"nameEn": "Bolivia",
+"neighbors": [
+"Chile"
+],
+"subregion": "América do Sul"
+},
+"BRA": {
+"capital": "Brasília",
+"continent": "South America",
+"currency": "Real brasileiro (BRL)",
+"name": "Brasil",
+"nameEn": "Brazil",
+"neighbors": [
+"Argentina"
+],
+"subregion": "América do Sul"
+},
+"BRB": {
+"capital": "Bridgetown",
+"continent": "North America",
+"currency": "Dólar barbadense (BBD)",
+"name": "Barbados",
+"nameEn": "Barbados",
+"subregion": "Caribe"
+},
+"BRN": {
+"capital": "Bandar Seri Begawan",
+"continent": "Asia",
+"currency": "Dólar bruneano (BND)",
+"name": "Brunei",
+"nameEn": "Brunei",
+"neighbors": [
+"Malásia"
+],
+"subregion": "Sudeste Asiático"
+},
+"BTN": {
+"capital": "Thimphu",
+"continent": "Asia",
+"name": "Butão",
+"nameEn": "Bhutan",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Meridional"
+},
+"BWA": {
+"capital": "Gaborone",
+"continent": "Africa",
+"currency": "Pula botsuanesa (BWP)",
+"name": "Botsuana",
+"nameEn": "Botswana",
+"neighbors": [
+"África do Sul"
+],
+"subregion": "África Austral"
+},
+"CAF": {
+"capital": "Bangui",
+"continent": "Africa",
+"currency": "Franco CFA de BEAC (XAF)",
+"name": "República Centro-Africana",
+"nameEn": "Central African Republic",
+"neighbors": [
+"Sudão do Sul"
+],
+"subregion": "África Central"
+},
+"CAN": {
+"capital": "Ottawa",
+"continent": "North America",
+"currency": "Dólar canadense (CAD)",
+"name": "Canadá",
+"nameEn": "Canada",
+"neighbors": [
+"Estados Unidos"
+],
+"subregion": "América do Norte"
+},
+"CHE": {
+"capital": "Bern",
+"continent": "Europe",
+"name": "Suíça",
+"nameEn": "Switzerland",
+"neighbors": [
+"Liechtenstein"
+],
+"subregion": "Europa Ocidental"
+},
+"CHL": {
+"capital": "Santiago",
+"continent": "South America",
+"name": "Chile",
+"nameEn": "Chile",
+"neighbors": [
+"Bolívia"
+],
+"subregion": "América do Sul"
+},
+"CHN": {
+"capital": "Beijing",
+"continent": "Asia",
+"currency": "Yuan chinês (CNY)",
+"name": "China",
+"nameEn": "People's Republic of China",
+"neighbors": [
+"Tajiquistão"
+],
+"subregion": "Ásia Oriental"
+},
+"CIV": {
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Costa do Marfim",
+"nameEn": "Ivory Coast",
+"neighbors": [
+"Guiné"
+],
+"subregion": "África Ocidental"
+},
+"CMR": {
+"capital": "Yaoundé",
+"continent": "Africa",
+"currency": "Franco CFA de BEAC (XAF)",
+"name": "Camarões",
+"nameEn": "Cameroon",
+"neighbors": [
+"Nigéria"
+],
+"subregion": "África Central"
+},
+"COD": {
+"capital": "Kinshasa",
+"continent": "Africa",
+"currency": "Franco congolês (CDF)",
+"name": "República Democrática do Congo",
+"nameEn": "Democratic Republic of the Congo",
+"neighbors": [
+"República Centro-Africana"
+],
+"subregion": "África Central"
+},
+"COG": {
+"capital": "Brazzaville",
+"continent": "Africa",
+"currency": "Franco CFA de BEAC (XAF)",
+"name": "República do Congo",
+"nameEn": "Republic of the Congo",
+"neighbors": [
+"Angola"
+],
+"subregion": "África Central"
+},
+"COK": {
+"capital": "Avarua",
+"continent": "Oceania",
+"currency": "Dólar neozelandês (NZD)",
+"name": "Ilhas Cook",
+"nameEn": "Cook Islands",
+"subregion": "Polinésia"
+},
+"COL": {
+"capital": "Bogotá",
+"continent": "South America",
+"currency": "Peso colombiano (COP)",
+"name": "Colômbia",
+"nameEn": "Colombia",
+"neighbors": [
+"Equador"
+],
+"subregion": "América do Sul"
+},
+"COM": {
+"capital": "Moroni",
+"continent": "Africa",
+"currency": "Franco comoriano (KMF)",
+"name": "Comores",
+"nameEn": "Comoros",
+"subregion": "África Oriental"
+},
+"CPV": {
+"capital": "Praia",
+"continent": "Africa",
+"currency": "Escudo cabo-verdiano (CVE)",
+"name": "Cabo Verde",
+"nameEn": "Cape Verde",
+"subregion": "África Ocidental"
+},
+"CRI": {
+"capital": "San José",
+"continent": "North America",
+"currency": "Colón costarriquenho (CRC)",
+"name": "Costa Rica",
+"nameEn": "Costa Rica",
+"neighbors": [
+"Nicarágua"
+],
+"subregion": "América Central"
+},
+"CUB": {
+"capital": "Havana",
+"continent": "North America",
+"name": "Cuba",
+"nameEn": "Cuba",
+"subregion": "Caribe"
+},
+"CUW": {
+"continent": "North America",
+"name": "Curaçao",
+"nameEn": "Curaçao"
+},
+"CYM": {
+"capital": "George Town",
+"continent": "North America",
+"currency": "Dólar das Ilhas Cayman (KYD)",
+"name": "Ilhas Caimão",
+"nameEn": "Cayman Islands",
+"subregion": "Caribe"
+},
+"CYN": {
+"continent": "Asia",
+"name": "República Turca do Chipre do Norte",
+"nameEn": "Turkish Republic of Northern Cyprus"
+},
+"CYP": {
+"capital": "Nicosia",
+"continent": "Asia",
+"currency": "Euro (EUR)",
+"name": "Chipre",
+"nameEn": "Cyprus",
+"neighbors": [
+"Reino Unido"
+],
+"subregion": "Europa Meridional"
+},
+"CZE": {
+"capital": "Prague",
+"continent": "Europe",
+"currency": "Coroa tcheca (CZK)",
+"name": "Chéquia",
+"nameEn": "Czech Republic",
+"neighbors": [
+"Polónia"
+],
+"subregion": "Europa Oriental"
+},
+"DEU": {
+"capital": "Berlin",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Alemanha",
+"nameEn": "Germany",
+"neighbors": [
+"Polónia"
+],
+"subregion": "Europa Ocidental"
+},
+"DJI": {
+"capital": "Djibouti",
+"continent": "Africa",
+"currency": "Franco djiboutiano (DJF)",
+"name": "Djibouti",
+"nameEn": "Djibouti",
+"neighbors": [
+"Eritreia"
+],
+"subregion": "África Oriental"
+},
+"DMA": {
+"capital": "Roseau",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "Dominica",
+"nameEn": "Dominica",
+"subregion": "Caribe"
+},
+"DNK": {
+"capital": "Copenhagen",
+"continent": "Europe",
+"currency": "Coroa dinamarquesa (DKK)",
+"name": "Dinamarca",
+"nameEn": "Denmark",
+"neighbors": [
+"Alemanha"
+],
+"subregion": "Europa Setentrional"
+},
+"DOM": {
+"capital": "Santo Domingo",
+"continent": "North America",
+"currency": "Peso dominicano (DOP)",
+"name": "República Dominicana",
+"nameEn": "Dominican Republic",
+"neighbors": [
+"Haiti"
+],
+"subregion": "Caribe"
+},
+"DZA": {
+"capital": "Algiers",
+"continent": "Africa",
+"currency": "Dinar argelino (DZD)",
+"name": "Argélia",
+"nameEn": "Algeria",
+"neighbors": [
+"Mauritânia"
+],
+"subregion": "África Setentrional"
+},
+"ECU": {
+"capital": "Quito",
+"continent": "South America",
+"currency": "Dólar americano (USD)",
+"name": "Equador",
+"nameEn": "Ecuador",
+"neighbors": [
+"Colômbia"
+],
+"subregion": "América do Sul"
+},
+"EGY": {
+"capital": "Cairo",
+"continent": "Africa",
+"currency": "Libra egípcia (EGP)",
+"name": "Egito",
+"nameEn": "Egypt",
+"neighbors": [
+"Sudão"
+],
+"subregion": "África Setentrional"
+},
+"ERI": {
+"capital": "Asmara",
+"continent": "Africa",
+"currency": "Nakfa da Eritreia (ERN)",
+"name": "Eritreia",
+"nameEn": "Eritrea",
+"neighbors": [
+"Djibouti"
+],
+"subregion": "África Oriental"
+},
+"ESH": {
+"capital": "El Aaiún",
+"continent": "Africa",
+"name": "Sara Ocidental",
+"nameEn": "Western Sahara",
+"neighbors": [
+"Marrocos"
+],
+"subregion": "África Setentrional"
+},
+"ESP": {
+"capital": "Madrid",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Espanha",
+"nameEn": "Spain",
+"neighbors": [
+"Portugal"
+],
+"subregion": "Europa Meridional"
+},
+"EST": {
+"capital": "Tallinn",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Estónia",
+"nameEn": "Estonia",
+"neighbors": [
+"Rússia"
+],
+"subregion": "Europa Setentrional"
+},
+"ETH": {
+"capital": "Addis Ababa",
+"continent": "Africa",
+"currency": "Birr etíope (ETB)",
+"name": "Etiópia",
+"nameEn": "Ethiopia",
+"neighbors": [
+"Somália"
+],
+"subregion": "África Oriental"
+},
+"FIN": {
+"capital": "Helsinki",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Finlândia",
+"nameEn": "Finland",
+"neighbors": [
+"Suécia"
+],
+"subregion": "Europa Setentrional"
+},
+"FJI": {
+"capital": "Suva",
+"continent": "Oceania",
+"currency": "Dólar fijiano (FJD)",
+"name": "Fiji",
+"nameEn": "Fiji",
+"subregion": "Melanésia"
+},
+"FLK": {
+"capital": "Stanley",
+"continent": "South America",
+"currency": "Libra malvinense (FKP)",
+"name": "Ilhas Malvinas",
+"nameEn": "Falkland Islands",
+"subregion": "América do Sul"
+},
+"FRA": {
+"capital": "Paris",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "França",
+"nameEn": "France",
+"neighbors": [
+"Mónaco"
+],
+"subregion": "Europa Ocidental"
+},
+"FRO": {
+"capital": "Tórshavn",
+"continent": "Europe",
+"currency": "Coroa dinamarquesa (DKK)",
+"name": "Ilhas Feroe",
+"nameEn": "Faroe Islands",
+"subregion": "Europa Setentrional"
+},
+"FSM": {
+"capital": "Palikir",
+"continent": "Oceania",
+"currency": "Dólar americano (USD)",
+"name": "Micronésia",
+"nameEn": "Federated States of Micronesia",
+"subregion": "Micronésia"
+},
+"GAB": {
+"capital": "Libreville",
+"continent": "Africa",
+"currency": "Franco CFA de BEAC (XAF)",
+"name": "Gabão",
+"nameEn": "Gabon",
+"neighbors": [
+"República do Congo"
+],
+"subregion": "África Central"
+},
+"GBR": {
+"capital": "London",
+"continent": "Europe",
+"currency": "Libra esterlina (GBP)",
+"name": "Reino Unido",
+"nameEn": "United Kingdom",
+"neighbors": [
+"República da Irlanda"
+],
+"subregion": "Europa Setentrional"
+},
+"GEO": {
+"capital": "Tbilisi",
+"continent": "Asia",
+"currency": "Lari georgiano (GEL)",
+"name": "Geórgia",
+"nameEn": "Georgia",
+"neighbors": [
+"Turquia"
+],
+"subregion": "Ásia Ocidental"
+},
+"GGY": {
+"capital": "St. Peter Port",
+"continent": "Europe",
+"currency": "Libra esterlina (GBP)",
+"name": "Guernsey",
+"nameEn": "Guernsey",
+"subregion": "Europa Setentrional"
+},
+"GHA": {
+"capital": "Accra",
+"continent": "Africa",
+"currency": "Cedi ganês (GHS)",
+"name": "Gana",
+"nameEn": "Ghana",
+"neighbors": [
+"Costa do Marfim"
+],
+"subregion": "África Ocidental"
+},
+"GIN": {
+"capital": "Conakry",
+"continent": "Africa",
+"currency": "Franco guineano (GNF)",
+"name": "Guiné",
+"nameEn": "Guinea",
+"neighbors": [
+"Serra Leoa"
+],
+"subregion": "África Ocidental"
+},
+"GMB": {
+"capital": "Banjul",
+"continent": "Africa",
+"currency": "Dalasi gambiano (GMD)",
+"name": "Gâmbia",
+"nameEn": "The Gambia",
+"neighbors": [
+"Senegal"
+],
+"subregion": "África Ocidental"
+},
+"GNB": {
+"capital": "Bissau",
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Guiné-Bissau",
+"nameEn": "Guinea-Bissau",
+"neighbors": [
+"Senegal"
+],
+"subregion": "África Ocidental"
+},
+"GNQ": {
+"capital": "Malabo",
+"continent": "Africa",
+"currency": "Franco CFA de BEAC (XAF)",
+"name": "Guiné Equatorial",
+"nameEn": "Equatorial Guinea",
+"neighbors": [
+"Camarões"
+],
+"subregion": "África Central"
+},
+"GRC": {
+"capital": "Athens",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Grécia",
+"nameEn": "Greece",
+"neighbors": [
+"Bulgária"
+],
+"subregion": "Europa Meridional"
+},
+"GRD": {
+"capital": "St. George's",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "Granada",
+"nameEn": "Grenada",
+"subregion": "Caribe"
+},
+"GRL": {
+"capital": "Nuuk",
+"continent": "North America",
+"currency": "Coroa dinamarquesa (DKK)",
+"name": "Groenlândia",
+"nameEn": "Greenland",
+"subregion": "América do Norte"
+},
+"GTM": {
+"capital": "Guatemala City",
+"continent": "North America",
+"currency": "Quetzal guatemalteco (GTQ)",
+"name": "Guatemala",
+"nameEn": "Guatemala",
+"neighbors": [
+"México"
+],
+"subregion": "América Central"
+},
+"GUM": {
+"capital": "Hagåtña",
+"continent": "Oceania",
+"currency": "Dólar americano (USD)",
+"name": "Guam",
+"nameEn": "Guam",
+"subregion": "Micronésia"
+},
+"GUY": {
+"capital": "Georgetown",
+"continent": "South America",
+"currency": "Dólar guianense (GYD)",
+"name": "Guiana",
+"nameEn": "Guyana",
+"neighbors": [
+"Venezuela"
+],
+"subregion": "América do Sul"
+},
+"HKG": {
+"capital": "City of Victoria",
+"continent": "Asia",
+"currency": "Dólar de Hong Kong (HKD)",
+"name": "Hong Kong",
+"nameEn": "Hong Kong",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Oriental"
+},
+"HMD": {
+"continent": "Seven seas (open ocean)",
+"currency": "Dólar australiano (AUD)",
+"name": "Ilha Heard e Ilhas McDonald",
+"nameEn": "Heard Island and McDonald Islands"
+},
+"HND": {
+"capital": "Tegucigalpa",
+"continent": "North America",
+"currency": "Lempira hondurenha (HNL)",
+"name": "Honduras",
+"nameEn": "Honduras",
+"neighbors": [
+"Nicarágua"
+],
+"subregion": "América Central"
+},
+"HRV": {
+"capital": "Zagreb",
+"continent": "Europe",
+"currency": "Kuna croata (HRK)",
+"name": "Croácia",
+"nameEn": "Croatia",
+"neighbors": [
+"Sérvia"
+],
+"subregion": "Europa Meridional"
+},
+"HTI": {
+"capital": "Port-au-Prince",
+"continent": "North America",
+"name": "Haiti",
+"nameEn": "Haiti",
+"neighbors": [
+"República Dominicana"
+],
+"subregion": "Caribe"
+},
+"HUN": {
+"capital": "Budapest",
+"continent": "Europe",
+"currency": "Florim húngaro (HUF)",
+"name": "Hungria",
+"nameEn": "Hungary",
+"neighbors": [
+"Croácia"
+],
+"subregion": "Europa Oriental"
+},
+"IDN": {
+"capital": "Jakarta",
+"continent": "Asia",
+"currency": "Rupia indonésia (IDR)",
+"name": "Indonésia",
+"nameEn": "Indonesia",
+"neighbors": [
+"Timor-Leste"
+],
+"subregion": "Sudeste Asiático"
+},
+"IMN": {
+"capital": "Douglas",
+"continent": "Europe",
+"currency": "Libra esterlina (GBP)",
+"name": "Ilha de Man",
+"nameEn": "Isle of Man",
+"subregion": "Europa Setentrional"
+},
+"IND": {
+"capital": "New Delhi",
+"continent": "Asia",
+"currency": "Rupia indiana (INR)",
+"name": "Índia",
+"nameEn": "India",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Meridional"
+},
+"IOA": {
+"continent": "Asia",
+"name": "Territórios australianos do Oceano Índico",
+"nameEn": "Australian Indian Ocean Territories"
+},
+"IOT": {
+"capital": "Diego Garcia",
+"continent": "Seven seas (open ocean)",
+"currency": "Dólar americano (USD)",
+"name": "Território Britânico do Oceano Índico",
+"nameEn": "British Indian Ocean Territory",
+"subregion": "África Oriental"
+},
+"IRL": {
+"capital": "Dublin",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "República da Irlanda",
+"nameEn": "Ireland",
+"neighbors": [
+"Reino Unido"
+],
+"subregion": "Europa Setentrional"
+},
+"IRN": {
+"capital": "Tehran",
+"continent": "Asia",
+"currency": "Rial iraniano (IRR)",
+"name": "Irão",
+"nameEn": "Iran",
+"neighbors": [
+"Turquemenistão"
+],
+"subregion": "Ásia Meridional"
+},
+"IRQ": {
+"capital": "Baghdad",
+"continent": "Asia",
+"currency": "Dinar iraquiano (IQD)",
+"name": "Iraque",
+"nameEn": "Iraq",
+"neighbors": [
+"Arábia Saudita"
+],
+"subregion": "Ásia Ocidental"
+},
+"ISL": {
+"capital": "Reykjavik",
+"continent": "Europe",
+"currency": "Coroa islandesa (ISK)",
+"name": "Islândia",
+"nameEn": "Iceland",
+"subregion": "Europa Setentrional"
+},
+"ISR": {
+"capital": "Jerusalem",
+"continent": "Asia",
+"currency": "Novo shekel israelense (ILS)",
+"name": "Israel",
+"nameEn": "Israel",
+"neighbors": [
+"Líbano"
+],
+"subregion": "Ásia Ocidental"
+},
+"ITA": {
+"capital": "Rome",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Itália",
+"nameEn": "Italy",
+"neighbors": [
+"Suíça"
+],
+"subregion": "Europa Meridional"
+},
+"JAM": {
+"capital": "Kingston",
+"continent": "North America",
+"currency": "Dólar jamaicano (JMD)",
+"name": "Jamaica",
+"nameEn": "Jamaica",
+"subregion": "Caribe"
+},
+"JEY": {
+"capital": "Saint Helier",
+"continent": "Europe",
+"currency": "Libra esterlina (GBP)",
+"name": "Jersey",
+"nameEn": "Jersey",
+"subregion": "Europa Setentrional"
+},
+"JOR": {
+"capital": "Amman",
+"continent": "Asia",
+"currency": "Dinar jordaniano (JOD)",
+"name": "Jordânia",
+"nameEn": "Jordan",
+"neighbors": [
+"Iraque"
+],
+"subregion": "Ásia Ocidental"
+},
+"JPN": {
+"capital": "Tokyo",
+"continent": "Asia",
+"currency": "Iene japonês (JPY)",
+"name": "Japão",
+"nameEn": "Japan",
+"subregion": "Ásia Oriental"
+},
+"KAS": {
+"continent": "Asia",
+"name": "Glaciar de Siachen",
+"nameEn": "Siachen Glacier"
+},
+"KAZ": {
+"capital": "Astana",
+"continent": "Asia",
+"currency": "Tenge cazaque (KZT)",
+"name": "Cazaquistão",
+"nameEn": "Kazakhstan",
+"neighbors": [
+"Turquemenistão"
+],
+"subregion": "Ásia Central"
+},
+"KEN": {
+"capital": "Nairobi",
+"continent": "Africa",
+"currency": "Xelim queniano (KES)",
+"name": "Quénia",
+"nameEn": "Kenya",
+"neighbors": [
+"Uganda"
+],
+"subregion": "África Oriental"
+},
+"KGZ": {
+"capital": "Bishkek",
+"continent": "Asia",
+"currency": "Som quirguiz (KGS)",
+"name": "Quirguistão",
+"nameEn": "Kyrgyzstan",
+"neighbors": [
+"Uzbequistão"
+],
+"subregion": "Ásia Central"
+},
+"KHM": {
+"capital": "Phnom Penh",
+"continent": "Asia",
+"currency": "Riel cambojano (KHR)",
+"name": "Camboja",
+"nameEn": "Cambodia",
+"neighbors": [
+"Tailândia"
+],
+"subregion": "Sudeste Asiático"
+},
+"KIR": {
+"capital": "South Tarawa",
+"continent": "Oceania",
+"currency": "Dólar australiano (AUD)",
+"name": "Kiribati",
+"nameEn": "Kiribati",
+"subregion": "Micronésia"
+},
+"KNA": {
+"capital": "Basseterre",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "São Cristóvão e Nevis",
+"nameEn": "Saint Kitts and Nevis",
+"subregion": "Caribe"
+},
+"KOR": {
+"capital": "Seoul",
+"continent": "Asia",
+"currency": "Won sul-coreano (KRW)",
+"name": "Coreia do Sul",
+"nameEn": "South Korea",
+"neighbors": [
+"Coreia do Norte"
+],
+"subregion": "Ásia Oriental"
+},
+"KOS": {
+"continent": "Europe",
+"name": "Kosovo",
+"nameEn": "Kosovo"
+},
+"KWT": {
+"capital": "Kuwait City",
+"continent": "Asia",
+"currency": "Dinar kuwaitiano (KWD)",
+"name": "Kuwait",
+"nameEn": "Kuwait",
+"neighbors": [
+"Irão"
+],
+"subregion": "Ásia Ocidental"
+},
+"LAO": {
+"capital": "Vientiane",
+"continent": "Asia",
+"currency": "Kip laosiano (LAK)",
+"name": "Laos",
+"nameEn": "Laos",
+"neighbors": [
+"Vietname"
+],
+"subregion": "Sudeste Asiático"
+},
+"LBN": {
+"capital": "Beirut",
+"continent": "Asia",
+"currency": "Libra libanesa (LBP)",
+"name": "Líbano",
+"nameEn": "Lebanon",
+"neighbors": [
+"Israel"
+],
+"subregion": "Ásia Ocidental"
+},
+"LBR": {
+"capital": "Monrovia",
+"continent": "Africa",
+"currency": "Dólar liberiano (LRD)",
+"name": "Libéria",
+"nameEn": "Liberia",
+"neighbors": [
+"Costa do Marfim"
+],
+"subregion": "África Ocidental"
+},
+"LBY": {
+"capital": "Tripoli",
+"continent": "Africa",
+"currency": "Dinar líbio (LYD)",
+"name": "Líbia",
+"nameEn": "Libya",
+"neighbors": [
+"Chade"
+],
+"subregion": "África Setentrional"
+},
+"LCA": {
+"capital": "Castries",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "Santa Lúcia",
+"nameEn": "Saint Lucia",
+"subregion": "Caribe"
+},
+"LIE": {
+"capital": "Vaduz",
+"continent": "Europe",
+"currency": "Franco suíço (CHF)",
+"name": "Liechtenstein",
+"nameEn": "Liechtenstein",
+"neighbors": [
+"Suíça"
+],
+"subregion": "Europa Ocidental"
+},
+"LKA": {
+"continent": "Asia",
+"currency": "Rupia cingalesa (LKR)",
+"name": "Sri Lanka",
+"nameEn": "Sri Lanka",
+"neighbors": [
+"Índia"
+],
+"subregion": "Ásia Meridional"
+},
+"LSO": {
+"capital": "Maseru",
+"continent": "Africa",
+"name": "Lesoto",
+"nameEn": "Lesotho",
+"neighbors": [
+"África do Sul"
+],
+"subregion": "África Austral"
+},
+"LTU": {
+"capital": "Vilnius",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Lituânia",
+"nameEn": "Lithuania",
+"neighbors": [
+"Polónia"
+],
+"subregion": "Europa Setentrional"
+},
+"LUX": {
+"capital": "Luxembourg",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Luxemburgo",
+"nameEn": "Luxembourg",
+"neighbors": [
+"Bélgica"
+],
+"subregion": "Europa Ocidental"
+},
+"LVA": {
+"capital": "Riga",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Letónia",
+"nameEn": "Latvia",
+"neighbors": [
+"Bielorrússia"
+],
+"subregion": "Europa Setentrional"
+},
+"MAC": {
+"continent": "Asia",
+"currency": "Pataca macaense (MOP)",
+"name": "Macau",
+"nameEn": "Macau",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Oriental"
+},
+"MAF": {
+"continent": "North America",
+"name": "São Martinho",
+"nameEn": "Saint Martin"
+},
+"MAR": {
+"capital": "Rabat",
+"continent": "Africa",
+"currency": "Dirham marroquino (MAD)",
+"name": "Marrocos",
+"nameEn": "Morocco",
+"neighbors": [
+"Argélia"
+],
+"subregion": "África Setentrional"
+},
+"MCO": {
+"capital": "Monaco",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Mónaco",
+"nameEn": "Monaco",
+"neighbors": [
+"França"
+],
+"subregion": "Europa Ocidental"
+},
+"MDA": {
+"capital": "Chișinău",
+"continent": "Europe",
+"currency": "Leu moldávio (MDL)",
+"name": "Moldávia",
+"nameEn": "Moldova",
+"neighbors": [
+"Roménia"
+],
+"subregion": "Europa Oriental"
+},
+"MDG": {
+"capital": "Antananarivo",
+"continent": "Africa",
+"currency": "Ariary malgaxe (MGA)",
+"name": "Madagáscar",
+"nameEn": "Madagascar",
+"subregion": "África Oriental"
+},
+"MDV": {
+"capital": "Malé",
+"continent": "Seven seas (open ocean)",
+"currency": "Rupia maldivana (MVR)",
+"name": "Maldivas",
+"nameEn": "Maldives",
+"subregion": "Ásia Meridional"
+},
+"MEX": {
+"capital": "Mexico City",
+"continent": "North America",
+"currency": "Peso mexicano (MXN)",
+"name": "México",
+"nameEn": "Mexico",
+"neighbors": [
+"Belize"
+],
+"subregion": "América Central"
+},
+"MHL": {
+"capital": "Majuro",
+"continent": "Oceania",
+"currency": "Dólar americano (USD)",
+"name": "Ilhas Marshall",
+"nameEn": "Marshall Islands",
+"subregion": "Micronésia"
+},
+"MKD": {
+"capital": "Skopje",
+"continent": "Europe",
+"currency": "Dinar macedônio (MKD)",
+"name": "Macedónia do Norte",
+"nameEn": "North Macedonia",
+"neighbors": [
+"Grécia"
+],
+"subregion": "Europa Meridional"
+},
+"MLI": {
+"capital": "Bamako",
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Mali",
+"nameEn": "Mali",
+"neighbors": [
+"Mauritânia"
+],
+"subregion": "África Ocidental"
+},
+"MLT": {
+"capital": "Valletta",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Malta",
+"nameEn": "Malta",
+"subregion": "Europa Meridional"
+},
+"MMR": {
+"continent": "Asia",
+"name": "Myanmar",
+"nameEn": "Myanmar"
+},
+"MNE": {
+"continent": "Europe",
+"name": "Montenegro",
+"nameEn": "Montenegro"
+},
+"MNG": {
+"capital": "Ulan Bator",
+"continent": "Asia",
+"currency": "Tugrik mongol (MNT)",
+"name": "Mongólia",
+"nameEn": "Mongolia",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Oriental"
+},
+"MNP": {
+"capital": "Saipan",
+"continent": "Oceania",
+"currency": "Dólar americano (USD)",
+"name": "Ilhas Marianas do Norte",
+"nameEn": "Northern Mariana Islands",
+"subregion": "Micronésia"
+},
+"MOZ": {
+"capital": "Maputo",
+"continent": "Africa",
+"currency": "Metical moçambicano (MZN)",
+"name": "Moçambique",
+"nameEn": "Mozambique",
+"neighbors": [
+"Essuatíni"
+],
+"subregion": "África Oriental"
+},
+"MRT": {
+"capital": "Nouakchott",
+"continent": "Africa",
+"currency": "Ouguiya mauritana (1973–2017) (MRO)",
+"name": "Mauritânia",
+"nameEn": "Mauritania",
+"neighbors": [
+"Mali"
+],
+"subregion": "África Ocidental"
+},
+"MSR": {
+"capital": "Plymouth",
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "Montserrat",
+"nameEn": "Montserrat",
+"subregion": "Caribe"
+},
+"MUS": {
+"capital": "Port Louis",
+"continent": "Seven seas (open ocean)",
+"currency": "Rupia mauriciana (MUR)",
+"name": "Maurícia",
+"nameEn": "Mauritius",
+"subregion": "África Oriental"
+},
+"MWI": {
+"capital": "Lilongwe",
+"continent": "Africa",
+"currency": "Kwacha malauiana (MWK)",
+"name": "Malawi",
+"nameEn": "Malawi",
+"neighbors": [
+"Moçambique"
+],
+"subregion": "África Oriental"
+},
+"MYS": {
+"capital": "Kuala Lumpur",
+"continent": "Asia",
+"currency": "Ringgit malaio (MYR)",
+"name": "Malásia",
+"nameEn": "Malaysia",
+"neighbors": [
+"Indonésia"
+],
+"subregion": "Sudeste Asiático"
+},
+"NAM": {
+"capital": "Windhoek",
+"continent": "Africa",
+"name": "Namíbia",
+"nameEn": "Namibia",
+"neighbors": [
+"Botsuana"
+],
+"subregion": "África Austral"
+},
+"NCL": {
+"capital": "Nouméa",
+"continent": "Oceania",
+"currency": "Franco CFP (XPF)",
+"name": "Nova Caledónia",
+"nameEn": "New Caledonia",
+"subregion": "Melanésia"
+},
+"NER": {
+"capital": "Niamey",
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Níger",
+"nameEn": "Niger",
+"neighbors": [
+"Mali"
+],
+"subregion": "África Ocidental"
+},
+"NFK": {
+"capital": "Kingston",
+"continent": "Oceania",
+"currency": "Dólar australiano (AUD)",
+"name": "Ilha Norfolk",
+"nameEn": "Norfolk Island",
+"subregion": "Austrália e Nova Zelândia"
+},
+"NGA": {
+"capital": "Abuja",
+"continent": "Africa",
+"currency": "Naira nigeriana (NGN)",
+"name": "Nigéria",
+"nameEn": "Nigeria",
+"neighbors": [
+"Chade"
+],
+"subregion": "África Ocidental"
+},
+"NIC": {
+"capital": "Managua",
+"continent": "North America",
+"currency": "Córdoba nicaraguense (NIO)",
+"name": "Nicarágua",
+"nameEn": "Nicaragua",
+"neighbors": [
+"Costa Rica"
+],
+"subregion": "América Central"
+},
+"NIU": {
+"capital": "Alofi",
+"continent": "Oceania",
+"currency": "Dólar neozelandês (NZD)",
+"name": "Niue",
+"nameEn": "Niue",
+"subregion": "Polinésia"
+},
+"NLD": {
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Países Baixos",
+"nameEn": "Netherlands",
+"neighbors": [
+"Alemanha"
+],
+"subregion": "Europa Ocidental"
+},
+"NOR": {
+"capital": "Oslo",
+"continent": "Europe",
+"currency": "Coroa norueguesa (NOK)",
+"name": "Noruega",
+"nameEn": "Norway",
+"neighbors": [
+"Rússia"
+],
+"subregion": "Europa Setentrional"
+},
+"NPL": {
+"capital": "Kathmandu",
+"continent": "Asia",
+"currency": "Rupia nepalesa (NPR)",
+"name": "Nepal",
+"nameEn": "Nepal",
+"neighbors": [
+"Índia"
+],
+"subregion": "Ásia Meridional"
+},
+"NRU": {
+"capital": "Yaren",
+"continent": "Oceania",
+"currency": "Dólar australiano (AUD)",
+"name": "Nauru",
+"nameEn": "Nauru",
+"subregion": "Micronésia"
+},
+"NZL": {
+"capital": "Wellington",
+"continent": "Oceania",
+"currency": "Dólar neozelandês (NZD)",
+"name": "Nova Zelândia",
+"nameEn": "New Zealand",
+"subregion": "Austrália e Nova Zelândia"
+},
+"OMN": {
+"capital": "Muscat",
+"continent": "Asia",
+"currency": "Rial omanense (OMR)",
+"name": "Omã",
+"nameEn": "Oman",
+"neighbors": [
+"Emirados Árabes Unidos"
+],
+"subregion": "Ásia Ocidental"
+},
+"PAK": {
+"capital": "Islamabad",
+"continent": "Asia",
+"currency": "Rupia paquistanesa (PKR)",
+"name": "Paquistão",
+"nameEn": "Pakistan",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Meridional"
+},
+"PAN": {
+"capital": "Panama City",
+"continent": "North America",
+"name": "Panamá",
+"nameEn": "Panama",
+"neighbors": [
+"Colômbia"
+],
+"subregion": "América Central"
+},
+"PCN": {
+"capital": "Adamstown",
+"continent": "Oceania",
+"currency": "Dólar neozelandês (NZD)",
+"name": "Ilhas Pitcairn",
+"nameEn": "Pitcairn Islands",
+"subregion": "Polinésia"
+},
+"PER": {
+"capital": "Lima",
+"continent": "South America",
+"currency": "Novo sol peruano (PEN)",
+"name": "Peru",
+"nameEn": "Peru",
+"neighbors": [
+"Brasil"
+],
+"subregion": "América do Sul"
+},
+"PHL": {
+"capital": "Manila",
+"continent": "Asia",
+"currency": "Peso filipino (PHP)",
+"name": "Filipinas",
+"nameEn": "Philippines",
+"subregion": "Sudeste Asiático"
+},
+"PLW": {
+"capital": "Ngerulmud",
+"continent": "Oceania",
+"currency": "Dólar americano (USD)",
+"name": "Palau",
+"nameEn": "Palau",
+"subregion": "Micronésia"
+},
+"PNG": {
+"capital": "Port Moresby",
+"continent": "Oceania",
+"currency": "Kina papuásia (PGK)",
+"name": "Papua-Nova Guiné",
+"nameEn": "Papua New Guinea",
+"neighbors": [
+"Indonésia"
+],
+"subregion": "Melanésia"
+},
+"POL": {
+"capital": "Warsaw",
+"continent": "Europe",
+"currency": "Zloty polonês (PLN)",
+"name": "Polónia",
+"nameEn": "Poland",
+"neighbors": [
+"Chéquia"
+],
+"subregion": "Europa Oriental"
+},
+"PRI": {
+"capital": "San Juan",
+"continent": "North America",
+"currency": "Dólar americano (USD)",
+"name": "Porto Rico",
+"nameEn": "Puerto Rico",
+"subregion": "Caribe"
+},
+"PRK": {
+"capital": "Pyongyang",
+"continent": "Asia",
+"currency": "Won norte-coreano (KPW)",
+"name": "Coreia do Norte",
+"nameEn": "North Korea",
+"neighbors": [
+"China"
+],
+"subregion": "Ásia Oriental"
+},
+"PRT": {
+"capital": "Lisbon",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Portugal",
+"nameEn": "Portugal",
+"neighbors": [
+"Espanha"
+],
+"subregion": "Europa Meridional"
+},
+"PRY": {
+"capital": "Asunción",
+"continent": "South America",
+"currency": "Guarani paraguaio (PYG)",
+"name": "Paraguai",
+"nameEn": "Paraguay",
+"neighbors": [
+"Brasil"
+],
+"subregion": "América do Sul"
+},
+"PSE": {
+"continent": "Asia",
+"name": "Palestina",
+"nameEn": "Palestine"
+},
+"PYF": {
+"capital": "Papeetē",
+"continent": "Oceania",
+"currency": "Franco CFP (XPF)",
+"name": "Polinésia Francesa",
+"nameEn": "French Polynesia",
+"subregion": "Polinésia"
+},
+"QAT": {
+"capital": "Doha",
+"continent": "Asia",
+"currency": "Rial catariano (QAR)",
+"name": "Catar",
+"nameEn": "Qatar",
+"neighbors": [
+"Arábia Saudita"
+],
+"subregion": "Ásia Ocidental"
+},
+"ROU": {
+"capital": "Bucharest",
+"continent": "Europe",
+"currency": "Leu romeno (RON)",
+"name": "Roménia",
+"nameEn": "Romania",
+"neighbors": [
+"Sérvia"
+],
+"subregion": "Europa Oriental"
+},
+"RUS": {
+"capital": "Moscow",
+"continent": "Europe",
+"currency": "Rublo russo (RUB)",
+"name": "Rússia",
+"nameEn": "Russia",
+"neighbors": [
+"Lituânia"
+],
+"subregion": "Europa Oriental"
+},
+"RWA": {
+"capital": "Kigali",
+"continent": "Africa",
+"currency": "Franco ruandês (RWF)",
+"name": "Ruanda",
+"nameEn": "Rwanda",
+"neighbors": [
+"Burundi"
+],
+"subregion": "África Oriental"
+},
+"SAU": {
+"capital": "Riyadh",
+"continent": "Asia",
+"currency": "Riyal saudita (SAR)",
+"name": "Arábia Saudita",
+"nameEn": "Saudi Arabia",
+"neighbors": [
+"Jordânia"
+],
+"subregion": "Ásia Ocidental"
+},
+"SDN": {
+"capital": "Khartoum",
+"continent": "Africa",
+"currency": "Libra sudanesa (SDG)",
+"name": "Sudão",
+"nameEn": "Sudan",
+"neighbors": [
+"Etiópia"
+],
+"subregion": "África Setentrional"
+},
+"SEN": {
+"capital": "Dakar",
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Senegal",
+"nameEn": "Senegal",
+"neighbors": [
+"Mali"
+],
+"subregion": "África Ocidental"
+},
+"SGP": {
+"capital": "Singapore",
+"continent": "Asia",
+"currency": "Dólar singapuriano (SGD)",
+"name": "Singapura",
+"nameEn": "Singapore",
+"subregion": "Sudeste Asiático"
+},
+"SGS": {
+"capital": "King Edward Point",
+"continent": "Seven seas (open ocean)",
+"currency": "Libra esterlina (GBP)",
+"name": "Ilhas Geórgia do Sul e Sandwich do Sul",
+"nameEn": "South Georgia and the South Sandwich Islands",
+"subregion": "América do Sul"
+},
+"SHN": {
+"capital": "Jamestown",
+"continent": "Seven seas (open ocean)",
+"currency": "Libra de Santa Helena (SHP)",
+"name": "Santa Helena",
+"nameEn": "Saint Helena",
+"subregion": "África Ocidental"
+},
+"SLB": {
+"capital": "Honiara",
+"continent": "Oceania",
+"currency": "Dólar das Ilhas Salomão (SBD)",
+"name": "Ilhas Salomão",
+"nameEn": "Solomon Islands",
+"subregion": "Melanésia"
+},
+"SLE": {
+"capital": "Freetown",
+"continent": "Africa",
+"currency": "Leone de Serra Leoa (1964—2022) (SLL)",
+"name": "Serra Leoa",
+"nameEn": "Sierra Leone",
+"neighbors": [
+"Guiné"
+],
+"subregion": "África Ocidental"
+},
+"SLV": {
+"capital": "San Salvador",
+"continent": "North America",
+"name": "El Salvador",
+"nameEn": "El Salvador",
+"neighbors": [
+"Honduras"
+],
+"subregion": "América Central"
+},
+"SMR": {
+"capital": "City of San Marino",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "San Marino",
+"nameEn": "San Marino",
+"neighbors": [
+"Itália"
+],
+"subregion": "Europa Meridional"
+},
+"SOL": {
+"continent": "Africa",
+"name": "Somalilândia",
+"nameEn": "Somaliland"
+},
+"SOM": {
+"capital": "Mogadishu",
+"continent": "Africa",
+"currency": "Xelim somali (SOS)",
+"name": "Somália",
+"nameEn": "Somalia",
+"neighbors": [
+"Etiópia"
+],
+"subregion": "África Oriental"
+},
+"SPM": {
+"capital": "Saint-Pierre",
+"continent": "North America",
+"currency": "Euro (EUR)",
+"name": "Saint-Pierre e Miquelon",
+"nameEn": "Saint Pierre and Miquelon",
+"subregion": "América do Norte"
+},
+"SRB": {
+"capital": "Belgrade",
+"continent": "Europe",
+"currency": "Dinar sérvio (RSD)",
+"name": "Sérvia",
+"nameEn": "Serbia",
+"neighbors": [
+"Bósnia e Herzegovina"
+],
+"subregion": "Europa Oriental"
+},
+"SSD": {
+"capital": "Juba",
+"continent": "Africa",
+"currency": "Libra sul-sudanesa (SSP)",
+"name": "Sudão do Sul",
+"nameEn": "South Sudan",
+"neighbors": [
+"Quénia"
+],
+"subregion": "África Central"
+},
+"STP": {
+"capital": "São Tomé",
+"continent": "Africa",
+"currency": "Dobra de São Tomé e Príncipe (1977–2017) (STD)",
+"name": "São Tomé e Príncipe",
+"nameEn": "São Tomé and Príncipe",
+"subregion": "África Central"
+},
+"SUR": {
+"capital": "Paramaribo",
+"continent": "South America",
+"currency": "Dólar surinamês (SRD)",
+"name": "Suriname",
+"nameEn": "Suriname",
+"neighbors": [
+"França"
+],
+"subregion": "América do Sul"
+},
+"SVK": {
+"capital": "Bratislava",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Eslováquia",
+"nameEn": "Slovakia",
+"neighbors": [
+"Chéquia"
+],
+"subregion": "Europa Oriental"
+},
+"SVN": {
+"capital": "Ljubljana",
+"continent": "Europe",
+"currency": "Euro (EUR)",
+"name": "Eslovénia",
+"nameEn": "Slovenia",
+"neighbors": [
+"Áustria"
+],
+"subregion": "Europa Meridional"
+},
+"SWE": {
+"capital": "Stockholm",
+"continent": "Europe",
+"currency": "Coroa sueca (SEK)",
+"name": "Suécia",
+"nameEn": "Sweden",
+"neighbors": [
+"Noruega"
+],
+"subregion": "Europa Setentrional"
+},
+"SWZ": {
+"continent": "Africa",
+"currency": "Lilangeni suazi (SZL)",
+"name": "Essuatíni",
+"nameEn": "Eswatini",
+"neighbors": [
+"Moçambique"
+],
+"subregion": "África Austral"
+},
+"SXM": {
+"continent": "North America",
+"name": "São Martinho",
+"nameEn": "Sint Maarten"
+},
+"SYC": {
+"capital": "Victoria",
+"continent": "Seven seas (open ocean)",
+"currency": "Rupia seichelense (SCR)",
+"name": "Seychelles",
+"nameEn": "Seychelles",
+"subregion": "África Oriental"
+},
+"SYR": {
+"capital": "Damascus",
+"continent": "Asia",
+"currency": "Libra síria (SYP)",
+"name": "Síria",
+"nameEn": "Syria",
+"neighbors": [
+"Iraque"
+],
+"subregion": "Ásia Ocidental"
+},
+"TCA": {
+"continent": "North America",
+"name": "Turks e Caicos",
+"nameEn": "Turks and Caicos Islands"
+},
+"TCD": {
+"capital": "N'Djamena",
+"continent": "Africa",
+"currency": "Franco CFA de BEAC (XAF)",
+"name": "Chade",
+"nameEn": "Chad",
+"neighbors": [
+"Nigéria"
+],
+"subregion": "África Central"
+},
+"TGO": {
+"capital": "Lomé",
+"continent": "Africa",
+"currency": "Franco CFA de BCEAO (XOF)",
+"name": "Togo",
+"nameEn": "Togo",
+"neighbors": [
+"Gana"
+],
+"subregion": "África Ocidental"
+},
+"THA": {
+"capital": "Bangkok",
+"continent": "Asia",
+"currency": "Baht tailandês (THB)",
+"name": "Tailândia",
+"nameEn": "Thailand",
+"neighbors": [
+"Camboja"
+],
+"subregion": "Sudeste Asiático"
+},
+"TJK": {
+"capital": "Dushanbe",
+"continent": "Asia",
+"currency": "Somoni tadjique (TJS)",
+"name": "Tajiquistão",
+"nameEn": "Tajikistan",
+"neighbors": [
+"Uzbequistão"
+],
+"subregion": "Ásia Central"
+},
+"TKM": {
+"capital": "Ashgabat",
+"continent": "Asia",
+"currency": "Manat turcomeno (TMT)",
+"name": "Turquemenistão",
+"nameEn": "Turkmenistan",
+"neighbors": [
+"Afeganistão"
+],
+"subregion": "Ásia Central"
+},
+"TLS": {
+"capital": "Dili",
+"continent": "Asia",
+"currency": "Dólar americano (USD)",
+"name": "Timor-Leste",
+"nameEn": "East Timor",
+"neighbors": [
+"Indonésia"
+],
+"subregion": "Sudeste Asiático"
+},
+"TON": {
+"capital": "Nuku'alofa",
+"continent": "Oceania",
+"currency": "Paʻanga tonganesa (TOP)",
+"name": "Tonga",
+"nameEn": "Tonga",
+"subregion": "Polinésia"
+},
+"TTO": {
+"capital": "Port of Spain",
+"continent": "North America",
+"currency": "Dólar de Trinidad e Tobago (TTD)",
+"name": "Trinidad e Tobago",
+"nameEn": "Trinidad and Tobago",
+"subregion": "Caribe"
+},
+"TUN": {
+"capital": "Tunis",
+"continent": "Africa",
+"currency": "Dinar tunisiano (TND)",
+"name": "Tunísia",
+"nameEn": "Tunisia",
+"neighbors": [
+"Argélia"
+],
+"subregion": "África Setentrional"
+},
+"TUR": {
+"capital": "Ankara",
+"continent": "Asia",
+"currency": "Lira turca (TRY)",
+"name": "Turquia",
+"nameEn": "Turkey",
+"neighbors": [
+"Síria"
+],
+"subregion": "Ásia Ocidental"
+},
+"TUV": {
+"capital": "Funafuti",
+"continent": "Oceania",
+"currency": "Dólar australiano (AUD)",
+"name": "Tuvalu",
+"nameEn": "Tuvalu"
+},
+"TWN": {
+"capital": "Taipei",
+"continent": "Asia",
+"currency": "Novo dólar taiwanês (TWD)",
+"name": "Taiwan",
+"nameEn": "Taiwan"
+},
+"TZA": {
+"capital": "Dodoma",
+"continent": "Africa",
+"currency": "Xelim tanzaniano (TZS)",
+"name": "Tanzânia",
+"nameEn": "Tanzania",
+"neighbors": [
+"Burundi"
+]
+},
+"UGA": {
+"capital": "Kampala",
+"continent": "Africa",
+"currency": "Xelim ugandense (UGX)",
+"name": "Uganda",
+"nameEn": "Uganda",
+"neighbors": [
+"República Democrática do Congo"
+]
+},
+"UKR": {
+"continent": "Europe",
+"currency": "Hryvnia ucraniano (UAH)",
+"name": "Ucrânia",
+"nameEn": "Ukraine",
+"neighbors": [
+"Eslováquia"
+]
+},
+"URY": {
+"continent": "South America",
+"name": "Uruguai",
+"nameEn": "Uruguay",
+"neighbors": [
+"Brasil"
+]
+},
+"USA": {
+"continent": "North America",
+"name": "Estados Unidos",
+"nameEn": "United States of America",
+"neighbors": [
+"Canadá"
+]
+},
+"UZB": {
+"continent": "Asia",
+"currency": "Som uzbeque (UZS)",
+"name": "Uzbequistão",
+"nameEn": "Uzbekistan",
+"neighbors": [
+"Turquemenistão"
+]
+},
+"VAT": {
+"continent": "Europe",
+"name": "Vaticano",
+"nameEn": "Vatican City"
+},
+"VCT": {
+"continent": "North America",
+"currency": "Dólar do Caribe Oriental (XCD)",
+"name": "São Vicente e Granadinas",
+"nameEn": "Saint Vincent and the Grenadines"
+},
+"VEN": {
+"continent": "South America",
+"name": "Venezuela",
+"nameEn": "Venezuela",
+"neighbors": [
+"Brasil"
+]
+},
+"VGB": {
+"continent": "North America",
+"name": "Ilhas Virgens Britânicas",
+"nameEn": "British Virgin Islands"
+},
+"VIR": {
+"continent": "North America",
+"name": "Ilhas Virgens Americanas",
+"nameEn": "United States Virgin Islands"
+},
+"VNM": {
+"continent": "Asia",
+"name": "Vietname",
+"nameEn": "Vietnam",
+"neighbors": [
+"Camboja"
+]
+},
+"VUT": {
+"continent": "Oceania",
+"name": "Vanuatu",
+"nameEn": "Vanuatu"
+},
+"WLF": {
+"continent": "Oceania",
+"name": "Wallis e Futuna",
+"nameEn": "Wallis and Futuna"
+},
+"WSM": {
+"continent": "Oceania",
+"name": "Samoa",
+"nameEn": "Samoa"
+},
+"YEM": {
+"continent": "Asia",
+"name": "Iémen",
+"nameEn": "Yemen",
+"neighbors": [
+"Omã"
+]
+},
+"ZAF": {
+"continent": "Africa",
+"name": "África do Sul",
+"nameEn": "South Africa",
+"neighbors": [
+"Namíbia"
+]
+},
+"ZMB": {
+"continent": "Africa",
+"name": "Zâmbia",
+"nameEn": "Zambia",
+"neighbors": [
+"República Democrática do Congo"
+]
+},
+"ZWE": {
+"continent": "Africa",
+"name": "Zimbábue",
+"nameEn": "Zimbabwe",
+"neighbors": [
+"Zâmbia"
+]
+}
+}

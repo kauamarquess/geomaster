@@ -1,0 +1,105 @@
+{
+ "id": "LKA",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#2e0f1b",
+   "#6b243f",
+   "#f2c94c",
+   "#c6537f"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "riri_yaka",
+    "name": "Riri Yaka",
+    "legend": "Demônio sanguinário do folclore cingalês."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_sentinela_da_capital",
+    "name": "Sentinela da Capital",
+    "legend": "Criatura inventada que vigia a capital, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Sri Lanka.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "mahasona",
+    "name": "Mahasona",
+    "legend": "Demônio gigante dos cemitérios, nas histórias cingalesas."
+   },
+   "bossTitle": "Mahasona",
+   "rewardPower": "fogo_fatuo"
+  }
+ ]
+}

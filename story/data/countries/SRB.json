@@ -1,0 +1,102 @@
+{
+ "id": "SRB",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#2a2e0f",
+   "#636b24",
+   "#f2c94c",
+   "#b8c653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "vila",
+    "name": "Vila",
+    "legend": "Fada eslava dos bosques e das montanhas, bela e perigosa."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "ala",
+    "name": "Ala",
+    "legend": "Demônio eslavo do granizo e das tempestades."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "baba_roga",
+    "name": "Baba Roga",
+    "legend": "Bruxa-ogro que assusta crianças."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "zmaj",
+    "name": "Zmaj",
+    "legend": "Dragão do folclore sérvio, aliado ou inimigo dos heróis."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Sérvia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Sérvia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Sérvia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Sérvia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Sérvia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "sava_savanovic",
+    "name": "Sava Savanović",
+    "legend": "Vampiro sérvio da lenda do moinho de Zarožje."
+   },
+   "bossTitle": "Sava Savanović",
+   "rewardPower": "passo_leve"
+  }
+ ]
+}

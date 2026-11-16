@@ -1,0 +1,101 @@
+{
+ "id": "GUY",
+ "theme": {
+  "scenery": "selva_guianas",
+  "palette": [
+   "#0b3226",
+   "#1a755a",
+   "#f2c94c",
+   "#44d5a9"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "moongazer",
+    "name": "Moongazer",
+    "legend": "Figura alta que olha a lua e leva quem se aproxima, no folclore guianense."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "churile",
+    "name": "Churile",
+    "legend": "Fantasma de mulher que morreu no parto, na tradição indo-caribenha."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "massacooramaan",
+    "name": "Massacooramaan",
+    "legend": "Espírito das águas e dos rios do folclore da Guiana."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "water_mama",
+    "name": "Water Mama",
+    "legend": "Espírito feminino das águas que atrai e leva pessoas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "kaieteur",
+    "name": "Gavião de Kaieteur",
+    "legend": "Criatura inventada, inspirada na grande cachoeira do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "arapaima",
+    "name": "Arapaima Gigante",
+    "legend": "Criatura inventada, inspirada no maior peixe de água doce.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "harpia",
+    "name": "Harpia da Selva",
+    "legend": "Criatura inventada, inspirada na águia-harpia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "kanaima",
+    "name": "Kanaima",
+    "legend": "Vingador de tradições indígenas da região das Guianas."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "jaguar",
+    "name": "Onça do Rupununi",
+    "legend": "Criatura inventada, inspirada nas savanas do Rupununi.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "ol_higue",
+    "name": "Ol' Higue",
+    "legend": "Velha que tira a pele e vira bola de fogo para atacar à noite."
+   },
+   "boss": true,
+   "bossTitle": "A Velha da Bola de Fogo",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

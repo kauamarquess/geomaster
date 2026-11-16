@@ -1,0 +1,101 @@
+{
+ "id": "IRQ",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#0f182e",
+   "#24396b",
+   "#f2c94c",
+   "#5375c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "anzu",
+    "name": "Anzu",
+    "legend": "Pássaro-leão mesopotâmico que roubou as Tábuas do Destino."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "lamassu",
+    "name": "Lamassu",
+    "legend": "Guardião alado de corpo de touro e cabeça humana."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "pazuzu",
+    "name": "Pazuzu",
+    "legend": "Demônio dos ventos da Mesopotâmia."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "humbaba",
+    "name": "Humbaba",
+    "legend": "Guardião da Floresta de Cedros, na Epopeia de Gilgamesh."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "touro_celeste",
+    "name": "Touro Celeste",
+    "legend": "Criatura enviada contra Gilgamesh, na epopeia mesopotâmica."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Iraque.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Iraque.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Iraque.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Iraque.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "tiamat",
+    "name": "Tiamat",
+    "legend": "Deusa-monstro primordial dos mares, na mitologia babilônica."
+   },
+   "bossTitle": "Tiamat",
+   "rewardPower": "passo_leve"
+  }
+ ]
+}

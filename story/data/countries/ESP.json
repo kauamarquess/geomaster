@@ -1,0 +1,100 @@
+{
+ "id": "ESP",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#122e0f",
+   "#2b6b24",
+   "#f2c94c",
+   "#5ec653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "coco",
+    "name": "Coco",
+    "legend": "Bicho-papão que assombra crianças que não dormem."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "trasgo",
+    "name": "Trasgo",
+    "legend": "Duende travesso das casas e florestas do norte da Espanha."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "xana",
+    "name": "Xana",
+    "legend": "Ninfa das fontes asturianas que guarda tesouros e encantamentos."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "nuberu",
+    "name": "Nuberu",
+    "legend": "Mago das nuvens de Astúrias que traz granizo e tempestades."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "santa_compana",
+    "name": "Santa Compaña",
+    "legend": "Procissão de almas penadas que anuncia a morte em Galícia."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "tarasca",
+    "name": "Tarasca",
+    "legend": "Dragão que desfila nas festas do Corpus Christi na Espanha."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Espanha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Espanha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Espanha.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "basajaun",
+    "name": "Basajaun",
+    "legend": "Senhor da floresta basco, gigante peludo protetor dos rebanhos."
+   },
+   "bossTitle": "Basajaun",
+   "rewardPower": "fogo_fatuo"
+  }
+ ]
+}

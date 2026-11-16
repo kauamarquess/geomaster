@@ -1,0 +1,16 @@
+{
+  "id": "BRA",
+  "theme": {"scenery": "floresta_tropical", "palette": ["#0b3d2e", "#1f7a4d", "#f2c94c", "#2d9cdb"]},
+  "stages": [
+    {"stage": 1, "monster": {"id": "saci", "name": "Saci-Pererê", "legend": "Menino de uma perna só que aparece em redemoinhos e faz travessuras."}},
+    {"stage": 2, "monster": {"id": "curupira", "name": "Curupira", "legend": "Protetor das matas, tem os pés virados para trás para despistar caçadores."}},
+    {"stage": 3, "monster": {"id": "boto", "name": "Boto-cor-de-rosa", "legend": "Golfinho dos rios amazônicos que, segundo a lenda, vira um rapaz encantador nas festas."}},
+    {"stage": 4, "monster": {"id": "mula_sem_cabeca", "name": "Mula Sem Cabeça", "legend": "Mulher amaldiçoada que vira uma mula de fogo no lugar da cabeça."}},
+    {"stage": 5, "monster": {"id": "iara", "name": "Iara", "legend": "Sereia dos rios que atrai pescadores com seu canto."}},
+    {"stage": 6, "monster": {"id": "cuca", "name": "Cuca", "legend": "Bruxa com cabeça de jacaré que rouba crianças que não dormem."}},
+    {"stage": 7, "monster": {"id": "lobisomem", "name": "Lobisomem", "legend": "Homem que vira lobo em noites de lua cheia, presente no folclore brasileiro."}},
+    {"stage": 8, "monster": {"id": "caipora", "name": "Caipora", "legend": "Espírito da mata que cavalga um porco-do-mato e protege os animais."}},
+    {"stage": 9, "monster": {"id": "mapinguari", "name": "Mapinguari", "legend": "Gigante peludo da Amazônia, de um olho só e cheiro terrível."}},
+    {"stage": 10, "boss": true, "monster": {"id": "boitata", "name": "Boitatá", "legend": "Serpente de fogo que protege os campos e persegue quem os incendeia."}, "bossTitle": "A Cobra de Fogo", "rewardPower": "fogo_fatuo"}
+  ]
+}

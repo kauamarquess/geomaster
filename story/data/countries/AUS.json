@@ -1,0 +1,101 @@
+{
+ "id": "AUS",
+ "theme": {
+  "scenery": "ilhas",
+  "palette": [
+   "#2e260f",
+   "#6b5824",
+   "#f2c94c",
+   "#c6a753"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "drop_bear",
+    "name": "Drop Bear",
+    "legend": "Coala carnívoro de piada, que cai das árvores sobre turistas distraídos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "yowie",
+    "name": "Yowie",
+    "legend": "Criatura peluda e gigante das florestas australianas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "luz_de_min_min",
+    "name": "Luz de Min Min",
+    "legend": "Luz misteriosa que segue viajantes no interior australiano."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "bunyip",
+    "name": "Bunyip",
+    "legend": "Monstro de lagoas e pântanos, de rugido assustador."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "muldjewangk",
+    "name": "Muldjewangk",
+    "legend": "Criatura aquática do rio Murray, na tradição Ngarrindjeri."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Austrália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Austrália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Austrália.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_sentinela_de_canberra",
+    "name": "Sentinela de Canberra",
+    "legend": "Criatura inventada que vigia Canberra, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "serpente_arco_iris",
+    "name": "Serpente Arco-Íris",
+    "legend": "Criadora dos rios e montanhas, nas tradições aborígenes."
+   },
+   "bossTitle": "Serpente Arco-Íris",
+   "rewardPower": "segunda_chance"
+  }
+ ]
+}

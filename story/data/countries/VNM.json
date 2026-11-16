@@ -1,0 +1,101 @@
+{
+ "id": "VNM",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#180f2e",
+   "#39246b",
+   "#f2c94c",
+   "#7553c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "ma_da",
+    "name": "Ma Da",
+    "legend": "Fantasma aquático que arrasta pessoas para o fundo."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "ma_troi",
+    "name": "Ma Trơi",
+    "legend": "Luzes errantes dos campos, ligadas a almas vagantes."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "ma_lai",
+    "name": "Ma Lai",
+    "legend": "Cabeça voadora com entranhas, que caça à noite."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "thuong_luong",
+    "name": "Thuồng Luồng",
+    "legend": "Criatura aquática gigante, semelhante a um dragão."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "ho_ly_tinh",
+    "name": "Hồ Ly Tinh",
+    "legend": "Raposa de nove caudas que seduz humanos."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Vietname.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Vietname.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Vietname.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Vietname.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "rong",
+    "name": "Rồng",
+    "legend": "O dragão vietnamita, ligado à água e às origens do povo."
+   },
+   "bossTitle": "Rồng",
+   "rewardPower": "congelar_tempo"
+  }
+ ]
+}

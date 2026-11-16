@@ -1,0 +1,103 @@
+{
+ "id": "GRL",
+ "theme": {
+  "scenery": "norte",
+  "palette": [
+   "#0f2e2b",
+   "#246b65",
+   "#f2c94c",
+   "#53c6bc"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "qivittoq",
+    "name": "Qivittoq",
+    "legend": "Espírito inuit de quem se isolou nas montanhas e virou criatura assombrada."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "tupilak",
+    "name": "Tupilak",
+    "legend": "Criatura feita de ossos e magia xamânica, enviada contra inimigos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "amarok",
+    "name": "Amarok",
+    "legend": "Lobo gigante inuit que ataca quem caça sozinho à noite."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Groenlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Groenlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Groenlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Groenlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_sentinela_de_nuuk",
+    "name": "Sentinela de Nuuk",
+    "legend": "Criatura inventada que vigia Nuuk, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Groenlândia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "sedna",
+    "name": "Sedna",
+    "legend": "Mãe do mar inuit, senhora dos animais marinhos, de grande poder."
+   },
+   "bossTitle": "Sedna",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "id": "TUR",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#0f2e15",
+   "#246b31",
+   "#f2c94c",
+   "#53c668"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "cin",
+    "name": "Cin",
+    "legend": "Espíritos de fogo da tradição turca, invisíveis e poderosos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "albast",
+    "name": "Albastı",
+    "legend": "Demônio que ataca mães e bebês, na tradição turca."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "sahmaran",
+    "name": "Şahmaran",
+    "legend": "Rainha-serpente de rosto humano, sábia e curandeira."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Turquia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Turquia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Turquia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Turquia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_sentinela_de_ankara",
+    "name": "Sentinela de Ankara",
+    "legend": "Criatura inventada que vigia Ankara, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Turquia.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "tepegoz",
+    "name": "Tepegöz",
+    "legend": "Gigante de um olho só do Livro de Dede Korkut."
+   },
+   "bossTitle": "Tepegöz",
+   "rewardPower": "tempo_extra"
+  }
+ ]
+}

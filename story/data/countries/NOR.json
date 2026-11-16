@@ -1,0 +1,100 @@
+{
+ "id": "NOR",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#162e0f",
+   "#346b24",
+   "#f2c94c",
+   "#6ec653"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "nkk",
+    "name": "Nøkk",
+    "legend": "Espírito das águas que toca violino e afoga quem o segue."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "huldra",
+    "name": "Huldra",
+    "legend": "Mulher da floresta de cauda de vaca que seduz caminhantes."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "draugen",
+    "name": "Draugen",
+    "legend": "Fantasma de marinheiro afogado que anuncia naufrágios."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "fossegrim",
+    "name": "Fossegrim",
+    "legend": "Espírito das cachoeiras que ensina música a quem lhe faz oferendas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "troll",
+    "name": "Troll",
+    "legend": "Gigante das montanhas que vira pedra ao ver o sol."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "lindorm",
+    "name": "Lindorm",
+    "legend": "Serpente-dragão do folclore escandinavo."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Noruega.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Noruega.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre Noruega.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "kraken",
+    "name": "Kraken",
+    "legend": "Monstro marinho gigante que arrasta navios para o fundo."
+   },
+   "bossTitle": "Kraken",
+   "rewardPower": "dano_extra"
+  }
+ ]
+}

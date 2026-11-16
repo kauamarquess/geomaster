@@ -1,0 +1,2793 @@
+{
+  "version": 1,
+  "part": 2,
+  "partsTotal": 5,
+  "description": "GeoMaster — banco oficial, parte 2/5 (200 perguntas).",
+  "questions": [
+    {
+      "id": "gm-bor-017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Belize?",
+      "options": [
+        "Costa Rica",
+        "Nicarágua",
+        "Guatemala",
+        "Honduras"
+      ],
+      "correctIndex": 2,
+      "explanation": "Belize compartilha uma fronteira terrestre com Guatemala."
+    },
+    {
+      "id": "gm-cur-191",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Trinidad e Tobago?",
+      "options": [
+        "Colón costarriquenho (CRC)",
+        "Naira nigeriana (NGN)",
+        "Dólar de Trinidad e Tobago (TTD)",
+        "Dólar barbadense (BBD)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Dólar de Trinidad e Tobago (TTD) para Trinidad e Tobago."
+    },
+    {
+      "id": "gm-bor-116",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Portugal?",
+      "options": [
+        "San Marino",
+        "Espanha",
+        "Malta",
+        "Chipre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Portugal compartilha uma fronteira terrestre com Espanha."
+    },
+    {
+      "id": "gm-map-128",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Liechtenstein.",
+      "targetId": "LIE",
+      "targetName": "Liechtenstein",
+      "explanation": "Liechtenstein está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-bor-071",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Israel?",
+      "options": [
+        "Líbano",
+        "Geórgia",
+        "Turquia",
+        "Kuwait"
+      ],
+      "correctIndex": 0,
+      "explanation": "Israel compartilha uma fronteira terrestre com Líbano."
+    },
+    {
+      "id": "gm-map-173",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Filipinas.",
+      "targetId": "PHL",
+      "targetName": "Filipinas",
+      "explanation": "Filipinas está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-bor-057",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Guiné Equatorial?",
+      "options": [
+        "Angola",
+        "São Tomé e Príncipe",
+        "Chade",
+        "Camarões"
+      ],
+      "correctIndex": 3,
+      "explanation": "Guiné Equatorial compartilha uma fronteira terrestre com Camarões."
+    },
+    {
+      "id": "gm-reg-088",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Hungria?",
+      "options": [
+        "Sudeste Asiático",
+        "Europa Oriental",
+        "Europa Meridional",
+        "Caribe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Hungria está na sub-região Europa Oriental."
+    },
+    {
+      "id": "gm-map-100",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Índia.",
+      "targetId": "IND",
+      "targetName": "Índia",
+      "explanation": "Índia está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-reg-094",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Irão?",
+      "options": [
+        "Ásia Meridional",
+        "Ásia Central",
+        "África Ocidental",
+        "Caribe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Irão está na sub-região Ásia Meridional."
+    },
+    {
+      "id": "gm-map-060",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Dominica.",
+      "targetId": "DMA",
+      "targetName": "Dominica",
+      "explanation": "Dominica está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-cap-191",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Turquemenistão?",
+      "options": [
+        "Ashgabat",
+        "Tripoli",
+        "Diego Garcia",
+        "Valletta"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Turquemenistão é Ashgabat."
+    },
+    {
+      "id": "gm-reg-127",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Maldivas?",
+      "options": [
+        "Ásia Meridional",
+        "Sudeste Asiático",
+        "Micronésia",
+        "África Oriental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Maldivas está na sub-região Ásia Meridional."
+    },
+    {
+      "id": "gm-cur-033",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de China?",
+      "options": [
+        "Manat azeri (AZN)",
+        "Franco djiboutiano (DJF)",
+        "Yuan chinês (CNY)",
+        "Dólar das Ilhas Salomão (SBD)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Yuan chinês (CNY) para China."
+    },
+    {
+      "id": "gm-reg-089",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Indonésia?",
+      "options": [
+        "África Ocidental",
+        "Ásia Ocidental",
+        "Sudeste Asiático",
+        "Austrália e Nova Zelândia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Indonésia está na sub-região Sudeste Asiático."
+    },
+    {
+      "id": "gm-bor-004",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Emirados Árabes Unidos?",
+      "options": [
+        "Iémen",
+        "Arábia Saudita",
+        "Turquia",
+        "Azerbaijão"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emirados Árabes Unidos compartilha uma fronteira terrestre com Arábia Saudita."
+    },
+    {
+      "id": "gm-map-219",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Trinidad e Tobago.",
+      "targetId": "TTO",
+      "targetName": "Trinidad e Tobago",
+      "explanation": "Trinidad e Tobago está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-reg-123",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Marrocos?",
+      "options": [
+        "Micronésia",
+        "África Setentrional",
+        "Ásia Meridional",
+        "África Oriental"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Marrocos está na sub-região África Setentrional."
+    },
+    {
+      "id": "gm-map-143",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Macedónia do Norte.",
+      "targetId": "MKD",
+      "targetName": "Macedónia do Norte",
+      "explanation": "Macedónia do Norte está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-cap-030",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Botsuana?",
+      "options": [
+        "Athens",
+        "Beirut",
+        "Sarajevo",
+        "Gaborone"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para Botsuana é Gaborone."
+    },
+    {
+      "id": "gm-cap-091",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de República da Irlanda?",
+      "options": [
+        "Saint Helier",
+        "Monaco",
+        "Zagreb",
+        "Dublin"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para República da Irlanda é Dublin."
+    },
+    {
+      "id": "gm-cur-082",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Croácia?",
+      "options": [
+        "Won norte-coreano (KPW)",
+        "Libra sudanesa (SDG)",
+        "Kuna croata (HRK)",
+        "Rupia maldivana (MVR)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Kuna croata (HRK) para Croácia."
+    },
+    {
+      "id": "gm-cur-042",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Costa Rica?",
+      "options": [
+        "Dólar surinamês (SRD)",
+        "Manat turcomeno (TMT)",
+        "Colón costarriquenho (CRC)",
+        "Coroa norueguesa (NOK)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Colón costarriquenho (CRC) para Costa Rica."
+    },
+    {
+      "id": "gm-reg-181",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Somália?",
+      "options": [
+        "Ásia Central",
+        "África Central",
+        "África Oriental",
+        "Sudeste Asiático"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Somália está na sub-região África Oriental."
+    },
+    {
+      "id": "gm-cur-047",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Djibouti?",
+      "options": [
+        "Dólar jamaicano (JMD)",
+        "Euro (EUR)",
+        "Libra sul-sudanesa (SSP)",
+        "Franco djiboutiano (DJF)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Franco djiboutiano (DJF) para Djibouti."
+    },
+    {
+      "id": "gm-bor-128",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Somália?",
+      "options": [
+        "Burundi",
+        "Território Britânico do Oceano Índico",
+        "Etiópia",
+        "Tanzânia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Somália compartilha uma fronteira terrestre com Etiópia."
+    },
+    {
+      "id": "gm-reg-144",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Ilha Norfolk?",
+      "options": [
+        "Ásia Ocidental",
+        "América Central",
+        "América do Sul",
+        "Austrália e Nova Zelândia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Ilha Norfolk está na sub-região Austrália e Nova Zelândia."
+    },
+    {
+      "id": "gm-bor-120",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Rússia?",
+      "options": [
+        "Hungria",
+        "Lituânia",
+        "Sérvia",
+        "Bulgária"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rússia compartilha uma fronteira terrestre com Lituânia."
+    },
+    {
+      "id": "gm-reg-014",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Burundi?",
+      "options": [
+        "América Central",
+        "África Oriental",
+        "América do Norte",
+        "Sudeste Asiático"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Burundi está na sub-região África Oriental."
+    },
+    {
+      "id": "gm-cap-107",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital de Coreia do Sul?",
+      "options": [
+        "Gaborone",
+        "El Aaiún",
+        "Seoul",
+        "Abu Dhabi"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Coreia do Sul é Seoul."
+    },
+    {
+      "id": "gm-map-165",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Nepal.",
+      "targetId": "NPL",
+      "targetName": "Nepal",
+      "explanation": "Nepal está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-cur-150",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Filipinas?",
+      "options": [
+        "Won norte-coreano (KPW)",
+        "Dólar bermudense (BMD)",
+        "Leone de Serra Leoa (1964—2022) (SLL)",
+        "Peso filipino (PHP)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Peso filipino (PHP) para Filipinas."
+    },
+    {
+      "id": "gm-cur-099",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Quénia?",
+      "options": [
+        "Manat azeri (AZN)",
+        "Lek albanês (ALL)",
+        "Xelim queniano (KES)",
+        "Escudo cabo-verdiano (CVE)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Xelim queniano (KES) para Quénia."
+    },
+    {
+      "id": "gm-cap-165",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Ruanda?",
+      "options": [
+        "San José",
+        "Tehran",
+        "Kigali",
+        "Kuwait City"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Ruanda é Kigali."
+    },
+    {
+      "id": "gm-reg-149",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Noruega?",
+      "options": [
+        "Ásia Ocidental",
+        "Europa Setentrional",
+        "Ásia Oriental",
+        "Polinésia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Noruega está na sub-região Europa Setentrional."
+    },
+    {
+      "id": "gm-map-134",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Macau.",
+      "targetId": "MAC",
+      "targetName": "Macau",
+      "explanation": "Macau está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-map-102",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Território Britânico do Oceano Índico.",
+      "targetId": "IOT",
+      "targetName": "Território Britânico do Oceano Índico",
+      "explanation": "Território Britânico do Oceano Índico está representado no mapa mundial na região de sua região geográfica."
+    },
+    {
+      "id": "gm-bor-001",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Afeganistão?",
+      "options": [
+        "Butão",
+        "China",
+        "Nepal",
+        "Maldivas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Afeganistão compartilha uma fronteira terrestre com China."
+    },
+    {
+      "id": "gm-cap-003",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Angola?",
+      "options": [
+        "Luanda",
+        "Madrid",
+        "Seoul",
+        "Maputo"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Angola é Luanda."
+    },
+    {
+      "id": "gm-cap-178",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Sérvia?",
+      "options": [
+        "Amman",
+        "Belgrade",
+        "Vienna",
+        "Luxembourg"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Sérvia é Belgrade."
+    },
+    {
+      "id": "gm-cur-128",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Ilhas Marianas do Norte?",
+      "options": [
+        "Dólar de Trinidad e Tobago (TTD)",
+        "Marco conversível da Bósnia e Herzegovina (BAM)",
+        "Coroa norueguesa (NOK)",
+        "Dólar americano (USD)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Dólar americano (USD) para Ilhas Marianas do Norte."
+    },
+    {
+      "id": "gm-reg-117",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Sri Lanka?",
+      "options": [
+        "Ásia Meridional",
+        "Polinésia",
+        "África Setentrional",
+        "Melanésia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Sri Lanka está na sub-região Ásia Meridional."
+    },
+    {
+      "id": "gm-map-122",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Kuwait.",
+      "targetId": "KWT",
+      "targetName": "Kuwait",
+      "explanation": "Kuwait está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-cap-014",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Azerbaijão?",
+      "options": [
+        "Tokyo",
+        "Baku",
+        "Vaduz",
+        "Warsaw"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Azerbaijão é Baku."
+    },
+    {
+      "id": "gm-bor-076",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Quirguistão?",
+      "options": [
+        "Uzbequistão",
+        "Paquistão",
+        "Catar",
+        "Vietname"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quirguistão compartilha uma fronteira terrestre com Uzbequistão."
+    },
+    {
+      "id": "gm-reg-121",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Letónia?",
+      "options": [
+        "Europa Meridional",
+        "Europa Setentrional",
+        "África Ocidental",
+        "Caribe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Letónia está na sub-região Europa Setentrional."
+    },
+    {
+      "id": "gm-reg-080",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Groenlândia?",
+      "options": [
+        "Melanésia",
+        "América Central",
+        "Austrália e Nova Zelândia",
+        "América do Norte"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Groenlândia está na sub-região América do Norte."
+    },
+    {
+      "id": "gm-cap-112",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Líbia?",
+      "options": [
+        "Sofia",
+        "Tripoli",
+        "Dublin",
+        "Saint John's"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Líbia é Tripoli."
+    },
+    {
+      "id": "gm-reg-175",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Ilhas Geórgia do Sul e Sandwich do Sul?",
+      "options": [
+        "América do Sul",
+        "Ásia Oriental",
+        "Ásia Ocidental",
+        "África Oriental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Ilhas Geórgia do Sul e Sandwich do Sul está na sub-região América do Sul."
+    },
+    {
+      "id": "gm-cap-067",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Gabão?",
+      "options": [
+        "San Salvador",
+        "Libreville",
+        "Bucharest",
+        "Bangui"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Gabão é Libreville."
+    },
+    {
+      "id": "gm-map-039",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Canadá.",
+      "targetId": "CAN",
+      "targetName": "Canadá",
+      "explanation": "Canadá está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-cur-051",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Argélia?",
+      "options": [
+        "Rial catariano (QAR)",
+        "Guarani paraguaio (PYG)",
+        "Dinar argelino (DZD)",
+        "Peso colombiano (COP)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Dinar argelino (DZD) para Argélia."
+    },
+    {
+      "id": "gm-bor-110",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Paquistão?",
+      "options": [
+        "Sri Lanka",
+        "Maldivas",
+        "Nepal",
+        "China"
+      ],
+      "correctIndex": 3,
+      "explanation": "Paquistão compartilha uma fronteira terrestre com China."
+    },
+    {
+      "id": "gm-reg-055",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Argélia?",
+      "options": [
+        "África Setentrional",
+        "Europa Setentrional",
+        "África Central",
+        "Ásia Meridional"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Argélia está na sub-região África Setentrional."
+    },
+    {
+      "id": "gm-cap-057",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Sara Ocidental?",
+      "options": [
+        "Ouagadougou",
+        "Wellington",
+        "Guatemala City",
+        "El Aaiún"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para Sara Ocidental é El Aaiún."
+    },
+    {
+      "id": "gm-cur-061",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de França?",
+      "options": [
+        "Birr etíope (ETB)",
+        "Taka bengali (BDT)",
+        "Euro (EUR)",
+        "Manat turcomeno (TMT)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Euro (EUR) para França."
+    },
+    {
+      "id": "gm-reg-087",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Haiti?",
+      "options": [
+        "Melanésia",
+        "Caribe",
+        "África Central",
+        "Ásia Central"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Haiti está na sub-região Caribe."
+    },
+    {
+      "id": "gm-cur-037",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de República do Congo?",
+      "options": [
+        "Xelim somali (SOS)",
+        "Ringgit malaio (MYR)",
+        "Franco CFA de BEAC (XAF)",
+        "Tenge cazaque (KZT)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Franco CFA de BEAC (XAF) para República do Congo."
+    },
+    {
+      "id": "gm-cap-022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Bósnia e Herzegovina?",
+      "options": [
+        "Sarajevo",
+        "Accra",
+        "Damascus",
+        "Belmopan"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Bósnia e Herzegovina é Sarajevo."
+    },
+    {
+      "id": "gm-cap-006",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Emirados Árabes Unidos?",
+      "options": [
+        "Conakry",
+        "Riga",
+        "Abu Dhabi",
+        "Thimphu"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Emirados Árabes Unidos é Abu Dhabi."
+    },
+    {
+      "id": "gm-cur-120",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Madagáscar?",
+      "options": [
+        "Kip laosiano (LAK)",
+        "Ariary malgaxe (MGA)",
+        "Dólar canadense (CAD)",
+        "Libra de Santa Helena (SHP)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Ariary malgaxe (MGA) para Madagáscar."
+    },
+    {
+      "id": "gm-cap-096",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital de Itália?",
+      "options": [
+        "Thimphu",
+        "Rome",
+        "Lisbon",
+        "Beijing"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Itália é Rome."
+    },
+    {
+      "id": "gm-map-235",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Vietname.",
+      "targetId": "VNM",
+      "targetName": "Vietname",
+      "explanation": "Vietname está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-reg-084",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Hong Kong?",
+      "options": [
+        "Europa Ocidental",
+        "Europa Setentrional",
+        "África Setentrional",
+        "Ásia Oriental"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Hong Kong está na sub-região Ásia Oriental."
+    },
+    {
+      "id": "gm-cur-086",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Índia?",
+      "options": [
+        "Rublo bielorrusso (2000–2016) (BYR)",
+        "Rupia indiana (INR)",
+        "Dólar de Hong Kong (HKD)",
+        "Coroa dinamarquesa (DKK)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Rupia indiana (INR) para Índia."
+    },
+    {
+      "id": "gm-reg-141",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Namíbia?",
+      "options": [
+        "América Central",
+        "Polinésia",
+        "Europa Setentrional",
+        "África Austral"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Namíbia está na sub-região África Austral."
+    },
+    {
+      "id": "gm-bor-129",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Sérvia?",
+      "options": [
+        "Polónia",
+        "Bósnia e Herzegovina",
+        "Rússia",
+        "Chéquia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sérvia compartilha uma fronteira terrestre com Bósnia e Herzegovina."
+    },
+    {
+      "id": "gm-cur-029",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Brunei?",
+      "options": [
+        "Baht tailandês (THB)",
+        "Dólar bruneano (BND)",
+        "Xelim somali (SOS)",
+        "Colón costarriquenho (CRC)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Dólar bruneano (BND) para Brunei."
+    },
+    {
+      "id": "gm-bor-131",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Suriname?",
+      "options": [
+        "França",
+        "Bolívia",
+        "Peru",
+        "Ilhas Geórgia do Sul e Sandwich do Sul"
+      ],
+      "correctIndex": 0,
+      "explanation": "Suriname compartilha uma fronteira terrestre com França."
+    },
+    {
+      "id": "gm-cur-052",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Equador?",
+      "options": [
+        "Lek albanês (ALL)",
+        "Rial omanense (OMR)",
+        "Coroa dinamarquesa (DKK)",
+        "Dólar americano (USD)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Dólar americano (USD) para Equador."
+    },
+    {
+      "id": "gm-reg-156",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Ilhas Pitcairn?",
+      "options": [
+        "Ásia Meridional",
+        "Europa Oriental",
+        "Europa Setentrional",
+        "Polinésia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Ilhas Pitcairn está na sub-região Polinésia."
+    },
+    {
+      "id": "gm-cur-039",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Colômbia?",
+      "options": [
+        "Kuna croata (HRK)",
+        "Pataca macaense (MOP)",
+        "Peso colombiano (COP)",
+        "Dólar americano (USD)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Peso colombiano (COP) para Colômbia."
+    },
+    {
+      "id": "gm-reg-076",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Guiné-Bissau?",
+      "options": [
+        "Ásia Oriental",
+        "África Ocidental",
+        "América Central",
+        "Caribe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Guiné-Bissau está na sub-região África Ocidental."
+    },
+    {
+      "id": "gm-cur-062",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Ilhas Feroe?",
+      "options": [
+        "Kuna croata (HRK)",
+        "Somoni tadjique (TJS)",
+        "Coroa dinamarquesa (DKK)",
+        "Peso dominicano (DOP)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Coroa dinamarquesa (DKK) para Ilhas Feroe."
+    },
+    {
+      "id": "gm-reg-160",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Papua-Nova Guiné?",
+      "options": [
+        "Melanésia",
+        "África Central",
+        "África Ocidental",
+        "Europa Ocidental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Papua-Nova Guiné está na sub-região Melanésia."
+    },
+    {
+      "id": "gm-cur-077",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Guam?",
+      "options": [
+        "Dólar americano (USD)",
+        "Peso mexicano (MXN)",
+        "Kip laosiano (LAK)",
+        "Ariary malgaxe (MGA)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fonte de dados consultada registra Dólar americano (USD) para Guam."
+    },
+    {
+      "id": "gm-cur-107",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Líbano?",
+      "options": [
+        "Quetzal guatemalteco (GTQ)",
+        "Libra libanesa (LBP)",
+        "Libra egípcia (EGP)",
+        "Taka bengali (BDT)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Libra libanesa (LBP) para Líbano."
+    },
+    {
+      "id": "gm-cur-058",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Finlândia?",
+      "options": [
+        "Dobra de São Tomé e Príncipe (1977–2017) (STD)",
+        "Euro (EUR)",
+        "Leu romeno (RON)",
+        "Peso filipino (PHP)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Euro (EUR) para Finlândia."
+    },
+    {
+      "id": "gm-reg-194",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Togo?",
+      "options": [
+        "África Ocidental",
+        "América do Sul",
+        "Sudeste Asiático",
+        "Europa Ocidental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Togo está na sub-região África Ocidental."
+    },
+    {
+      "id": "gm-cap-095",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital de Israel?",
+      "options": [
+        "Reykjavik",
+        "Saint Helier",
+        "Jerusalem",
+        "Muscat"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Israel é Jerusalem."
+    },
+    {
+      "id": "gm-map-138",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Moldávia.",
+      "targetId": "MDA",
+      "targetName": "Moldávia",
+      "explanation": "Moldávia está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-map-201",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Sudão do Sul.",
+      "targetId": "SSD",
+      "targetName": "Sudão do Sul",
+      "explanation": "Sudão do Sul está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-reg-102",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Japão?",
+      "options": [
+        "Ásia Oriental",
+        "África Ocidental",
+        "América Central",
+        "Europa Ocidental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Japão está na sub-região Ásia Oriental."
+    },
+    {
+      "id": "gm-map-209",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Seychelles.",
+      "targetId": "SYC",
+      "targetName": "Seychelles",
+      "explanation": "Seychelles está representado no mapa mundial na região de sua região geográfica."
+    },
+    {
+      "id": "gm-cur-110",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Santa Lúcia?",
+      "options": [
+        "Dólar guianense (GYD)",
+        "Libra de Santa Helena (SHP)",
+        "Franco CFA de BCEAO (XOF)",
+        "Dólar do Caribe Oriental (XCD)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Dólar do Caribe Oriental (XCD) para Santa Lúcia."
+    },
+    {
+      "id": "gm-cur-136",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Níger?",
+      "options": [
+        "Leu moldávio (MDL)",
+        "Franco CFA de BCEAO (XOF)",
+        "Dinar tunisiano (TND)",
+        "Córdoba nicaraguense (NIO)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Franco CFA de BCEAO (XOF) para Níger."
+    },
+    {
+      "id": "gm-map-101",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Territórios australianos do Oceano Índico.",
+      "targetId": "IOA",
+      "targetName": "Territórios australianos do Oceano Índico",
+      "explanation": "Territórios australianos do Oceano Índico está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-bor-066",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Indonésia?",
+      "options": [
+        "Timor-Leste",
+        "Filipinas",
+        "Brunei",
+        "Camboja"
+      ],
+      "correctIndex": 0,
+      "explanation": "Indonésia compartilha uma fronteira terrestre com Timor-Leste."
+    },
+    {
+      "id": "gm-reg-105",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Quirguistão?",
+      "options": [
+        "África Ocidental",
+        "Europa Setentrional",
+        "Ásia Central",
+        "África Setentrional"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Quirguistão está na sub-região Ásia Central."
+    },
+    {
+      "id": "gm-reg-138",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Maurícia?",
+      "options": [
+        "Sudeste Asiático",
+        "Ásia Ocidental",
+        "África Oriental",
+        "Europa Ocidental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Maurícia está na sub-região África Oriental."
+    },
+    {
+      "id": "gm-bor-042",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Egito?",
+      "options": [
+        "Sara Ocidental",
+        "Tunísia",
+        "Marrocos",
+        "Sudão"
+      ],
+      "correctIndex": 3,
+      "explanation": "Egito compartilha uma fronteira terrestre com Sudão."
+    },
+    {
+      "id": "gm-reg-163",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Coreia do Norte?",
+      "options": [
+        "África Oriental",
+        "Europa Oriental",
+        "Micronésia",
+        "Ásia Oriental"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Coreia do Norte está na sub-região Ásia Oriental."
+    },
+    {
+      "id": "gm-map-199",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Saint-Pierre e Miquelon.",
+      "targetId": "SPM",
+      "targetName": "Saint-Pierre e Miquelon",
+      "explanation": "Saint-Pierre e Miquelon está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-cap-143",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Niue?",
+      "options": [
+        "Alofi",
+        "Tokyo",
+        "Funafuti",
+        "Vilnius"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Niue é Alofi."
+    },
+    {
+      "id": "gm-map-127",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Santa Lúcia.",
+      "targetId": "LCA",
+      "targetName": "Santa Lúcia",
+      "explanation": "Santa Lúcia está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-cur-144",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Nauru?",
+      "options": [
+        "Zloty polonês (PLN)",
+        "Dólar bahamense (BSD)",
+        "Dólar australiano (AUD)",
+        "Dinar kuwaitiano (KWD)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Dólar australiano (AUD) para Nauru."
+    },
+    {
+      "id": "gm-reg-195",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Tailândia?",
+      "options": [
+        "Sudeste Asiático",
+        "África Setentrional",
+        "Melanésia",
+        "Polinésia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Tailândia está na sub-região Sudeste Asiático."
+    },
+    {
+      "id": "gm-reg-162",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Porto Rico?",
+      "options": [
+        "África Setentrional",
+        "Caribe",
+        "América do Norte",
+        "Europa Oriental"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Porto Rico está na sub-região Caribe."
+    },
+    {
+      "id": "gm-cap-189",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital de Tailândia?",
+      "options": [
+        "Brasília",
+        "Saint Helier",
+        "Bangkok",
+        "Kinshasa"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Tailândia é Bangkok."
+    },
+    {
+      "id": "gm-reg-196",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Tajiquistão?",
+      "options": [
+        "Ásia Ocidental",
+        "Polinésia",
+        "Ásia Central",
+        "América do Sul"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Tajiquistão está na sub-região Ásia Central."
+    },
+    {
+      "id": "gm-map-066",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Eritreia.",
+      "targetId": "ERI",
+      "targetName": "Eritreia",
+      "explanation": "Eritreia está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-reg-036",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica China?",
+      "options": [
+        "África Oriental",
+        "Ásia Oriental",
+        "América do Norte",
+        "América do Sul"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, China está na sub-região Ásia Oriental."
+    },
+    {
+      "id": "gm-cap-176",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Somália?",
+      "options": [
+        "San Salvador",
+        "Praia",
+        "Mogadishu",
+        "City of Victoria"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Somália é Mogadishu."
+    },
+    {
+      "id": "gm-map-115",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Quénia.",
+      "targetId": "KEN",
+      "targetName": "Quénia",
+      "explanation": "Quénia está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-bor-013",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Bangladesh?",
+      "options": [
+        "Afeganistão",
+        "Índia",
+        "Sri Lanka",
+        "Irão"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bangladesh compartilha uma fronteira terrestre com Índia."
+    },
+    {
+      "id": "gm-reg-193",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Chade?",
+      "options": [
+        "Ásia Oriental",
+        "Austrália e Nova Zelândia",
+        "Ásia Meridional",
+        "África Central"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Chade está na sub-região África Central."
+    },
+    {
+      "id": "gm-cap-052",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de República Dominicana?",
+      "options": [
+        "Stanley",
+        "Moscow",
+        "Santo Domingo",
+        "Kuwait City"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para República Dominicana é Santo Domingo."
+    },
+    {
+      "id": "gm-bor-136",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Síria?",
+      "options": [
+        "Bahrein",
+        "Iraque",
+        "Azerbaijão",
+        "Arménia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Síria compartilha uma fronteira terrestre com Iraque."
+    },
+    {
+      "id": "gm-cap-116",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Lituânia?",
+      "options": [
+        "Vilnius",
+        "San José",
+        "Malabo",
+        "Tirana"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Lituânia é Vilnius."
+    },
+    {
+      "id": "gm-bor-054",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Guiné?",
+      "options": [
+        "Níger",
+        "Santa Helena",
+        "Cabo Verde",
+        "Serra Leoa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Guiné compartilha uma fronteira terrestre com Serra Leoa."
+    },
+    {
+      "id": "gm-cap-160",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Paraguai?",
+      "options": [
+        "Castries",
+        "Asunción",
+        "Rome",
+        "Port-aux-Français"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Paraguai é Asunción."
+    },
+    {
+      "id": "gm-map-082",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Guiné.",
+      "targetId": "GIN",
+      "targetName": "Guiné",
+      "explanation": "Guiné está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-cur-070",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Gâmbia?",
+      "options": [
+        "Dinar kuwaitiano (KWD)",
+        "Florim arubano (AWG)",
+        "Novo sol peruano (PEN)",
+        "Dalasi gambiano (GMD)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Dalasi gambiano (GMD) para Gâmbia."
+    },
+    {
+      "id": "gm-bor-115",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Coreia do Norte?",
+      "options": [
+        "Mongólia",
+        "China",
+        "Japão",
+        "Taiwan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coreia do Norte compartilha uma fronteira terrestre com China."
+    },
+    {
+      "id": "gm-bor-084",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Liechtenstein?",
+      "options": [
+        "Alemanha",
+        "Suíça",
+        "Luxemburgo",
+        "Mónaco"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liechtenstein compartilha uma fronteira terrestre com Suíça."
+    },
+    {
+      "id": "gm-map-131",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Lituânia.",
+      "targetId": "LTU",
+      "targetName": "Lituânia",
+      "explanation": "Lituânia está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-map-110",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Jersey.",
+      "targetId": "JEY",
+      "targetName": "Jersey",
+      "explanation": "Jersey está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-reg-198",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Timor-Leste?",
+      "options": [
+        "Sudeste Asiático",
+        "Melanésia",
+        "América do Sul",
+        "África Oriental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Timor-Leste está na sub-região Sudeste Asiático."
+    },
+    {
+      "id": "gm-map-227",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Uruguai.",
+      "targetId": "URY",
+      "targetName": "Uruguai",
+      "explanation": "Uruguai está representado no mapa mundial na região de América do Sul."
+    },
+    {
+      "id": "gm-map-136",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Marrocos.",
+      "targetId": "MAR",
+      "targetName": "Marrocos",
+      "explanation": "Marrocos está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-reg-057",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Egito?",
+      "options": [
+        "América do Norte",
+        "Ásia Oriental",
+        "África Setentrional",
+        "Sudeste Asiático"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Egito está na sub-região África Setentrional."
+    },
+    {
+      "id": "gm-reg-077",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Guiné Equatorial?",
+      "options": [
+        "Ásia Meridional",
+        "Europa Setentrional",
+        "África Central",
+        "Austrália e Nova Zelândia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Guiné Equatorial está na sub-região África Central."
+    },
+    {
+      "id": "gm-cur-031",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de República Centro-Africana?",
+      "options": [
+        "Franco CFA de BEAC (XAF)",
+        "Taka bengali (BDT)",
+        "Colón costarriquenho (CRC)",
+        "Won norte-coreano (KPW)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fonte de dados consultada registra Franco CFA de BEAC (XAF) para República Centro-Africana."
+    },
+    {
+      "id": "gm-bor-144",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Turquia?",
+      "options": [
+        "Israel",
+        "Catar",
+        "Síria",
+        "Omã"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turquia compartilha uma fronteira terrestre com Síria."
+    },
+    {
+      "id": "gm-cur-187",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Tajiquistão?",
+      "options": [
+        "Somoni tadjique (TJS)",
+        "Rupia paquistanesa (PKR)",
+        "Córdoba nicaraguense (NIO)",
+        "Libra libanesa (LBP)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fonte de dados consultada registra Somoni tadjique (TJS) para Tajiquistão."
+    },
+    {
+      "id": "gm-bor-034",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Chipre?",
+      "options": [
+        "Reino Unido",
+        "Grécia",
+        "Macedónia do Norte",
+        "San Marino"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chipre compartilha uma fronteira terrestre com Reino Unido."
+    },
+    {
+      "id": "gm-map-108",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Itália.",
+      "targetId": "ITA",
+      "targetName": "Itália",
+      "explanation": "Itália está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-bor-151",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Venezuela?",
+      "options": [
+        "Brasil",
+        "Chile",
+        "Uruguai",
+        "Peru"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venezuela compartilha uma fronteira terrestre com Brasil."
+    },
+    {
+      "id": "gm-map-008",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Emirados Árabes Unidos.",
+      "targetId": "ARE",
+      "targetName": "Emirados Árabes Unidos",
+      "explanation": "Emirados Árabes Unidos está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-cap-029",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Butão?",
+      "options": [
+        "Tripoli",
+        "Sofia",
+        "Thimphu",
+        "Avarua"
+      ],
+      "correctIndex": 2,
+      "explanation": "A capital registrada para Butão é Thimphu."
+    },
+    {
+      "id": "gm-bor-044",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Sara Ocidental?",
+      "options": [
+        "Marrocos",
+        "Tunísia",
+        "Sudão",
+        "Egito"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sara Ocidental compartilha uma fronteira terrestre com Marrocos."
+    },
+    {
+      "id": "gm-cur-173",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Saint-Pierre e Miquelon?",
+      "options": [
+        "Peso dominicano (DOP)",
+        "Som quirguiz (KGS)",
+        "Dinar kuwaitiano (KWD)",
+        "Euro (EUR)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Euro (EUR) para Saint-Pierre e Miquelon."
+    },
+    {
+      "id": "gm-cap-174",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de El Salvador?",
+      "options": [
+        "Lisbon",
+        "Lilongwe",
+        "Kathmandu",
+        "San Salvador"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para El Salvador é San Salvador."
+    },
+    {
+      "id": "gm-cap-126",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Macedónia do Norte?",
+      "options": [
+        "Riga",
+        "Beirut",
+        "Tórshavn",
+        "Skopje"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para Macedónia do Norte é Skopje."
+    },
+    {
+      "id": "gm-cur-140",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Niue?",
+      "options": [
+        "Libra malvinense (FKP)",
+        "Novo sol peruano (PEN)",
+        "Marco conversível da Bósnia e Herzegovina (BAM)",
+        "Dólar neozelandês (NZD)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Dólar neozelandês (NZD) para Niue."
+    },
+    {
+      "id": "gm-map-053",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Curaçao.",
+      "targetId": "CUW",
+      "targetName": "Curaçao",
+      "explanation": "Curaçao está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-reg-146",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Nicarágua?",
+      "options": [
+        "África Ocidental",
+        "Ásia Meridional",
+        "América do Norte",
+        "América Central"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Nicarágua está na sub-região América Central."
+    },
+    {
+      "id": "gm-map-019",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Burundi.",
+      "targetId": "BDI",
+      "targetName": "Burundi",
+      "explanation": "Burundi está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-cur-179",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Eslovénia?",
+      "options": [
+        "Peso mexicano (MXN)",
+        "Coroa norueguesa (NOK)",
+        "Lev búlgaro (BGN)",
+        "Euro (EUR)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Euro (EUR) para Eslovénia."
+    },
+    {
+      "id": "gm-cur-040",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Comores?",
+      "options": [
+        "Dólar liberiano (LRD)",
+        "Dólar guianense (GYD)",
+        "Quetzal guatemalteco (GTQ)",
+        "Franco comoriano (KMF)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Franco comoriano (KMF) para Comores."
+    },
+    {
+      "id": "gm-map-145",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Malta.",
+      "targetId": "MLT",
+      "targetName": "Malta",
+      "explanation": "Malta está representado no mapa mundial na região de Europa."
+    },
+    {
+      "id": "gm-bor-003",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Albânia?",
+      "options": [
+        "Portugal",
+        "Itália",
+        "Grécia",
+        "Malta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Albânia compartilha uma fronteira terrestre com Grécia."
+    },
+    {
+      "id": "gm-map-085",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Guiné Equatorial.",
+      "targetId": "GNQ",
+      "targetName": "Guiné Equatorial",
+      "explanation": "Guiné Equatorial está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-cur-059",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Fiji?",
+      "options": [
+        "Dólar das Ilhas Cayman (KYD)",
+        "Dólar fijiano (FJD)",
+        "Franco suíço (CHF)",
+        "Leu moldávio (MDL)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Dólar fijiano (FJD) para Fiji."
+    },
+    {
+      "id": "gm-cap-078",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Groenlândia?",
+      "options": [
+        "Bamako",
+        "Nuuk",
+        "Ulan Bator",
+        "South Tarawa"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Groenlândia é Nuuk."
+    },
+    {
+      "id": "gm-bor-135",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Essuatíni?",
+      "options": [
+        "Namíbia",
+        "Botsuana",
+        "Moçambique",
+        "Lesoto"
+      ],
+      "correctIndex": 2,
+      "explanation": "Essuatíni compartilha uma fronteira terrestre com Moçambique."
+    },
+    {
+      "id": "gm-cap-072",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Guiné?",
+      "options": [
+        "Tórshavn",
+        "Conakry",
+        "Baku",
+        "Havana"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Guiné é Conakry."
+    },
+    {
+      "id": "gm-reg-024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Belize?",
+      "options": [
+        "Europa Meridional",
+        "Ásia Oriental",
+        "Europa Ocidental",
+        "América Central"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na classificação M49 utilizada, Belize está na sub-região América Central."
+    },
+    {
+      "id": "gm-cur-185",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Togo?",
+      "options": [
+        "Coroa sueca (SEK)",
+        "Franco CFA de BCEAO (XOF)",
+        "Dólar bruneano (BND)",
+        "Coroa norueguesa (NOK)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Franco CFA de BCEAO (XOF) para Togo."
+    },
+    {
+      "id": "gm-bor-147",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Ucrânia?",
+      "options": [
+        "Eslováquia",
+        "Chéquia",
+        "Sérvia",
+        "Bulgária"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ucrânia compartilha uma fronteira terrestre com Eslováquia."
+    },
+    {
+      "id": "gm-map-093",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Ilha Heard e Ilhas McDonald.",
+      "targetId": "HMD",
+      "targetName": "Ilha Heard e Ilhas McDonald",
+      "explanation": "Ilha Heard e Ilhas McDonald está representado no mapa mundial na região de sua região geográfica."
+    },
+    {
+      "id": "gm-reg-038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Camarões?",
+      "options": [
+        "América do Sul",
+        "Polinésia",
+        "África Central",
+        "Europa Meridional"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Camarões está na sub-região África Central."
+    },
+    {
+      "id": "gm-cur-141",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Países Baixos?",
+      "options": [
+        "Euro (EUR)",
+        "Florim húngaro (HUF)",
+        "Ariary malgaxe (MGA)",
+        "Franco congolês (CDF)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fonte de dados consultada registra Euro (EUR) para Países Baixos."
+    },
+    {
+      "id": "gm-bor-097",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Mongólia?",
+      "options": [
+        "Hong Kong",
+        "China",
+        "Coreia do Sul",
+        "Japão"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mongólia compartilha uma fronteira terrestre com China."
+    },
+    {
+      "id": "gm-cap-197",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Tuvalu?",
+      "options": [
+        "Funafuti",
+        "Accra",
+        "Hagåtña",
+        "Dushanbe"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Tuvalu é Funafuti."
+    },
+    {
+      "id": "gm-cap-045",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Ilhas Caimão?",
+      "options": [
+        "Wellington",
+        "Oranjestad",
+        "Paris",
+        "George Town"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para Ilhas Caimão é George Town."
+    },
+    {
+      "id": "gm-map-098",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Indonésia.",
+      "targetId": "IDN",
+      "targetName": "Indonésia",
+      "explanation": "Indonésia está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-bor-150",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Uzbequistão?",
+      "options": [
+        "Azerbaijão",
+        "Bahrein",
+        "Turquemenistão",
+        "Timor-Leste"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uzbequistão compartilha uma fronteira terrestre com Turquemenistão."
+    },
+    {
+      "id": "gm-reg-098",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Itália?",
+      "options": [
+        "Europa Meridional",
+        "Ásia Oriental",
+        "Ásia Central",
+        "América do Sul"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Itália está na sub-região Europa Meridional."
+    },
+    {
+      "id": "gm-cur-192",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Tunísia?",
+      "options": [
+        "Dinar tunisiano (TND)",
+        "Franco ruandês (RWF)",
+        "Ouguiya mauritana (1973–2017) (MRO)",
+        "Ariary malgaxe (MGA)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fonte de dados consultada registra Dinar tunisiano (TND) para Tunísia."
+    },
+    {
+      "id": "gm-reg-188",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Eslovénia?",
+      "options": [
+        "Europa Meridional",
+        "América do Norte",
+        "Micronésia",
+        "Melanésia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Eslovénia está na sub-região Europa Meridional."
+    },
+    {
+      "id": "gm-reg-161",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Polónia?",
+      "options": [
+        "Europa Setentrional",
+        "Europa Oriental",
+        "Sudeste Asiático",
+        "África Central"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Polónia está na sub-região Europa Oriental."
+    },
+    {
+      "id": "gm-reg-128",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica México?",
+      "options": [
+        "América Central",
+        "África Central",
+        "Ásia Meridional",
+        "Europa Oriental"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, México está na sub-região América Central."
+    },
+    {
+      "id": "gm-reg-005",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Albânia?",
+      "options": [
+        "Micronésia",
+        "Sudeste Asiático",
+        "Europa Meridional",
+        "Melanésia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, Albânia está na sub-região Europa Meridional."
+    },
+    {
+      "id": "gm-cur-025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Belize?",
+      "options": [
+        "Coroa islandesa (ISK)",
+        "Rupia mauriciana (MUR)",
+        "Dólar belizenho (BZD)",
+        "Rial catariano (QAR)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Dólar belizenho (BZD) para Belize."
+    },
+    {
+      "id": "gm-cap-083",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "capitals",
+      "text": "Qual é a capital de Honduras?",
+      "options": [
+        "San José",
+        "Tegucigalpa",
+        "Rome",
+        "Seoul"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Honduras é Tegucigalpa."
+    },
+    {
+      "id": "gm-map-202",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: São Tomé e Príncipe.",
+      "targetId": "STP",
+      "targetName": "São Tomé e Príncipe",
+      "explanation": "São Tomé e Príncipe está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-map-065",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Egito.",
+      "targetId": "EGY",
+      "targetName": "Egito",
+      "explanation": "Egito está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-reg-172",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Sudão?",
+      "options": [
+        "África Setentrional",
+        "Europa Setentrional",
+        "Austrália e Nova Zelândia",
+        "Polinésia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na classificação M49 utilizada, Sudão está na sub-região África Setentrional."
+    },
+    {
+      "id": "gm-map-237",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Wallis e Futuna.",
+      "targetId": "WLF",
+      "targetName": "Wallis e Futuna",
+      "explanation": "Wallis e Futuna está representado no mapa mundial na região de Oceania."
+    },
+    {
+      "id": "gm-cap-115",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Lesoto?",
+      "options": [
+        "Chișinău",
+        "Maseru",
+        "Pago Pago",
+        "Tallinn"
+      ],
+      "correctIndex": 1,
+      "explanation": "A capital registrada para Lesoto é Maseru."
+    },
+    {
+      "id": "gm-map-161",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Nicarágua.",
+      "targetId": "NIC",
+      "targetName": "Nicarágua",
+      "explanation": "Nicarágua está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-bor-062",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Honduras?",
+      "options": [
+        "Panamá",
+        "México",
+        "Nicarágua",
+        "Belize"
+      ],
+      "correctIndex": 2,
+      "explanation": "Honduras compartilha uma fronteira terrestre com Nicarágua."
+    },
+    {
+      "id": "gm-cap-028",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Brunei?",
+      "options": [
+        "Bandar Seri Begawan",
+        "Algiers",
+        "Baghdad",
+        "Islamabad"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Brunei é Bandar Seri Begawan."
+    },
+    {
+      "id": "gm-cur-074",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Granada?",
+      "options": [
+        "Peso argentino (ARS)",
+        "Euro (EUR)",
+        "Dólar do Caribe Oriental (XCD)",
+        "Coroa norueguesa (NOK)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Dólar do Caribe Oriental (XCD) para Granada."
+    },
+    {
+      "id": "gm-bor-052",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Geórgia?",
+      "options": [
+        "Kuwait",
+        "Turquia",
+        "Israel",
+        "Síria"
+      ],
+      "correctIndex": 1,
+      "explanation": "Geórgia compartilha uma fronteira terrestre com Turquia."
+    },
+    {
+      "id": "gm-reg-085",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Honduras?",
+      "options": [
+        "Europa Oriental",
+        "América Central",
+        "Sudeste Asiático",
+        "Europa Meridional"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Honduras está na sub-região América Central."
+    },
+    {
+      "id": "gm-reg-187",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Eslováquia?",
+      "options": [
+        "Melanésia",
+        "Europa Oriental",
+        "África Oriental",
+        "América do Sul"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Eslováquia está na sub-região Europa Oriental."
+    },
+    {
+      "id": "gm-map-079",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Geórgia.",
+      "targetId": "GEO",
+      "targetName": "Geórgia",
+      "explanation": "Geórgia está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-bor-005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Argentina?",
+      "options": [
+        "Ilhas Malvinas",
+        "Uruguai",
+        "Suriname",
+        "Venezuela"
+      ],
+      "correctIndex": 1,
+      "explanation": "Argentina compartilha uma fronteira terrestre com Uruguai."
+    },
+    {
+      "id": "gm-bor-121",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Ruanda?",
+      "options": [
+        "Moçambique",
+        "Zimbábue",
+        "Zâmbia",
+        "Burundi"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ruanda compartilha uma fronteira terrestre com Burundi."
+    },
+    {
+      "id": "gm-cur-124",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Macedónia do Norte?",
+      "options": [
+        "Libra síria (SYP)",
+        "Dinar macedônio (MKD)",
+        "Quetzal guatemalteco (GTQ)",
+        "Franco suíço (CHF)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Dinar macedônio (MKD) para Macedónia do Norte."
+    },
+    {
+      "id": "gm-map-124",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Líbano.",
+      "targetId": "LBN",
+      "targetName": "Líbano",
+      "explanation": "Líbano está representado no mapa mundial na região de Ásia."
+    },
+    {
+      "id": "gm-map-051",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Costa Rica.",
+      "targetId": "CRI",
+      "targetName": "Costa Rica",
+      "explanation": "Costa Rica está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-cur-060",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Ilhas Malvinas?",
+      "options": [
+        "Escudo cabo-verdiano (CVE)",
+        "Libra malvinense (FKP)",
+        "Novo sol peruano (PEN)",
+        "Manat azeri (AZN)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fonte de dados consultada registra Libra malvinense (FKP) para Ilhas Malvinas."
+    },
+    {
+      "id": "gm-reg-045",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica Costa Rica?",
+      "options": [
+        "Caribe",
+        "América Central",
+        "América do Norte",
+        "Ásia Central"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na classificação M49 utilizada, Costa Rica está na sub-região América Central."
+    },
+    {
+      "id": "gm-map-054",
+      "type": "map",
+      "difficulty": "hard",
+      "category": "location",
+      "text": "Localize no mapa: Ilhas Caimão.",
+      "targetId": "CYM",
+      "targetName": "Ilhas Caimão",
+      "explanation": "Ilhas Caimão está representado no mapa mundial na região de América do Norte."
+    },
+    {
+      "id": "gm-cur-149",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Peru?",
+      "options": [
+        "Libra de Santa Helena (SHP)",
+        "Dinar kuwaitiano (KWD)",
+        "Novo sol peruano (PEN)",
+        "Won sul-coreano (KRW)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Novo sol peruano (PEN) para Peru."
+    },
+    {
+      "id": "gm-cap-138",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Nova Caledónia?",
+      "options": [
+        "Nouméa",
+        "Prague",
+        "Singapore",
+        "Phnom Penh"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Nova Caledónia é Nouméa."
+    },
+    {
+      "id": "gm-reg-066",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "continents",
+      "text": "Segundo a classificação geográfica M49 da ONU, em qual sub-região fica França?",
+      "options": [
+        "África Ocidental",
+        "América do Norte",
+        "Europa Ocidental",
+        "Europa Meridional"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na classificação M49 utilizada, França está na sub-região Europa Ocidental."
+    },
+    {
+      "id": "gm-map-154",
+      "type": "map",
+      "difficulty": "medium",
+      "category": "location",
+      "text": "Localize no mapa: Malawi.",
+      "targetId": "MWI",
+      "targetName": "Malawi",
+      "explanation": "Malawi está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-cur-142",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Noruega?",
+      "options": [
+        "Won sul-coreano (KRW)",
+        "Peso mexicano (MXN)",
+        "Coroa norueguesa (NOK)",
+        "Manat azeri (AZN)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Coroa norueguesa (NOK) para Noruega."
+    },
+    {
+      "id": "gm-map-188",
+      "type": "map",
+      "difficulty": "easy",
+      "category": "location",
+      "text": "Localize no mapa: Sudão.",
+      "targetId": "SDN",
+      "targetName": "Sudão",
+      "explanation": "Sudão está representado no mapa mundial na região de África."
+    },
+    {
+      "id": "gm-cur-041",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Cabo Verde?",
+      "options": [
+        "Iene japonês (JPY)",
+        "Naira nigeriana (NGN)",
+        "Escudo cabo-verdiano (CVE)",
+        "Xelim tanzaniano (TZS)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fonte de dados consultada registra Escudo cabo-verdiano (CVE) para Cabo Verde."
+    },
+    {
+      "id": "gm-cap-188",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "capitals",
+      "text": "Qual é a capital de Togo?",
+      "options": [
+        "Douglas",
+        "Port-aux-Français",
+        "Wellington",
+        "Lomé"
+      ],
+      "correctIndex": 3,
+      "explanation": "A capital registrada para Togo é Lomé."
+    },
+    {
+      "id": "gm-bor-105",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Nicarágua?",
+      "options": [
+        "Panamá",
+        "Belize",
+        "México",
+        "Costa Rica"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nicarágua compartilha uma fronteira terrestre com Costa Rica."
+    },
+    {
+      "id": "gm-bor-069",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Irão?",
+      "options": [
+        "Bangladesh",
+        "Butão",
+        "Turquemenistão",
+        "Índia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Irão compartilha uma fronteira terrestre com Turquemenistão."
+    },
+    {
+      "id": "gm-cap-048",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "capitals",
+      "text": "Qual é a capital de Alemanha?",
+      "options": [
+        "Berlin",
+        "São Tomé",
+        "Khartoum",
+        "Helsinki"
+      ],
+      "correctIndex": 0,
+      "explanation": "A capital registrada para Alemanha é Berlin."
+    },
+    {
+      "id": "gm-bor-124",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "borders",
+      "text": "Qual destes países compartilha uma fronteira terrestre com Senegal?",
+      "options": [
+        "Mali",
+        "Libéria",
+        "Cabo Verde",
+        "Togo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Senegal compartilha uma fronteira terrestre com Mali."
+    },
+    {
+      "id": "gm-cur-175",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "culture",
+      "text": "Qual moeda é registrada como moeda de Sudão do Sul?",
+      "options": [
+        "Guarani paraguaio (PYG)",
+        "Som uzbeque (UZS)",
+        "Dólar do Caribe Oriental (XCD)",
+        "Libra sul-sudanesa (SSP)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A fonte de dados consultada registra Libra sul-sudanesa (SSP) para Sudão do Sul."
+    }
+  ]
+}

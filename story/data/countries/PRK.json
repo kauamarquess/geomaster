@@ -1,0 +1,103 @@
+{
+ "id": "PRK",
+ "theme": {
+  "scenery": "oriente",
+  "palette": [
+   "#2e130f",
+   "#6b2c24",
+   "#f2c94c",
+   "#c66053"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "bulgasari",
+    "name": "Bulgasari",
+    "legend": "Monstro de ferro que devora metal, no folclore coreano."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "jeoseung_saja",
+    "name": "Jeoseung Saja",
+    "legend": "Ceifador que conduz os mortos ao além."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "haetae",
+    "name": "Haetae",
+    "legend": "Criatura leonina protetora contra desastres."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "gen_cavaleiro_esquecido",
+    "name": "Cavaleiro Esquecido",
+    "legend": "Criatura inventada que cavalga por Coreia do Norte.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "gen_sombra_da_terra",
+    "name": "Sombra da Terra",
+    "legend": "Criatura inventada que ronda os campos de Coreia do Norte.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "gen_golem_de_pedra",
+    "name": "Golem de Pedra",
+    "legend": "Criatura inventada que guarda as pedras de Coreia do Norte.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Coreia do Norte.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob Coreia do Norte.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Coreia do Norte.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "imugi",
+    "name": "Imugi",
+    "legend": "Serpente que, para virar dragão, precisa de mil anos."
+   },
+   "bossTitle": "Imugi",
+   "rewardPower": "forca_vento"
+  }
+ ]
+}

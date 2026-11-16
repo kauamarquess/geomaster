@@ -1,0 +1,100 @@
+{
+ "id": "USA",
+ "theme": {
+  "scenery": "norte",
+  "palette": [
+   "#2e0f26",
+   "#6b2458",
+   "#f2c94c",
+   "#c653a7"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "jackalope",
+    "name": "Jackalope",
+    "legend": "Coelho com chifres de antílope, famoso nas lendas do oeste."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "hodag",
+    "name": "Hodag",
+    "legend": "Fera inventada pelos lenhadores de Wisconsin, de chifres e espinhos nas costas."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "jersey_devil",
+    "name": "Jersey Devil",
+    "legend": "Criatura alada dos Pine Barrens de Nova Jersey, nascida como o 13º filho."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "mothman",
+    "name": "Mothman",
+    "legend": "Humanoide alado de olhos vermelhos avistado em Point Pleasant, na Virgínia Ocidental."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "cavaleiro_sem_cabeca",
+    "name": "Cavaleiro sem Cabeça",
+    "legend": "Fantasma que cavalga pelo vale de Sleepy Hollow, na lenda de Washington Irving."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "legend": "Pássaro gigante cujas asas trazem trovões, de tradições de povos nativos."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_guardiao_das_fronteiras",
+    "name": "Guardião das Fronteiras",
+    "legend": "Criatura inventada que ronda as fronteiras de Estados Unidos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_corvo_mensageiro",
+    "name": "Corvo Mensageiro",
+    "legend": "Criatura inventada que sobrevoa Estados Unidos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_fera_da_noite",
+    "name": "Fera da Noite",
+    "legend": "Criatura inventada que caça à noite em Estados Unidos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "pe_grande",
+    "name": "Pé-Grande",
+    "legend": "Criatura peluda e gigante das florestas, também chamada Bigfoot."
+   },
+   "bossTitle": "Pé-Grande",
+   "rewardPower": "vida_extra"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "CRI",
+ "theme": {
+  "scenery": "selva_vulcao",
+  "palette": [
+   "#0e2f1b",
+   "#216e40",
+   "#f2c94c",
+   "#4fca80"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "padre",
+    "name": "Padre sin Cabeza",
+    "legend": "Padre sem cabeça que percorre caminhos escuros e assusta os noctívagos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "tulevieja",
+    "name": "La Tulevieja",
+    "legend": "Mulher monstruosa dos rios e cachoeiras, de pelos longos e choro assustador."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos à beira d'água."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "preguica",
+    "name": "Preguiça Sombria",
+    "legend": "Criatura inventada, inspirada nas preguiças das florestas.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "carreta",
+    "name": "Carreta sin Bueyes",
+    "legend": "Carroça fantasma sem bois que, rangendo pelas ruas, anuncia a morte."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "arenal",
+    "name": "Espírito do Arenal",
+    "legend": "Criatura inventada, inspirada no vulcão Arenal.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "tucano",
+    "name": "Tucano de Fogo",
+    "legend": "Criatura inventada, inspirada nas aves tropicais.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "tartaruga",
+    "name": "Tartaruga de Tortuguero",
+    "legend": "Criatura inventada, inspirada nas praias de desova.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "ra",
+    "name": "Rã-de-Olhos-Vermelhos",
+    "legend": "Criatura inventada, inspirada na rã símbolo das florestas do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "segua",
+    "name": "La Segua",
+    "legend": "Bela mulher que revela uma cabeça de cavalo a quem a segue."
+   },
+   "boss": true,
+   "bossTitle": "A Mulher-Cavalo",
+   "rewardPower": "passo_leve"
+  }
+ ]
+}

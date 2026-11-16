@@ -1,0 +1,101 @@
+{
+ "id": "ECU",
+ "theme": {
+  "scenery": "andes_galapagos",
+  "palette": [
+   "#2f1e0e",
+   "#6e4521",
+   "#f2c94c",
+   "#ca894f"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "tintin",
+    "name": "Tin Tin",
+    "legend": "Duende equatoriano de chapéu grande que conquista moças com poesia."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "chuzalongo",
+    "name": "Chuzalongo",
+    "legend": "Pequeno homem das montanhas do Equador que atrai crianças."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "cuco",
+    "name": "Cuco",
+    "legend": "Monstro que assusta crianças desobedientes, comum no Equador."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "dama_tapada",
+    "name": "La Dama Tapada",
+    "legend": "Mulher coberta por um manto que seduz noctívagos nas cidades antigas."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "tartaruga",
+    "name": "Tartaruga de Lava",
+    "legend": "Criatura inventada, inspirada nas tartarugas de Galápagos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "iguana",
+    "name": "Iguana Marinha Gigante",
+    "legend": "Criatura inventada, inspirada nas iguanas de Galápagos.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "cotopaxi",
+    "name": "Eco do Cotopaxi",
+    "legend": "Criatura inventada, inspirada no vulcão Cotopaxi.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "duende",
+    "name": "Duende",
+    "legend": "Ser travesso das matas, presente nas lendas equatorianas."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "mama",
+    "name": "Espírito do Chimborazo",
+    "legend": "Criatura inventada, inspirada na montanha mais alta do país.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "diablo_huma",
+    "name": "Diablo Huma",
+    "legend": "Diabo de duas faces das festas andinas de Píllaro."
+   },
+   "boss": true,
+   "bossTitle": "O Diabo das Duas Caras",
+   "rewardPower": "sequencia_inicial"
+  }
+ ]
+}

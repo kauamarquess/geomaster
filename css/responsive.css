@@ -1,0 +1,22 @@
+@media(max-width:800px){.app-shell{padding:0 24px}.hero{grid-template-columns:1fr;gap:0;padding-top:10px}.hero-copy{padding-bottom:0}.hero-visual{height:300px;grid-row:1}.globe{width:230px}.orbit{width:300px;height:120px}.orbit-two{width:320px;height:170px}.chip-top{right:5%}.chip-bottom{left:5%}.feature-row{grid-template-columns:1fr}.setup-layout{grid-template-columns:1fr}.rules-card{order:2}}@media(max-width:520px){.app-shell{padding:0 17px}.topbar{height:68px}.topbar-tag{font-size:8px;letter-spacing:1px}.screen{padding-top:28px}.hero h1{font-size:44px;letter-spacing:-2.5px}.hero-visual{height:260px}.globe{width:205px}.float-chip{font-size:10px;padding:9px 11px}.chip-top{top:30px}.chip-bottom{bottom:25px}.hero-actions{align-items:stretch;flex-direction:column}.hero-actions .button{width:100%}.hero-meta{gap:10px;font-size:10px}.feature-card{padding:15px}.screen-heading h2{font-size:27px}.setup-panel,.rules-card{padding:18px}.how-grid{grid-template-columns:1fr}.placeholder-card{padding:30px 20px;margin:25px auto}.page-footer{margin-top:28px}}
+/* ===== Etapa 4: partida e resultados ===== */
+@media(max-width:800px){.options{grid-template-columns:1fr}.question-card{padding:22px}}
+@media(max-width:520px){
+  .quiz-top{gap:10px}
+  .timer{min-width:72px;padding:8px 10px;font-size:20px}
+  .question-card{padding:18px;border-radius:16px}
+  .option{padding:13px 14px;font-size:13px}
+  .feedback-card{padding:18px}
+  .feedback-head{flex-wrap:wrap}
+  .feedback-points{margin-left:0;width:100%}
+  .feedback-actions .button{width:100%}
+  .rank-row{grid-template-columns:40px 1fr;gap:12px;padding:14px}
+  .rank-position{width:38px;height:38px;font-size:16px}
+  .rank-score{grid-column:1 / -1;text-align:left;display:flex;align-items:baseline;gap:8px}
+  .rank-score strong{font-size:24px}
+  .post-game .button{width:100%}
+  .world-map{height:clamp(300px,100vw,420px)}
+  .map-confirm{bottom:10px;padding:8px 10px 8px 12px;gap:8px}
+  .topbar-tag{max-width:48%;text-align:right;line-height:1.7}
+  .dev-badge{display:inline-block;margin:2px 0 0}
+}

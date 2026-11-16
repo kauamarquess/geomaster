@@ -1,0 +1,97 @@
+{
+ "id": "MEX",
+ "theme": {
+  "scenery": "norte",
+  "palette": [
+   "#0f2e2a",
+   "#246b62",
+   "#f2c94c",
+   "#53c6b6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "chaneques",
+    "name": "Chaneques",
+    "legend": "Pequenos guardiões da natureza que assustam quem invade a mata."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "nahual",
+    "name": "Nahual",
+    "legend": "Feiticeiro que muda de forma e vira animal, na tradição mesoamericana."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "alebrije",
+    "name": "Alebrije",
+    "legend": "Criatura fantástica e colorida da arte popular mexicana."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "el_charro_negro",
+    "name": "El Charro Negro",
+    "legend": "Cavaleiro misterioso de preto que faz pactos com o diabo."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "ahuizotl",
+    "name": "Ahuízotl",
+    "legend": "Criatura aquática asteca com mão na ponta da cauda que afoga viajantes."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "la_llorona",
+    "name": "La Llorona",
+    "legend": "Espírito de mulher que chora pelos filhos perdidos à beira d'água."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "el_cucuy",
+    "name": "El Cucuy",
+    "legend": "Bicho-papão que leva crianças desobedientes."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "tzitzimitl",
+    "name": "Tzitzimitl",
+    "legend": "Demônio-estrela asteca que ameaça o mundo nos eclipses."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "cipactli",
+    "name": "Cipactli",
+    "legend": "Monstro primordial asteca, meio crocodilo, meio peixe, de que a terra foi feita."
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "quetzalcoatl",
+    "name": "Quetzalcóatl",
+    "legend": "Serpente emplumada, uma das grandes divindades da Mesoamérica."
+   },
+   "bossTitle": "Quetzalcóatl",
+   "rewardPower": "congelar_tempo"
+  }
+ ]
+}

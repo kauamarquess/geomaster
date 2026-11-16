@@ -1,0 +1,97 @@
+{
+ "id": "CHL",
+ "theme": {
+  "scenery": "sul_gelado",
+  "palette": [
+   "#0f242e",
+   "#23536b",
+   "#f2c94c",
+   "#52a0c6"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "alicanto",
+    "name": "Alicanto",
+    "legend": "Ave do deserto do Atacama que se alimenta de ouro e prata."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "trauco",
+    "name": "Trauco",
+    "legend": "Pequeno ser da floresta de Chiloé, de poder sedutor."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "pincoya",
+    "name": "La Pincoya",
+    "legend": "Ninfa do mar de Chiloé cuja dança anuncia pesca farta ou escassa."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "camahueto",
+    "name": "Camahueto",
+    "legend": "Bezerro com chifre de unicórnio que nasce nos rios do sul."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "invunche",
+    "name": "Invunche",
+    "legend": "Guardião deformado da caverna dos bruxos de Chiloé."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "basilisco",
+    "name": "Basilisco Chilote",
+    "legend": "Serpente com crista de galo nascida de um ovo, na lenda de Chiloé."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "caleuche",
+    "name": "Caleuche",
+    "legend": "Navio fantasma que navega pelo mar de Chiloé à noite."
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "piuchen",
+    "name": "Piuchén",
+    "legend": "Serpente alada mapuche que suga o sangue de suas vítimas."
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "tren_tren",
+    "name": "Tren Tren Vilu",
+    "legend": "Serpente mapuche que protege os povos elevando a terra."
+   }
+  },
+  {
+   "stage": 10,
+   "monster": {
+    "id": "cai_cai",
+    "name": "Cai Cai Vilu",
+    "legend": "Serpente marinha mapuche cuja fúria faz o mar inundar a terra."
+   },
+   "boss": true,
+   "bossTitle": "A Serpente das Águas",
+   "rewardPower": "congelar_tempo"
+  }
+ ]
+}

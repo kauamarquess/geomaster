@@ -1,0 +1,100 @@
+{
+ "id": "FRA",
+ "theme": {
+  "scenery": "europa",
+  "palette": [
+   "#2e100f",
+   "#6b2524",
+   "#f2c94c",
+   "#c65553"
+  ]
+ },
+ "stages": [
+  {
+   "stage": 1,
+   "monster": {
+    "id": "lutin",
+    "name": "Lutin",
+    "legend": "Duende travesso do folclore francês, que perturba casas e estábulos."
+   }
+  },
+  {
+   "stage": 2,
+   "monster": {
+    "id": "dame_blanche",
+    "name": "Dame Blanche",
+    "legend": "Espírito de mulher de branco que aparece em estradas e castelos."
+   }
+  },
+  {
+   "stage": 3,
+   "monster": {
+    "id": "loup_garou",
+    "name": "Loup-garou",
+    "legend": "Lobisomem do folclore francês."
+   }
+  },
+  {
+   "stage": 4,
+   "monster": {
+    "id": "melusine",
+    "name": "Mélusine",
+    "legend": "Fada que vira serpente da cintura para baixo, fundadora de casas nobres."
+   }
+  },
+  {
+   "stage": 5,
+   "monster": {
+    "id": "ankou",
+    "name": "Ankou",
+    "legend": "Servo da morte bretão que conduz a carroça dos mortos."
+   }
+  },
+  {
+   "stage": 6,
+   "monster": {
+    "id": "besta_de_gevaudan",
+    "name": "Besta de Gévaudan",
+    "legend": "Fera misteriosa que aterrorizou o sul da França no século XVIII."
+   }
+  },
+  {
+   "stage": 7,
+   "monster": {
+    "id": "gen_serpente_antiga",
+    "name": "Serpente Antiga",
+    "legend": "Criatura inventada que dorme sob França.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 8,
+   "monster": {
+    "id": "gen_sentinela_de_paris",
+    "name": "Sentinela de Paris",
+    "legend": "Criatura inventada que vigia Paris, a capital.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 9,
+   "monster": {
+    "id": "gen_espirito_do_vento",
+    "name": "Espírito do Vento",
+    "legend": "Criatura inventada que sopra sobre França.",
+    "invented": true
+   }
+  },
+  {
+   "stage": 10,
+   "boss": true,
+   "monster": {
+    "id": "tarasque",
+    "name": "Tarasque",
+    "legend": "Dragão do Ródano que a lenda diz ter sido domado por Santa Marta."
+   },
+   "bossTitle": "Tarasque",
+   "rewardPower": "golpe_duplo"
+  }
+ ]
+}
