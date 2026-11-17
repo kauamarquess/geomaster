@@ -78,6 +78,28 @@ class SaveFormat(unittest.TestCase):
         self.assertFalse(sample().save(Path(tempfile.mkdtemp()) / "nao-existe" / "save.json"))
 
 
+class DeleteSave(unittest.TestCase):
+    def test_apaga_arquivo_e_sobra_tmp(self):
+        folder = Path(tempfile.mkdtemp())
+        path = folder / "save.json"
+        sample().save(path)
+        (folder / "save.json.tmp").write_text("x", encoding="utf-8")
+        self.assertTrue(Progress.delete(path))
+        self.assertEqual(list(folder.iterdir()), [])
+
+    def test_apagar_o_que_nao_existe_nao_da_erro(self):
+        self.assertTrue(Progress.delete(Path(tempfile.mkdtemp()) / "nada.json"))
+
+    def test_data_do_save_pode_ser_escolhida(self):
+        self.assertEqual(json.loads(sample().dumps(1234))["saved_at"], 1234)
+
+    def test_save_vazio_mais_novo_vence_o_antigo(self):
+        antigo = Progress.loads(sample().dumps(100), ORDER)
+        vazio = Progress.loads(Progress(ORDER).dumps(101), ORDER)
+        self.assertIs(Progress.newest(antigo, vazio), vazio)
+        self.assertFalse(Progress.newest(antigo, vazio).has_progress())
+
+
 class NewestSave(unittest.TestCase):
     def make(self, stamp, stages):
         p = Progress(ORDER)

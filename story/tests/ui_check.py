@@ -54,6 +54,33 @@ outro = main.Game(surface, Path(tempfile.mkdtemp()) / "outro.json")  # arquivo i
 assert outro.scene.has_save and outro.scene.saved.has_progress()
 outro.frame([key(pygame.K_DOWN), key(pygame.K_RETURN)]); assert type(outro.scene).__name__ == "GlobeScene"
 assert ("BRA", 1) in outro.progress.cleared
+# Apagar save: pede confirmação, Esc cancela, Enter apaga arquivo e navegador; "Continuar" e "Apagar" ficam desligados
+# (usa uma cópia do save e um "navegador" separado, para não apagar o que os próximos testes usam)
+import shutil
+shared_storage = webstore.override
+webstore.override = FakeBrowserStorage(); webstore.override.data = dict(shared_storage.data)
+copy_path = Path(tempfile.mkdtemp()) / "copia.json"; shutil.copy(save, copy_path)
+g2 = main.Game(surface, copy_path)
+g2.frame([key(pygame.K_DOWN), key(pygame.K_DOWN), key(pygame.K_RETURN)]); assert g2.scene.confirm == "delete"
+g2.frame([key(pygame.K_ESCAPE)]); assert g2.scene.confirm is None and copy_path.exists()
+g2.frame([key(pygame.K_RETURN), key(pygame.K_RETURN)])
+assert not copy_path.exists() and not g2.scene.has_save and g2.scene.message == "Save apagado."
+g3 = main.Game(surface, copy_path); assert not g3.scene.has_save and not g3.load_progress().has_progress()
+g3.frame([key(pygame.K_DOWN), key(pygame.K_RETURN)]); assert type(g3.scene).__name__ == "MenuScene"      # Continuar desligado
+g3.frame([key(pygame.K_DOWN), key(pygame.K_RETURN)]); assert g3.scene.confirm is None                    # Apagar desligado
+# se uma cópia antiga não puder ser removida, o save vazio e mais novo impede que ela volte
+g4 = main.Game(surface, Path(tempfile.mkdtemp()) / "s.json"); g4.progress.clear("BRA", 1); g4.save()
+real_delete = main.Progress.delete
+main.Progress.delete = staticmethod(lambda path: False)
+try:
+    assert g4.delete_save() is True and Path(g4.save_path).exists()  # o arquivo ficou, mas perdeu para o save vazio
+    assert not main.Game(surface, g4.save_path).scene.has_save
+    webstore.override = None  # sem navegador e sem poder apagar: tem que avisar que falhou
+    g5 = main.Game(surface, Path(tempfile.mkdtemp()) / "s.json"); g5.progress.clear("BRA", 1); g5.save()
+    assert g5.delete_save() is False
+finally:
+    main.Progress.delete = real_delete
+    webstore.override = shared_storage
 
 # Brasil concluído libera a Argentina, que já tem fases
 for n in range(1, 11):

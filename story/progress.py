@@ -68,9 +68,9 @@ class Progress:
             return True
         return False
 
-    def dumps(self):
+    def dumps(self, stamp=None):
         """O save como texto JSON (o mesmo texto vai para o arquivo e para o navegador)."""
-        data = {"version": SAVE_VERSION, "saved_at": int(time.time()), "cleared": sorted(self.cleared),
+        data = {"version": SAVE_VERSION, "saved_at": int(time.time()) if stamp is None else stamp, "cleared": sorted(self.cleared),
                 "powers": self.powers, "equipped": self.equipped, "levels": self.levels}
         return json.dumps(data)
 
@@ -115,6 +115,16 @@ class Progress:
     def newest(*candidates):
         """O save mais recente (e, no empate, o com mais fases vencidas). No empate total vale o primeiro."""
         return max(candidates, key=lambda p: (p.saved_at, len(p.cleared)))
+
+    @staticmethod
+    def delete(path):
+        """Apaga o arquivo de save (e a sobra .tmp, se houver). Devolve True se não restou arquivo."""
+        for leftover in (path, f"{path}.tmp"):
+            try:
+                os.remove(leftover)
+            except OSError:  # não existia ou não deixaram apagar; quem chamou confere o resultado
+                pass
+        return not os.path.exists(path)
 
     @staticmethod
     def exists(path):

@@ -7,6 +7,7 @@ import math
 import os
 import sys
 import textwrap
+import time
 from pathlib import Path
 
 import pygame
@@ -79,6 +80,16 @@ class Game:
         in_file, in_browser = self.progress.save(self.save_path, text), webstore.write(text)
         self.save_failed = not (in_file or in_browser)
 
+    def delete_save(self):
+        """Apaga o save. No navegador deixa um save VAZIO e mais novo que o antigo, para que uma cópia que o navegador
+        não conseguiu remover não "ressuscite". Devolve True se, depois disso, não resta progresso nenhum."""
+        newest = max(int(time.time()), self.load_progress().saved_at + 1)
+        Progress.delete(self.save_path)
+        webstore.write(Progress(self.order).dumps(newest))
+        self.progress = Progress(self.order)
+        self.save_failed = False
+        return not self.load_progress().has_progress()
+
     def load_progress(self):
         """Lê o save do arquivo e o do navegador (se houver) e fica com o mais recente."""
         found = [Progress.load(self.save_path, self.order)]
@@ -133,39 +144,52 @@ class Scene:
 
 
 class MenuScene(Scene):
-    OPTIONS = ["Nova aventura", "Continuar", "Sair"]
+    OPTIONS = ["Nova aventura", "Continuar", "Apagar save", "Sair"]
+    NEEDS_SAVE = (1, 2)  # Continuar e Apagar só fazem sentido com um save
 
     def __init__(self, game):
         super().__init__(game)
         self.index = 0
         self.saved = game.load_progress()
         self.has_save = self.saved.has_progress()
-        self.confirm = False  # pergunta antes de apagar um save existente
+        self.confirm = None  # None, "new" (Nova aventura sobre um save) ou "delete" (Apagar save)
+        self.message, self.message_color = "", GOLD
 
     def rect(self, i):
-        return pygame.Rect(80, 88 + i * 24, 160, 20)
+        return pygame.Rect(80, 82 + i * 21, 160, 19)
 
     def choose(self, i):
         g = self.game
         if i == 0:
-            if self.has_save and not self.confirm:
-                self.confirm = True
+            if self.has_save and self.confirm != "new":
+                self.confirm = "new"
                 return
             g.progress = Progress(g.order)
             g.scene = GlobeScene(g)
         elif i == 1 and self.has_save:
             g.progress = self.saved
             g.scene = GlobeScene(g)
-        elif i == 2:
+        elif i == 2 and self.has_save:
+            if self.confirm != "delete":
+                self.confirm = "delete"
+                return
+            self.confirm = None
+            if g.delete_save():
+                self.saved, self.has_save = g.progress, False
+                self.message, self.message_color = "Save apagado.", GOLD
+            else:
+                self.message, self.message_color = "Não foi possível apagar o save.", RED
+        elif i == 3:
             g.running = False
 
     def handle(self, event):
         if self.confirm:
             if event.type == pygame.KEYDOWN and event.key in (pygame.K_RETURN, pygame.K_SPACE):
-                self.choose(0)
+                self.choose(0 if self.confirm == "new" else 2)
             elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                self.confirm = False
+                self.confirm = None
             return
+        self.message = ""
         if event.type == pygame.KEYDOWN:
             if event.key in (pygame.K_UP, pygame.K_w):
                 self.index = (self.index - 1) % len(self.OPTIONS)
@@ -174,7 +198,7 @@ class MenuScene(Scene):
             elif event.key in (pygame.K_RETURN, pygame.K_SPACE):
                 self.choose(self.index)
         elif event.type == pygame.MOUSEMOTION:
-            self.index = next((i for i in range(3) if self.rect(i).collidepoint(event.pos)), self.index)
+            self.index = next((i for i in range(len(self.OPTIONS)) if self.rect(i).collidepoint(event.pos)), self.index)
         elif event.type == pygame.MOUSEBUTTONDOWN and self.rect(self.index).collidepoint(event.pos):
             self.choose(self.index)
 
@@ -182,22 +206,27 @@ class MenuScene(Scene):
         g = self.game
         for y in range(0, H, 6):  # faixas escuras no fundo
             pygame.draw.rect(g.screen, (14, 36, 62), (0, y, W, 3))
-        g.text("GEOMASTER", W // 2, 28, GOLD, 28, center=True)
-        g.text("MODO HISTÓRIA", W // 2, 56, INK, 18, center=True)
+        g.text("GEOMASTER", W // 2, 24, GOLD, 28, center=True)
+        g.text("MODO HISTÓRIA", W // 2, 52, INK, 18, center=True)
         for i, label in enumerate(self.OPTIONS):
             selected = i == self.index
             if selected:
                 pygame.draw.rect(g.screen, DARK, self.rect(i))
-            disabled = i == 1 and not self.has_save
+            disabled = i in self.NEEDS_SAVE and not self.has_save
             color = (110, 125, 150) if disabled else (GOLD if selected else INK)
-            g.text(("> " if selected else "  ") + label + (" (sem save)" if disabled else f" ({self.saved.completed_count()}/{len(g.order)})" if i == 1 else ""), 90, self.rect(i).y + 4, color)
+            extra = " (sem save)" if disabled else f" ({self.saved.completed_count()}/{len(g.order)})" if i == 1 else ""
+            g.text(("> " if selected else "  ") + label + extra, 90, self.rect(i).y + 4, color)
         if self.confirm:
-            pygame.draw.rect(g.screen, PAPER, (30, 70, 260, 50))
-            pygame.draw.rect(g.screen, RED, (30, 70, 260, 50), 2)
-            g.text("Apagar o progresso salvo?", W // 2, 80, INK, 14, center=True)
-            g.text("Enter = sim   Esc = não", W // 2, 98, GOLD, 14, center=True)
+            pygame.draw.rect(g.screen, PAPER, (30, 66, 260, 62))
+            pygame.draw.rect(g.screen, RED, (30, 66, 260, 62), 2)
+            if self.confirm == "delete":
+                g.text("Apagar o save de vez?", W // 2, 74, INK, 14, center=True)
+                g.text(f"Você perde {self.saved.completed_count()}/{len(g.order)} países e os poderes.", W // 2, 90, (150, 165, 190), 14, center=True)
+            else:
+                g.text("Apagar o progresso salvo?", W // 2, 80, INK, 14, center=True)
+            g.text("Enter = sim   Esc = não", W // 2, 108, GOLD, 14, center=True)
         else:
-            g.text("Setas + Enter, ou mouse", W // 2, H - 14, (110, 125, 150), center=True)
+            g.text(self.message or "Setas + Enter, ou mouse", W // 2, H - 14, self.message_color if self.message else (110, 125, 150), center=True)
 
 
 def mix(a, b, t):
