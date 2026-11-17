@@ -3,6 +3,7 @@ Rodar no PC:  python story/main.py   (precisa de: pip install pygame)
 O laço principal é assíncrono de propósito: é o formato que o pygbag exige para rodar no navegador."""
 import asyncio
 import json
+import math
 import os
 import sys
 import textwrap
@@ -11,8 +12,11 @@ from pathlib import Path
 import pygame
 
 from combat import Battle, load_bank
+from mapgeo import View, pick_direction
+from mapview import Terrain, draw_pin, load_map
 from progress import Progress
-from sprites import monster_sprite
+from sprites import hex_to_rgb, monster_sprite
+import webstore
 
 BASE = Path(__file__).resolve().parent
 W, H = 320, 180  # tela interna pequena; o pygame amplia com pixels nítidos
@@ -45,15 +49,43 @@ class Game:
         self.order = [c for region in self.world["order"] for c in region["countries"]]
         self.progress = Progress(self.order)
         self.save_failed = False
+        self._map = None
+        self._terrains = {}
         self.scene = MenuScene(self)
         self.running = True
+
+    @property
+    def map(self):
+        """Formas dos países e posição das fases (data/map.json); só é lido na primeira vez que o mapa aparece."""
+        if self._map is None:
+            self._map = load_map(BASE / "data/map.json")
+        return self._map
+
+    def terrain(self, key, build):
+        """Mapas já pintados ficam guardados (poucos): voltar a um continente não repinta o mundo todo."""
+        if key not in self._terrains:
+            if len(self._terrains) >= 14:
+                self._terrains.pop(next(iter(self._terrains)))
+            self._terrains[key] = build()
+        return self._terrains[key]
 
     def text(self, message, x, y, color=INK, size=14, center=False):
         image = self.fonts[size].render(message, False, color)  # False = sem suavização (visual pixelado)
         self.screen.blit(image, (x - image.get_width() // 2 if center else x, y))
 
     def save(self):
-        self.save_failed = not self.progress.save(self.save_path)
+        """Grava no arquivo e, no navegador, também no localStorage. Só avisa se nenhum dos dois funcionou."""
+        text = self.progress.dumps()
+        in_file, in_browser = self.progress.save(self.save_path, text), webstore.write(text)
+        self.save_failed = not (in_file or in_browser)
+
+    def load_progress(self):
+        """Lê o save do arquivo e o do navegador (se houver) e fica com o mais recente."""
+        found = [Progress.load(self.save_path, self.order)]
+        text = webstore.read()
+        if text:
+            found.append(Progress.loads(text, self.order))
+        return Progress.newest(*found)
 
     def equipped_powers(self):
         """Poderes equipados, já no formato que o combate espera."""
@@ -106,7 +138,8 @@ class MenuScene(Scene):
     def __init__(self, game):
         super().__init__(game)
         self.index = 0
-        self.has_save = Progress.load(game.save_path, game.order).has_progress()
+        self.saved = game.load_progress()
+        self.has_save = self.saved.has_progress()
         self.confirm = False  # pergunta antes de apagar um save existente
 
     def rect(self, i):
@@ -119,10 +152,10 @@ class MenuScene(Scene):
                 self.confirm = True
                 return
             g.progress = Progress(g.order)
-            g.scene = WorldMapScene(g)
+            g.scene = GlobeScene(g)
         elif i == 1 and self.has_save:
-            g.progress = Progress.load(g.save_path, g.order)
-            g.scene = WorldMapScene(g)
+            g.progress = self.saved
+            g.scene = GlobeScene(g)
         elif i == 2:
             g.running = False
 
@@ -157,7 +190,7 @@ class MenuScene(Scene):
                 pygame.draw.rect(g.screen, DARK, self.rect(i))
             disabled = i == 1 and not self.has_save
             color = (110, 125, 150) if disabled else (GOLD if selected else INK)
-            g.text(("> " if selected else "  ") + label + (" (sem save)" if disabled else ""), 90, self.rect(i).y + 4, color)
+            g.text(("> " if selected else "  ") + label + (" (sem save)" if disabled else f" ({self.saved.completed_count()}/{len(g.order)})" if i == 1 else ""), 90, self.rect(i).y + 4, color)
         if self.confirm:
             pygame.draw.rect(g.screen, PAPER, (30, 70, 260, 50))
             pygame.draw.rect(g.screen, RED, (30, 70, 260, 50), 2)
@@ -167,75 +200,157 @@ class MenuScene(Scene):
             g.text("Setas + Enter, ou mouse", W // 2, H - 14, (110, 125, 150), center=True)
 
 
-class WorldScene(Scene):
-    """As 10 fases de um país, lidas de data/countries/<ID>.json."""
-
-    def __init__(self, game, country_id="BRA"):
-        super().__init__(game)
-        self.region_name = next(r["name"] for r in game.world["order"] if country_id in r["countries"])
-        self.country = load_json(f"data/countries/{country_id}.json")
-        self.country_name = game.names[country_id]
-        self.index = min(game.progress.stages_done(country_id), 9)  # já aponta para a próxima fase a vencer
-        self.message = ""
-
-    def handle(self, event):
-        if event.type != pygame.KEYDOWN:
-            return
-        stages = self.country["stages"]
-        if event.key == pygame.K_p:
-            self.game.scene = PowersScene(self.game, self)
-        elif event.key == pygame.K_ESCAPE:
-            self.game.scene = WorldMapScene(self.game, self.country["id"])
-        elif event.key in (pygame.K_RIGHT, pygame.K_d):
-            self.index = (self.index + 1) % len(stages)
-        elif event.key in (pygame.K_LEFT, pygame.K_a):
-            self.index = (self.index - 1) % len(stages)
-        elif event.key in (pygame.K_RETURN, pygame.K_SPACE):
-            cid = self.country["id"]
-            done = self.game.progress.stages_done(cid)
-            if self.index > done:
-                self.message = "Vença a fase anterior primeiro."
-            else:
-                stage = stages[self.index]
-                self.game.scene = CombatScene(self.game, Battle(
-                    self.game.bank, self.game.world, cid, stage["stage"], stage["monster"], stage.get("boss", False), powers=self.game.equipped_powers()), stage, self.country["theme"]["palette"])
-
-    def draw(self):
-        g = self.game
-        g.text(self.region_name.upper(), W // 2, 12, GREEN, 14, center=True)
-        g.text(self.country_name, W // 2, 28, GOLD, 28, center=True)
-        for i, stage in enumerate(self.country["stages"]):
-            box = pygame.Rect(20 + (i % 5) * 58, 62 + (i // 5) * 32, 50, 26)
-            boss = stage.get("boss", False)
-            won = (self.country["id"], stage["stage"]) in g.progress.cleared
-            pygame.draw.rect(g.screen, GREEN if won else RED if boss else DARK, box)
-            if i == self.index:
-                pygame.draw.rect(g.screen, GOLD, box, 2)
-            g.text("BOSS" if boss else str(stage["stage"]), box.centerx, box.y + 8, INK, 14, center=True)
-        monster = self.country["stages"][self.index]["monster"]
-        g.text(monster["name"], 20, 124, GOLD, 18)
-        for line, text in enumerate(textwrap.wrap(monster["legend"], 46)[:2]):  # quebra a lenda em até 2 linhas
-            g.text(text, 20, 142 + line * 12, INK, 14)
-        g.text(self.message or "Enter luta · P poderes · Esc volta", W // 2, H - 12, (110, 125, 150), center=True)
+def mix(a, b, t):
+    """Mistura duas cores: t=0 devolve `a`, t=1 devolve `b`."""
+    return tuple(int(a[i] * (1 - t) + b[i] * t) for i in range(3))
 
 
-class WorldMapScene(Scene):
-    """Mapa-múndi: uma região por vez, com um quadrado por país na ordem da jornada."""
-    COLS = 8
-    LOCKED, SOON = (30, 45, 70), (60, 80, 110)
+REGION_COLORS = {
+    "south_america": (96, 168, 104), "central_america": (72, 176, 170), "north_america": (96, 128, 208),
+    "europe": (160, 120, 208), "africa": (214, 156, 76), "asia": (208, 96, 96), "oceania": (84, 194, 224),
+}
+LOCKED, SOON, CONTEXT, BORDER = (58, 80, 116), (90, 112, 150), (26, 42, 66), (10, 14, 26)
+MAP_RECT = (0, 20, W, 120)  # área do mapa-múndi e dos continentes (o resto da tela é texto)
+STAGE_RECT = (0, 26, 204, 128)  # área do país com as 10 fases (o painel da fase fica à direita)
+PANEL = pygame.Rect(208, 26, 108, 130)
+
+
+class GlobeScene(Scene):
+    """Mapa-múndi: cada continente é uma região da jornada. Enter entra no continente."""
 
     def __init__(self, game, focus=None):
         super().__init__(game)
+        self.regions = game.world["order"]
         focus = focus or game.progress.current_country()
-        self.region = next(i for i, r in enumerate(game.world["order"]) if focus in r["countries"])
-        self.index = self.countries().index(focus)
-        self.message = ""
+        self.region = next(i for i, r in enumerate(self.regions) if focus in r["countries"])
+        self.country_region = {c: i for i, r in enumerate(self.regions) for c in r["countries"]}
+        self.message, self.t, self.outlines = "", 0.0, {}
+        data = game.map
+        fills = {}
+        for cid, i in self.country_region.items():
+            base = REGION_COLORS[self.regions[i]["id"]]
+            if not self.unlocked(i):
+                fills[cid] = mix(base, PAPER, 0.5)
+            elif game.progress.is_complete(cid):
+                fills[cid] = mix(base, INK, 0.3)  # território já conquistado fica mais claro
+            else:
+                fills[cid] = mix(base, PAPER, 0.12)
+
+        def build():
+            terrain = Terrain(data, View(data.world_box, MAP_RECT), (W, H), PAPER)
+            terrain.paint_all(fills, default=CONTEXT)
+            return terrain
+
+        self.terrain = game.terrain(("globe", tuple(fills.items())), build)
+        view = self.terrain.view
+        self.nav = [view.project(*data.regions[r["id"]]["nav"]) for r in self.regions]
+        self.here = self.terrain.center(game.progress.current_country())
+
+    def unlocked(self, i):
+        return self.game.progress.is_unlocked(self.regions[i]["countries"][0])
+
+    def move(self, step):
+        self.region, self.message = (self.region + step) % len(self.regions), ""
+
+    def open_region(self):
+        g, countries = self.game, self.regions[self.region]["countries"]
+        focus = next((c for c in countries if not g.progress.is_complete(c)), countries[0])
+        g.scene = WorldMapScene(g, focus)
+
+    def handle(self, event):
+        if event.type == pygame.KEYDOWN:
+            arrows = {pygame.K_LEFT: (-1, 0), pygame.K_a: (-1, 0), pygame.K_RIGHT: (1, 0), pygame.K_d: (1, 0),
+                      pygame.K_UP: (0, -1), pygame.K_w: (0, -1), pygame.K_DOWN: (0, 1), pygame.K_s: (0, 1)}
+            if event.key in arrows:
+                self.region, self.message = pick_direction(self.region, self.nav, *arrows[event.key]), ""
+            elif event.key in (pygame.K_e, pygame.K_TAB, pygame.K_PAGEDOWN):
+                self.move(1)
+            elif event.key in (pygame.K_q, pygame.K_PAGEUP):
+                self.move(-1)
+            elif event.key == pygame.K_p:
+                self.game.scene = PowersScene(self.game, self)
+            elif event.key in (pygame.K_RETURN, pygame.K_SPACE):
+                self.open_region()
+            elif event.key == pygame.K_ESCAPE:
+                self.game.scene = MenuScene(self.game)
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            cid = self.terrain.hit(event.pos, self.country_region)
+            if cid is not None:
+                was_selected, self.region = self.region == self.country_region[cid], self.country_region[cid]
+                self.message = ""
+                if was_selected:
+                    self.open_region()
+
+    def update(self, dt):
+        self.t += dt
+
+    def outline(self):
+        if self.region not in self.outlines:
+            layer = pygame.Surface((W, H), pygame.SRCALPHA)
+            for cid in self.regions[self.region]["countries"]:
+                self.terrain.outline(layer, cid, INK)
+            self.outlines[self.region] = layer
+        return self.outlines[self.region]
+
+    def draw(self):
+        g, region = self.game, self.regions[self.region]
+        g.screen.blit(self.terrain.surface, (0, 0))
+        g.screen.blit(self.outline(), (0, 0))
+        if int(self.t * 2.5) % 2 == 0:  # marcador piscando no país onde a aventura está
+            x, y = self.here
+            pygame.draw.polygon(g.screen, BORDER, [(x - 4, y - 9), (x + 4, y - 9), (x, y - 2)])
+            pygame.draw.polygon(g.screen, GOLD, [(x - 3, y - 8), (x + 3, y - 8), (x, y - 3)])
+        g.text("MAPA-MÚNDI", 8, 4, GOLD, 18)
+        g.text(f"{g.progress.completed_count()}/{len(g.order)} países · poderes: {len(g.progress.powers)}", W - 8 - g.fonts[14].size(f"{g.progress.completed_count()}/{len(g.order)} países · poderes: {len(g.progress.powers)}")[0], 7, GREEN)
+        done = g.progress.completed_count(region["countries"])
+        g.text(region["name"], 8, 144, REGION_COLORS[region["id"]], 18)
+        state = "Concluído" if done == len(region["countries"]) else f"{done}/{len(region['countries'])} países" if self.unlocked(self.region) else "Bloqueado: conclua o continente anterior"
+        g.text(state, 8, 157, (150, 165, 190))
+        footer = "Não foi possível salvar o progresso!" if g.save_failed else self.message or "Setas continente · Enter entra · P poderes · Esc menu"
+        g.text(footer, W // 2, 168, RED if g.save_failed else (110, 125, 150), center=True)
+
+
+class WorldMapScene(Scene):
+    """Um continente em destaque: cada país é uma região do mapa, na ordem da jornada (cores = progresso)."""
+
+    def __init__(self, game, focus=None, region=None):
+        super().__init__(game)
+        if region is None:
+            focus = focus or game.progress.current_country()
+            region = next(i for i, r in enumerate(game.world["order"]) if focus in r["countries"])
+        self.region, self.message, self.t = region, "", 0.0
+        self.index = self.countries().index(focus) if focus in self.countries() else 0
+        self.build()
 
     def countries(self):
         return self.game.world["order"][self.region]["countries"]
 
-    def node(self, i):
-        return pygame.Rect(8 + (i % self.COLS) * 38, 36 + (i // self.COLS) * 15, 34, 13)
+    def build(self):
+        g, ids = self.game, self.countries()
+        spec = g.map.regions[g.world["order"][self.region]["id"]]
+        fills = {c: self.fill(c) for c in ids}
+
+        def paint():
+            terrain = Terrain(g.map, View(spec["box"], MAP_RECT, wrap=spec["wrap"]), (W, H), PAPER)
+            terrain.paint_all({}, default=CONTEXT, skip=set(ids))  # vizinhança escura
+            terrain.paint_all(fills, border=BORDER)
+            for c in ids:
+                if max(terrain.screen_size(c)) < 5:  # país minúsculo vira um "pino"
+                    draw_pin(terrain.surface, terrain.center(c), mix(fills[c], INK, 0.25))
+            return terrain
+
+        self.terrain = g.terrain(("region", self.region, tuple(fills.values())), paint)
+        self.centers = [self.terrain.center(c) for c in ids]
+        self.tiny = [i for i, c in enumerate(ids) if max(self.terrain.screen_size(c)) < 5]
+        self.here = self.terrain.center(g.progress.current_country()) if g.progress.current_country() in ids else None
+
+    def fill(self, cid):
+        g = self.game
+        if g.progress.is_complete(cid):
+            return GREEN
+        if g.progress.is_unlocked(cid):
+            return mix(GOLD, PAPER, 0.1) if g.has_data(cid) else SOON
+        return LOCKED
 
     def open_selected(self):
         g, cid = self.game, self.countries()[self.index]
@@ -249,29 +364,45 @@ class WorldMapScene(Scene):
     def switch_region(self, step):
         self.region = (self.region + step) % len(self.game.world["order"])
         self.index, self.message = 0, ""
+        self.build()
+
+    def pick(self, pos):
+        ids = self.countries()
+        cid = self.terrain.hit(pos, ids)
+        if cid is not None:
+            return ids.index(cid)
+        near = [(math.hypot(x - pos[0], y - pos[1]), i) for i, (x, y) in enumerate(self.centers)]
+        near = [n for n in near if n[0] <= 6]
+        return min(near)[1] if near else None
 
     def handle(self, event):
         if event.type == pygame.KEYDOWN:
-            last = len(self.countries()) - 1
-            moves = {pygame.K_LEFT: -1, pygame.K_RIGHT: 1, pygame.K_UP: -self.COLS, pygame.K_DOWN: self.COLS}
-            if event.key in moves:
-                self.index, self.message = min(max(self.index + moves[event.key], 0), last), ""
+            arrows = {pygame.K_LEFT: (-1, 0), pygame.K_a: (-1, 0), pygame.K_RIGHT: (1, 0), pygame.K_d: (1, 0),
+                      pygame.K_UP: (0, -1), pygame.K_w: (0, -1), pygame.K_DOWN: (0, 1), pygame.K_s: (0, 1)}
+            if event.key in arrows:
+                self.index, self.message = pick_direction(self.index, self.centers, *arrows[event.key]), ""
+            elif event.key == pygame.K_TAB:  # próximo país na ordem da jornada (Shift volta)
+                step = -1 if getattr(event, "mod", 0) & pygame.KMOD_SHIFT else 1
+                self.index, self.message = (self.index + step) % len(self.countries()), ""
             elif event.key == pygame.K_p:
                 self.game.scene = PowersScene(self.game, self)
             elif event.key in (pygame.K_q, pygame.K_PAGEUP):
                 self.switch_region(-1)
-            elif event.key in (pygame.K_e, pygame.K_PAGEDOWN, pygame.K_TAB):
+            elif event.key in (pygame.K_e, pygame.K_PAGEDOWN):
                 self.switch_region(1)
             elif event.key in (pygame.K_RETURN, pygame.K_SPACE):
                 self.open_selected()
             elif event.key == pygame.K_ESCAPE:
-                self.game.scene = MenuScene(self.game)
+                self.game.scene = GlobeScene(self.game, self.countries()[0])
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            for i in range(len(self.countries())):
-                if self.node(i).collidepoint(event.pos):
-                    was_selected, self.index = self.index == i, i
-                    if was_selected:
-                        self.open_selected()
+            i = self.pick(event.pos)
+            if i is not None:
+                was_selected, self.index, self.message = self.index == i, i, ""
+                if was_selected:
+                    self.open_selected()
+
+    def update(self, dt):
+        self.t += dt
 
     def status(self, cid):
         g = self.game
@@ -283,24 +414,153 @@ class WorldMapScene(Scene):
 
     def draw(self):
         g, region = self.game, self.game.world["order"][self.region]
+        ids = self.countries()
+        g.screen.blit(self.terrain.surface, (0, 0))
+        cid = ids[self.index]
+        self.terrain.outline(g.screen, cid, INK)
+        x, y = self.centers[self.index]
+        if self.index in self.tiny:
+            pygame.draw.circle(g.screen, INK, (x, y), 5, 1)
+        if self.here is not None and int(self.t * 2.5) % 2 == 0:  # marcador piscando no país onde a aventura está
+            hx, hy = self.here
+            pygame.draw.polygon(g.screen, BORDER, [(hx - 4, hy - 9), (hx + 4, hy - 9), (hx, hy - 2)])
+            pygame.draw.polygon(g.screen, GOLD, [(hx - 3, hy - 8), (hx + 3, hy - 8), (hx, hy - 3)])
         done = g.progress.completed_count(region["countries"])
         g.text(region["name"].upper(), 8, 4, GOLD, 18)
-        g.text(f"{done}/{len(region['countries'])} países · poderes: {len(g.progress.powers)}", 8, 22, GREEN)
-        for i, cid in enumerate(self.countries()):
-            box, fill, ink = self.node(i), self.LOCKED, (110, 125, 150)
-            if g.progress.is_complete(cid):
-                fill, ink = GREEN, PAPER
-            elif g.progress.is_unlocked(cid):
-                fill, ink = (GOLD, PAPER) if g.has_data(cid) else (self.SOON, INK)
-            pygame.draw.rect(g.screen, fill, box)
-            if i == self.index:
-                pygame.draw.rect(g.screen, INK, box, 1)
-            g.text(cid, box.centerx, box.y + 2, ink, 14, center=True)
-        cid = self.countries()[self.index]
-        g.text(g.names[cid], 8, 142, INK, 18)
-        g.text(self.status(cid), 8, 155, (150, 165, 190))
-        footer = "Não foi possível salvar o progresso!" if g.save_failed else self.message or "Q/E região · Enter entra · P poderes"
+        info = f"{done}/{len(ids)} países · poderes: {len(g.progress.powers)}"
+        g.text(info, W - 8 - g.fonts[14].size(info)[0], 7, GREEN)
+        g.text(g.names[cid], 8, 144, INK, 18)
+        g.text(self.status(cid), 8, 157, (150, 165, 190))
+        footer = "Não foi possível salvar o progresso!" if g.save_failed else self.message or "Setas países · Enter entra · Q/E continente · Esc volta"
         g.text(footer, W // 2, 168, RED if g.save_failed or self.message else (110, 125, 150), center=True)
+
+
+class WorldScene(Scene):
+    """O país em tela cheia: as 10 fases ficam DENTRO do desenho do país, ligadas por um caminho."""
+
+    def __init__(self, game, country_id="BRA"):
+        super().__init__(game)
+        self.region_name = next(r["name"] for r in game.world["order"] if country_id in r["countries"])
+        self.country = load_json(f"data/countries/{country_id}.json")
+        self.country_name = game.names[country_id]
+        self.index = min(game.progress.stages_done(country_id), 9)  # já aponta para a próxima fase a vencer
+        self.message, self.t = "", 0.0
+        self.build()
+
+    def build(self):
+        g, cid = self.game, self.country["id"]
+        shape = g.map.countries[cid]
+        palette = [hex_to_rgb(c) for c in self.country["theme"]["palette"]]
+        wide = not shape.blob and max(shape.box[2] - shape.box[0], shape.box[3] - shape.box[1]) >= 2
+
+        def paint():
+            terrain = Terrain(g.map, View(shape.box, STAGE_RECT, wrap=shape.wrap, pad=12), (W, H), PAPER)
+            if wide:  # os vizinhos aparecem apagados; ilhas minúsculas ficam sozinhas no mar
+                terrain.paint_all({}, default=CONTEXT, skip={cid})
+            terrain.paint(cid, mix(palette[1], PAPER, 0.2), border=mix(palette[3], INK, 0.25), rings=shape.shape_rings())
+            if wide:
+                terrain.paint_holes(cid, CONTEXT)
+            return terrain
+
+        self.terrain = g.terrain(("country", cid), paint)
+        self.ampliada = bool(shape.blob)
+        self.points = [tuple(int(round(v)) for v in self.terrain.view.project(lon, lat)) for lon, lat in shape.nodes]
+        gaps = [math.dist(a, b) for i, a in enumerate(self.points) for b in self.points[i + 1:]]
+        self.radius = int(max(3, min(6, min(gaps) / 2 - 1))) if gaps else 5
+
+    def activate(self):
+        stages, cid = self.country["stages"], self.country["id"]
+        if self.index > self.game.progress.stages_done(cid):
+            self.message = "Vença a fase anterior primeiro."
+        else:
+            stage = stages[self.index]
+            self.game.scene = CombatScene(self.game, Battle(
+                self.game.bank, self.game.world, cid, stage["stage"], stage["monster"], stage.get("boss", False), powers=self.game.equipped_powers()), stage, self.country["theme"]["palette"])
+
+    def handle(self, event):
+        count = len(self.country["stages"])
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_p:
+                self.game.scene = PowersScene(self.game, self)
+            elif event.key == pygame.K_ESCAPE:
+                self.game.scene = WorldMapScene(self.game, self.country["id"])
+            elif event.key in (pygame.K_RIGHT, pygame.K_d):
+                self.index, self.message = (self.index + 1) % count, ""
+            elif event.key in (pygame.K_LEFT, pygame.K_a):
+                self.index, self.message = (self.index - 1) % count, ""
+            elif event.key in (pygame.K_UP, pygame.K_w):
+                self.index, self.message = pick_direction(self.index, self.points, 0, -1), ""
+            elif event.key in (pygame.K_DOWN, pygame.K_s):
+                self.index, self.message = pick_direction(self.index, self.points, 0, 1), ""
+            elif event.key in (pygame.K_RETURN, pygame.K_SPACE):
+                self.activate()
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            near = [(math.dist(p, event.pos), i) for i, p in enumerate(self.points)]
+            near = [n for n in near if n[0] <= self.radius + 4]
+            if near:
+                i = min(near)[1]
+                was_selected, self.index, self.message = self.index == i, i, ""
+                if was_selected:
+                    self.activate()
+
+    def update(self, dt):
+        self.t += dt
+
+    def dashed(self, a, b, color):
+        length = math.dist(a, b)
+        steps = int(length // 4)
+        for n in range(steps):
+            if n % 2 == 0:
+                s, e = n / steps, (n + 1) / steps
+                pygame.draw.line(self.game.screen, color, (a[0] + (b[0] - a[0]) * s, a[1] + (b[1] - a[1]) * s),
+                                 (a[0] + (b[0] - a[0]) * e, a[1] + (b[1] - a[1]) * e))
+
+    def draw(self):
+        g, cid = self.game, self.country["id"]
+        g.screen.blit(self.terrain.surface, (0, 0))
+        g.text(self.country_name, 8, 4, GOLD, 18)
+        g.text(self.region_name, W - 8 - g.fonts[14].size(self.region_name)[0], 7, GREEN)
+        if self.ampliada:
+            g.text("ilha ampliada", 8, 142, (110, 125, 150))
+        done = g.progress.stages_done(cid)
+        stages = self.country["stages"]
+        for i in range(len(stages) - 1):  # o caminho: verde onde o jogador já passou
+            self.dashed(self.points[i], self.points[i + 1], (110, 230, 150) if i + 1 <= done else (150, 165, 190))
+        for i, stage in enumerate(stages):
+            boss, won = stage.get("boss", False), (cid, stage["stage"]) in g.progress.cleared
+            r = self.radius + (2 if boss else 0)
+            x, y = self.points[i]
+            fill = (90, 220, 140) if won else RED if boss else GOLD if i == done else (86, 104, 140)
+            if i == done and int(self.t * 3) % 2 == 0:
+                pygame.draw.circle(g.screen, GOLD, (x, y), r + 3, 1)  # pisca na próxima fase a vencer
+            pygame.draw.circle(g.screen, BORDER, (x, y), r + 1)
+            pygame.draw.circle(g.screen, fill, (x, y), r)
+            if r >= 5:
+                g.text("B" if boss else str(stage["stage"]), x, y - 4, PAPER if fill != (86, 104, 140) else INK, 14, center=True)
+            if i == self.index:
+                pygame.draw.circle(g.screen, INK, (x, y), r + 3, 1)
+        stage = stages[self.index]
+        monster, boss = stage["monster"], stage.get("boss", False)
+        pygame.draw.rect(g.screen, (16, 36, 62), PANEL)
+        pygame.draw.rect(g.screen, DARK, PANEL, 1)
+        y = PANEL.y + 4
+        g.text(f"Fase {stage['stage']}/10", PANEL.x + 5, y, (150, 165, 190))
+        if boss:
+            g.text("CHEFÃO", PANEL.right - 5 - g.fonts[14].size("CHEFÃO")[0], y, RED)
+        y += 12
+        size = 18 if len(g.wrap(monster["name"], PANEL.w - 10, 18)) <= 2 else 14  # nome comprido: letra menor
+        for line in g.wrap(monster["name"], PANEL.w - 10, size):
+            g.text(line, PANEL.x + 5, y + 2, GOLD, size)
+            y += 13 if size == 18 else 11
+        y += 6
+        lines, room = g.wrap(monster["legend"], PANEL.w - 10), (PANEL.bottom - y - 2) // 11
+        if len(lines) > room:  # não deveria acontecer com as lendas atuais; corta com reticências em vez de vazar
+            lines = lines[:room]
+            lines[-1] = g.fit(lines[-1] + "...", PANEL.w - 10)
+        for line in lines:
+            g.text(line, PANEL.x + 5, y, INK)
+            y += 11
+        g.text(self.message or "Enter luta · setas escolhem · P poderes · Esc volta", W // 2, H - 12, (110, 125, 150), center=True)
 
 
 class PowersScene(Scene):

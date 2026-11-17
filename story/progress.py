@@ -1,6 +1,7 @@
 """Progresso do jogador no Modo História: fases vencidas, poderes ganhos e salvamento em arquivo."""
 import json
 import os
+import time
 
 STAGES_PER_COUNTRY = 10
 MAX_EQUIPPED = 3
@@ -15,6 +16,7 @@ class Progress:
         self.powers = []
         self.levels = {}  # nível de cada poder: receber o mesmo poder de novo o fortalece
         self.equipped = []  # até MAX_EQUIPPED poderes levados para os combates
+        self.saved_at = 0   # quando foi gravado (segundos); serve para escolher o save mais recente
 
     def stages_done(self, country_id):
         """Quantas fases seguidas, a partir da 1, já foram vencidas."""
@@ -66,34 +68,53 @@ class Progress:
             return True
         return False
 
-    def save(self, path):
+    def dumps(self):
+        """O save como texto JSON (o mesmo texto vai para o arquivo e para o navegador)."""
+        data = {"version": SAVE_VERSION, "saved_at": int(time.time()), "cleared": sorted(self.cleared),
+                "powers": self.powers, "equipped": self.equipped, "levels": self.levels}
+        return json.dumps(data)
+
+    def save(self, path, text=None):
         """Grava em arquivo. Devolve False (sem derrubar o jogo) se não for possível gravar."""
-        data = {"version": SAVE_VERSION, "cleared": sorted(self.cleared), "powers": self.powers, "equipped": self.equipped, "levels": self.levels}
         try:
             tmp = f"{path}.tmp"
             with open(tmp, "w", encoding="utf-8") as file:
-                json.dump(data, file)
+                file.write(self.dumps() if text is None else text)
             os.replace(tmp, path)  # troca atômica: um corte de energia não corrompe o save
             return True
         except OSError:
             return False
 
     @classmethod
-    def load(cls, path, order):
-        """Lê o save. Se o arquivo não existir ou estiver danificado, começa do zero."""
+    def loads(cls, text, order):
+        """Lê um save em texto. Se estiver vazio ou danificado, começa do zero."""
         progress = cls(order)
         try:
-            with open(path, encoding="utf-8") as file:
-                data = json.load(file)
+            data = json.loads(text)
             known = set(order)
             progress.cleared = {(c, int(s)) for c, s in data["cleared"] if c in known and 1 <= int(s) <= STAGES_PER_COUNTRY}
             progress.powers = [p for p in data["powers"] if isinstance(p, str)]
             progress.levels = {p: min(MAX_LEVEL, max(1, int(n))) for p, n in data.get("levels", {}).items() if p in progress.powers}
             saved = data.get("equipped", progress.powers)  # saves antigos não tinham "equipped"
             progress.equipped = [p for p in saved if p in progress.powers][:MAX_EQUIPPED]
-        except (OSError, ValueError, KeyError, TypeError):
+            progress.saved_at = int(data.get("saved_at", 0))  # saves antigos não tinham data
+        except (ValueError, KeyError, TypeError, AttributeError):
             return cls(order)
         return progress
+
+    @classmethod
+    def load(cls, path, order):
+        """Lê o arquivo de save. Se não existir ou estiver danificado, começa do zero."""
+        try:
+            with open(path, encoding="utf-8") as file:
+                return cls.loads(file.read(), order)
+        except OSError:
+            return cls(order)
+
+    @staticmethod
+    def newest(*candidates):
+        """O save mais recente (e, no empate, o com mais fases vencidas). No empate total vale o primeiro."""
+        return max(candidates, key=lambda p: (p.saved_at, len(p.cleared)))
 
     @staticmethod
     def exists(path):

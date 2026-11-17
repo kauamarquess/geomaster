@@ -23,7 +23,7 @@ PACK = WORK / "story"                 # o nome da pasta vira o nome do pacote (s
 WEB = STORY / "web"
 BACKUP = STORY / "web-backup"
 
-CODE_FILES = ["main.py", "combat.py", "progress.py", "sprites.py"]
+CODE_FILES = ["main.py", "combat.py", "progress.py", "sprites.py", "mapgeo.py", "mapview.py", "webstore.py"]
 BANK_FILES = ["questions.json", "question-countries.json"]
 
 
