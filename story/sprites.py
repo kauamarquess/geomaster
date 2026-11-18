@@ -18,13 +18,13 @@ def hex_to_rgb(color):
 def _family(text):
     s = text.lower()
     rules = {
-        'serpent': ('serpente','cobra','naga','wyrm','worm','boitata','dragão-serpente','hydra','hidra','basilisco','leviatã','leviathan','quetzal','jiboia'),
-        'bird': ('ave','pássaro','passaro','corvo','águia','aguia','harpia','fênix','fenix','phoenix','roc','garuda','albatroz','arara','grifo'),
-        'quadruped': ('lobo','wolf','cão','cao','cachorro','raposa','fox','gato','tigre','leão','leao','urso','bear','javali','cavalo','cervo','touro','cerbero','cérbero','mula','pantera','onça','onca'),
-        'aquatic': ('peixe','boto','sereia','sereio','tubarão','tubarao','baleia','polvo','kraken','nessie','monstro marinho','salamandra aquática'),
-        'insect': ('aranha','besouro','mariposa','borboleta','vespa','formiga','gafanhoto','escorpião','escorpiao','centopeia','mosquito','inseto'),
-        'ghost': ('fantasma','espectro','banshee','alma','espírito','espirito','sombra','wraith','phantom','poltergeist','fogo-fátuo','fogo fatuo','soucouyant'),
-        'dragon': ('dragão','dragao','drake','wyvern','demônio','demonio','diabo','oni','ogro','gigante','titã','tita','beemote','troll'),
+        'serpent': ('serpente','cobra','naga','wyrm','worm','boitata','dragão-serpente','hydra','hidra','basilisco','leviatã','leviathan','quetzal','jiboia','orochi','midgardsorm','lindorm','lindwurm','taniwha','yacu','sachamama','yacu-mama','amphiptere','bakunawa','xiangliu','mboi','amphisb','balaur','zmey','zmaj','zhalt'),
+        'bird': ('ave','pássaro','passaro','corvo','águia','aguia','harpia','fênix','fenix','phoenix','roc','garuda','albatroz','arara','grifo','thunderbird','simurgh','anzu','ziz','bennu','turul','fenghuang','impundulu','adaro','kongamato','ropen','vishap'),
+        'quadruped': ('lobo','wolf','cão','cao','cachorro','raposa','fox','gato','tigre','leão','leao','urso','bear','javali','cavalo','cervo','touro','cerbero','cérbero','mula','pantera','onça','onca','werewolf','lobisom','rougarou','rougaroux','cadejo','barghest','shuck','kelpie','puca','púca','jackalope','hodag','wolpertinger','drop bear','yowie','amarok','fenrir','kitsune','gumiho','tanuki','tikbalang','kapre','aswang','chupacabra','chupacabras'),
+        'aquatic': ('peixe','boto','sereia','sereio','tubarão','tubarao','baleia','polvo','kraken','nessie','monstro marinho','salamandra aquática','mermaid','merman','nixie','nixe','rusalka','vodnik','vodník','vodyanoy','nokken','nøkken','nokk','mami wata','sedna','lusca','ogopogo','cadborosaurus','memphre','bunyip','muldjewangk','nyaminyami','dakuwaqa','marmennil','phaya naga','phaya nak','mishipeshu','mokele','inkanyamba','mamlambo','tupapa'),
+        'insect': ('aranha','besouro','mariposa','borboleta','vespa','formiga','gafanhoto','escorpião','escorpiao','centopeia','mosquito','inseto','mothman','adze','popobawa'),
+        'ghost': ('fantasma','espectro','banshee','alma','espírito','espirito','sombra','wraith','phantom','poltergeist','fogo-fátuo','fogo fatuo','soucouyant','yurei','yūrei','jiangshi','pocong','pontianak','kuntilanak','manananggal','penanggalan','krasue','phi pop','phi tai hong','duppy','dullahan','draugr','strigoi','moroi','vampir','vampire','ghoul','ghul','vetala','pishacha','churail','churel','banshee','ankou','la llorona','llorona','witte wieven','mavka','iele','iele','samodiva','shakchunni','jeoseung saja','cheonyeo gwishin','abiku','ogbanje','ma trơi','ma lai','azeman','ol higue','rolling calf','luz mala','ánima sola','anima sola'),
+        'dragon': ('dragão','dragao','drake','wyvern','demônio','demonio','diabo','oni','ogro','gigante','titã','tita','beemote','troll','quimera','chimera','minotauro','minotaur','cerbero','cerberus','cérbero','hydra','hidra','tarasque','tarasca','lamassu','pazuzu','humbaba','ammit','apep','tiamat','behemoth','ifrit','jinn','djinn','rakshasa','ravan','kumbhakarna','balor','cyclops','ciclope','ciclope','golem','tatzelwurm','basilisco'),
     }
     for family, words in rules.items():
         if any(w in s for w in words):
@@ -188,6 +188,18 @@ def _base(monster_id, country_id, palette, boss, name, legend):
     backwards_feet = any(k in trait for k in ('pés virados para trás','pes virados para tras','pés ao contrário','pes ao contrario')) or 'curupira' in trait
     headless = any(k in trait for k in ('sem cabeça','sem cabeca','no lugar da cabeça','no lugar da cabeca'))
     tail = family in ('serpent','dragon','quadruped') or any(k in trait for k in ('cauda','rabo'))
+    # Anatomia e ornamentos de mitologias do mundo: os traços vêm do nome e da lenda.
+    antlers = any(k in trait for k in ('chifre de cervo','galhada','antler','cervo','veado','alce','rena','herne','papa bois','basajaun'))
+    long_ears = any(k in trait for k in ('orelhas longas','orelhas pontudas','duende','elfo','elf','lutin','leprechaun','kabouter','tonttu','nisse','tomte','dokkaebi','chaneque'))
+    skeletal = any(k in trait for k in ('esqueleto','ossos','caveira','cadáver','cadaver','morto-vivo','undead','draugr','jiangshi','dullahan','cavaleiro sem cabeça','sem cabeça','sem cabeca','ankou'))
+    many_arms = any(k in trait for k in ('muitos braços','muitos bracos','oito braços','oito bracos','seis braços','seis bracos','tentáculos','tentaculos','ravana','rakshasa','asura'))
+    tentacles = any(k in trait for k in ('tentáculo','tentaculo','polvo','kraken','cthulhu','lusca','mishipeshu'))
+    crown = any(k in trait for k in ('rei','rainha','rainha','deus','deusa','rei dos','rainha dos','coroa','imperador','soberano','quetzalcoatl','quetzalcoatl','nyai roro kidul','sedna'))
+    mask = any(k in trait for k in ('máscara','mascara','mascarado','oni','tengu','dokkaebi','diablo huma','mo-shen-zai'))
+    mane = any(k in trait for k in ('juba','crina','crina','leão','leao','manticora','manticore','esfinge','griffin','grifo'))
+    fish_tail = any(k in trait for k in ('cauda de peixe','cauda escamada','sereia','sereio','mermaid','merman','pincoya','iara','mami wata'))
+    multiple_tails = any(k in trait for k in ('nove caudas','nove caudas','nine tails','kitsune','gumiho'))
+    extra_mouth = any(k in trait for k in ('boca no ventre','boca vertical','boca na barriga','boca enorme','zipacna','mapinguari'))
 
     # Sombra no chão e corpo central: cada família tem proporções diferentes.
     pygame.draw.ellipse(s, (5, 9, 18, 125), (4, 21, 16, 3))
@@ -313,6 +325,49 @@ def _base(monster_id, country_id, palette, boss, name, legend):
         pygame.draw.line(s, (180,255,120), (18,14),(20,17),1)
     if family in ('serpent','dragon') or horns:
         pygame.draw.polygon(s, highlight, [(16,8),(21,9),(17,11)])
+    # Silhuetas e detalhes adicionais para diferenciar lendas de continentes distintos.
+    if antlers:
+        pygame.draw.lines(s, highlight, False, [(8,7),(5,3),(3,1)], 2)
+        pygame.draw.lines(s, highlight, False, [(8,7),(8,2),(10,0)], 2)
+        pygame.draw.lines(s, highlight, False, [(16,7),(19,3),(21,1)], 2)
+        pygame.draw.lines(s, highlight, False, [(16,7),(16,2),(14,0)], 2)
+    if long_ears:
+        pygame.draw.polygon(s, highlight, [(8,7),(2,0),(5,10)])
+        pygame.draw.polygon(s, highlight, [(16,7),(22,0),(19,10)])
+        pygame.draw.line(s, shade, (4,3),(7,8),1); pygame.draw.line(s, shade, (20,3),(17,8),1)
+    if skeletal:
+        pygame.draw.ellipse(s, highlight, (8,4,9,8))
+        pygame.draw.rect(s, INK, (10,7,2,2)); pygame.draw.rect(s, INK, (14,7,2,2))
+        pygame.draw.line(s, highlight, (11,13),(15,13),2)
+        for x in (10,13,16): pygame.draw.line(s, highlight, (x,14),(x,17),1)
+        pygame.draw.line(s, highlight, (12,18),(12,22),1); pygame.draw.line(s, highlight, (15,18),(15,22),1)
+    if many_arms:
+        for side in (-1,1):
+            for y in (11,14,17):
+                pygame.draw.lines(s, main, False, [(8 if side<0 else 16,y),(4 if side<0 else 20,y+2),(2 if side<0 else 22,y+5)], 2)
+    if tentacles:
+        for i,x in enumerate((5,9,15,19)):
+            pygame.draw.lines(s, accent if i%2 else main, False, [(x,17),(x-2,20),(x+1,22),(x-1,24)], 2)
+    if crown:
+        pygame.draw.polygon(s, highlight, [(8,5),(8,1),(11,4),(13,0),(15,4),(18,1),(18,6)])
+        pygame.draw.line(s, accent, (9,6),(17,6),1)
+    if mask:
+        pygame.draw.polygon(s, highlight, [(8,6),(17,6),(18,12),(13,15),(8,12)])
+        pygame.draw.rect(s, INK, (9,8,3,2)); pygame.draw.rect(s, INK, (14,8,3,2))
+        pygame.draw.line(s, accent, (11,13),(15,13),1)
+    if mane:
+        for x,y in ((7,7),(5,10),(6,14),(18,7),(20,10),(19,14)):
+            pygame.draw.polygon(s, highlight, [(x,y),(x-2,y-2),(x+2,y-1)])
+    if fish_tail:
+        pygame.draw.polygon(s, accent, [(9,17),(15,17),(17,22),(12,25),(7,22)])
+        pygame.draw.polygon(s, highlight, [(12,22),(7,25),(11,24),(14,26),(17,23)])
+    if multiple_tails:
+        for x in (4,7,17,20):
+            pygame.draw.lines(s, accent, False, [(12,18),(x,21),(x-1,24)], 1)
+    if extra_mouth:
+        pygame.draw.ellipse(s, INK, (10,17,7,6))
+        pygame.draw.line(s, highlight, (12,18),(15,18),1)
+
     # Face: eyes with glow, pupils, brow and mouth; special one-eyed creatures.
     eye_y = 8 if family not in ('bird','serpent') else 6
     if extra_eyes:

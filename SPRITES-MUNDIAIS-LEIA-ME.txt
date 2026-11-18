@@ -1,0 +1,24 @@
+GEOMASTER — EXPANSÃO DOS SPRITES MUNDIAIS
+
+O que foi alterado:
+- O sistema de sprites agora reconhece mais características de criaturas de diferentes tradições folclóricas.
+- Foram adicionados detalhes anatômicos e visuais para espíritos, mortos-vivos, yokai, criaturas aquáticas, seres alados, guardiões da floresta, monstros com galhadas, máscaras, múltiplos braços/caudas, tentáculos e outras formas.
+- As cores continuam respeitando a paleta de cada país.
+- Cada sprite continua sendo gerado de forma determinística pelo nome, país e descrição da lenda, com variações próprias para chefes e animações.
+- Os sprites especiais brasileiros foram preservados e a chamada da função foi corrigida para receber nome e descrição.
+- Nenhum arquivo de fases, perguntas, mapas ou progresso foi alterado.
+
+Abrangência dos dados verificada:
+- 236 países com fases.
+- 2.360 monstros registrados.
+- 582 registros de criaturas folclóricas não marcadas como inventadas.
+- 1.778 criaturas marcadas no jogo como inventadas.
+
+Para aplicar no projeto local:
+1. Faça uma cópia de segurança da pasta atual.
+2. Extraia este ZIP.
+3. Substitua a pasta GeoMaster pela pasta GeoMaster extraída (ou copie os arquivos mantendo a estrutura).
+4. Gere o build web com: python story/tools/build_web.py
+5. Publique o conteúdo de story/build/web no Netlify.
+
+Observação: os sprites são desenhados pelo próprio código em tempo de execução; não são imagens PNG individuais. A validação dos dados passou. O ambiente desta edição não tinha pygame/pygbag instalados, portanto o build visual completo no navegador ainda precisa ser feito no ambiente local do projeto.
