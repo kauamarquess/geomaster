@@ -43,7 +43,9 @@ class Game:
     def __init__(self, screen, save_path=None):
         self.screen = screen
         self.save_path = str(save_path or default_save_path())
-        self.fonts = {size: pygame.font.Font(None, size) for size in (10, 11, 14, 18, 28)}
+        # Fonte TrueType suavizada: mantém a escala e o layout do jogo, mas elimina o aspecto
+        # excessivamente pixelado das letras no navegador. Arial usa fallback do sistema.
+        self.fonts = {size: pygame.font.SysFont("Arial", size) for size in (10, 11, 14, 18, 28)}
         self.world = load_json("data/world-order.json")
         self.powers_data = load_json("data/powers.json")
         self.bank = load_bank(BASE, self.world)
@@ -72,7 +74,7 @@ class Game:
         return self._terrains[key]
 
     def text(self, message, x, y, color=INK, size=14, center=False):
-        image = self.fonts[size].render(message, False, color)  # False = sem suavização (visual pixelado)
+        image = self.fonts[size].render(message, True, color)  # antialias suaviza as bordas das letras
         self.screen.blit(image, (x - image.get_width() // 2 if center else x, y))
 
     def save(self):

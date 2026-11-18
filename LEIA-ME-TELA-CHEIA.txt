@@ -1,0 +1,16 @@
+GEOMASTER — TELA CHEIA E TEXTO MAIS LEGÍVEL
+
+Alterações:
+- O Modo História ocupa toda a janela do navegador, sem margens ou rolagem.
+- Botão “Tela cheia” para solicitar o modo de tela cheia real do navegador.
+  (Navegadores exigem um clique do usuário para permitir tela cheia.)
+- Fontes do jogo trocadas pela fonte Arial/compatível com suavização de bordas.
+- O script build_web.py reaplica as alterações HTML automaticamente em novos builds.
+
+Para publicar:
+1. Substitua a pasta GeoMaster pela pasta deste pacote.
+2. Execute: python story/tools/build_web.py
+3. Publique: netlify deploy --prod --dir story/web
+
+Atenção: o build_web.py deste projeto instala o jogo exportado em story/web/.
+Use story/web como diretório de publicação para o site que abre o Modo História.

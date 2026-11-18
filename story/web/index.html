@@ -286,6 +286,17 @@ function show_infobox() {
 
     <script src="https://pygame-web.github.io/cdn/0.9.3//browserfs.min.js"></script>
 
+<style>
+html, body { width:100%; height:100%; min-height:100%; margin:0; overflow:hidden; background:#071426; }
+body { position:fixed; inset:0; padding:0; }
+canvas.emscripten { position:fixed; inset:0; display:block; width:100vw !important; height:100vh !important; max-width:100vw; max-height:100vh; object-fit:fill; }
+#transfer { position:fixed; z-index:10001; top:12px; left:12px; color:#eaf2ff; }
+#geomaster-fullscreen { position:fixed; z-index:10002; top:12px; right:12px; padding:10px 14px; border:1px solid #6c91c9; border-radius:10px; background:rgba(10,29,54,.92); color:#fff; font:600 14px Arial,sans-serif; cursor:pointer; box-shadow:0 4px 18px #0005; }
+#geomaster-fullscreen:hover { background:#1d4f91; }
+:fullscreen { background:#071426; }
+:fullscreen #geomaster-fullscreen { top:10px; right:10px; opacity:.72; }
+@media (max-width:600px) { #geomaster-fullscreen { top:auto; bottom:10px; right:10px; padding:9px 11px; font-size:12px; } }
+</style>
 </head>
 
 <body>
@@ -433,6 +444,25 @@ frameborder="1"
     }
 
     </script>
+
+
+<button id="geomaster-fullscreen" type="button" aria-label="Ativar tela cheia">⛶ Tela cheia</button>
+<script>
+(function () {
+  const button = document.getElementById("geomaster-fullscreen");
+  if (!button) return;
+  button.addEventListener("click", async function () {
+    try {
+      if (!document.fullscreenElement && document.documentElement.requestFullscreen) await document.documentElement.requestFullscreen();
+      else if (document.fullscreenElement && document.exitFullscreen) await document.exitFullscreen();
+    } catch (error) { console.warn("Tela cheia não disponível:", error); }
+  });
+  document.addEventListener("fullscreenchange", function () {
+    const active = !!document.fullscreenElement;
+    button.textContent = active ? "⤢ Sair da tela cheia" : "⛶ Tela cheia";
+  });
+})();
+</script>
 
 </body>
 </html>
