@@ -43,7 +43,9 @@ class Game:
     def __init__(self, screen, save_path=None):
         self.screen = screen
         self.save_path = str(save_path or default_save_path())
-        self.fonts = {size: pygame.font.Font(None, size) for size in (14, 18, 28)}
+        # Inclui também os tamanhos compactos usados pela interface de batalha.
+        # Sem 10 e 11, a primeira renderização da fase gerava KeyError no navegador.
+        self.fonts = {size: pygame.font.Font(None, size) for size in (10, 11, 14, 18, 28)}
         self.world = load_json("data/world-order.json")
         self.powers_data = load_json("data/powers.json")
         self.bank = load_bank(BASE, self.world)
