@@ -38,7 +38,7 @@ class CombatRules(unittest.TestCase):
         bank = new_bank()
         brazil = [q for q in bank.questions if bank.country_of.get(q["id"]) == "BRA" and q["id"].startswith("gm-folk-")]
         self.assertGreaterEqual(len(brazil), 1)
-        self.assertTrue(all(q["category"] == "culture" for q in brazil))
+        self.assertTrue(all(q["category"] == "folklore" for q in brazil))
 
     def test_boss_is_stronger_and_damage_rewards_speed_and_streak(self):
         self.assertGreater(combat.monster_stats(10, True)[0], combat.monster_stats(9)[0])

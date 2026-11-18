@@ -56,6 +56,7 @@ class QuestionBank:
         self.questions = [q for q in questions if q["type"] == "multiple_choice"]
         self.country_of = question_country
         self.region_of = {c: r["id"] for r in world["order"] for c in r["countries"]}
+        self.by_id = {q["id"]: q for q in self.questions}
 
     def pick(self, country_id, p, used, stage=1):
         free = [q for q in self.questions if q["id"] not in used]
@@ -67,8 +68,25 @@ class QuestionBank:
         pool = next((candidates for candidates in pools if candidates), None)
         if not pool:
             return None
+
+        # Distribui os assuntos ao longo do combate. Folclore continua no jogo,
+        # mas deixa de dominar a sequência quando há perguntas de outros temas.
+        category_counts = {}
+        for question_id in used:
+            previous = self.by_id.get(question_id)
+            if previous:
+                category = previous.get("category", "general")
+                category_counts[category] = category_counts.get(category, 0) + 1
+        grouped = {}
+        for question in pool:
+            grouped.setdefault(question.get("category", "general"), []).append(question)
+        least_seen = min(category_counts.get(category, 0) for category in grouped)
+        balanced_categories = [category for category in grouped if category_counts.get(category, 0) == least_seen]
+        category = self.rng.choice(balanced_categories)
+        balanced_pool = grouped[category]
+
         weights = difficulty_weights(p, stage)
-        return self.rng.choices(pool, weights=[weights[q["difficulty"]] for q in pool])[0]
+        return self.rng.choices(balanced_pool, weights=[weights[q["difficulty"]] for q in balanced_pool])[0]
 
 
 class Battle:
