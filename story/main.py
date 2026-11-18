@@ -43,7 +43,7 @@ class Game:
     def __init__(self, screen, save_path=None):
         self.screen = screen
         self.save_path = str(save_path or default_save_path())
-        self.fonts = {size: pygame.font.Font(None, size) for size in (14, 18, 28)}
+        self.fonts = {size: pygame.font.Font(None, size) for size in (10, 11, 14, 18, 28)}
         self.world = load_json("data/world-order.json")
         self.powers_data = load_json("data/powers.json")
         self.bank = load_bank(BASE, self.world)
@@ -660,10 +660,10 @@ class CombatScene(Scene):
         self.first_time = (battle.country_id, battle.stage) not in game.progress.cleared  # só a 1ª vitória dá poder
 
     def rect(self, i):
-        return pygame.Rect(8, 70 + i * 17, 304, 15)
+        return pygame.Rect(8, 106 + i * 13, 304, 12)
 
     def slot_rect(self, i):
-        return pygame.Rect(8 + i * 102, 164, 98, 14)
+        return pygame.Rect(8 + i * 102, 169, 98, 10)
 
     def answer(self, index):
         self.note = ""
@@ -736,26 +736,39 @@ class CombatScene(Scene):
 
     def draw(self):
         g, b = self.game, self.battle
-        g.text(g.fit(b.monster["name"] + (" (BOSS)" if b.boss else ""), 150), 8, 1, GOLD)
-        g.screen.blit(traveler.portrait(self.hero_face()), (162, 0))
-        g.text("Você", 182, 1)
-        self.bar(8, 13, 150, b.monster_hp, b.monster_max, RED)
-        self.bar(162, 13, 150, b.hero_hp, b.hero_max, GREEN)
+        # Cabeçalho compacto: nomes e barras legíveis, sem esmagar os personagens.
+        pygame.draw.rect(g.screen, (11, 23, 42), (0, 0, W, 22))
+        g.text(g.fit(b.monster["name"] + (" · BOSS" if b.boss else ""), 145), 7, 1, GOLD)
+        g.text("VOCÊ", 171, 1, (130, 220, 255))
+        self.bar(7, 13, 145, b.monster_hp, b.monster_max, RED)
+        self.bar(171, 13, 142, b.hero_hp, b.hero_max, GREEN)
         ratio = max(b.time_left, 0) / b.question_seconds
         frozen = b.freeze_left > 0
-        pygame.draw.rect(g.screen, (90, 200, 240) if frozen else GOLD if ratio > 0.25 else RED, (8, 24, round(304 * ratio), 3))
-        sprite = monster_sprite(b.monster["id"], b.country_id, self.palette, b.boss)
-        g.screen.blit(sprite, (W - 8 - sprite.get_width(), 29))
-        for i, line in enumerate(g.wrap(b.question["text"], 252)[:3]):
-            g.text(line, 8, 32 + i * 11)
+        pygame.draw.rect(g.screen, (90, 200, 240) if frozen else GOLD if ratio > 0.25 else RED, (7, 21, round(306 * ratio), 2))
+
+        # Arena maior: o viajante e cada monstro ocupam área própria e animam conforme a ação.
+        hero = traveler.frame(self.hero_face(), 3)
+        g.screen.blit(hero, (25, 27))
+        action = "idle"
+        if b.state == "won": action = "defeat"
+        elif b.state == "feedback" and b.last["result"] == "hit": action = "hurt"
+        elif b.state == "feedback" and b.last["result"] != "hit": action = "attack"
+        sprite = monster_sprite(b.monster["id"], b.country_id, self.palette, b.boss, self.t, action, b.monster.get("name", ""), b.monster.get("legend", ""))
+        g.screen.blit(sprite, (W - 12 - sprite.get_width(), 25))
+        # Um pequeno brilho de arena e indicador de turno ajudam a separar a ação da pergunta.
+        pygame.draw.line(g.screen, (37, 65, 91), (8, 82), (312, 82), 1)
+        display_text = b.question["text"] if b.state == "asking" else (b.question.get("explanation") or b.question["text"])
+        qlines = g.wrap(display_text, 304, 11)[:2]
+        for i, line in enumerate(qlines): g.text(line, 8, 85 + i * 10, INK, 11)
+
         correct = b.question["correctIndex"]
         for i, option in enumerate(b.question["options"]):
             box, out = self.rect(i), i in b.eliminated
-            color = DARK
-            if b.state != "asking":
-                color = GREEN if i == correct else RED if i == b.last["chosen"] else DARK
-            pygame.draw.rect(g.screen, (20, 36, 58) if out else color, box)
-            g.text(g.fit(f"{i + 1}) {option}", 296), box.x + 4, box.y + 2, (80, 95, 120) if out else INK)
+            color = (20, 36, 58)
+            if b.state != "asking": color = GREEN if i == correct else RED if i == b.last["chosen"] else color
+            pygame.draw.rect(g.screen, (13, 25, 42) if out else color, box)
+            pygame.draw.rect(g.screen, (55, 83, 112), box, 1)
+            g.text(g.fit(f"{i + 1}) {option}", 296), box.x + 4, box.y + 1, (80, 95, 120) if out else INK)
         self.draw_footer()
         self.draw_slots()
 
@@ -773,12 +786,12 @@ class CombatScene(Scene):
                 label = f"{self.SLOT_LETTERS[i]}:{power['name']} x{b.uses[power['id']]}"
                 if power["effect"] == "double_damage" and b.double_armed:
                     label, color = f"{self.SLOT_LETTERS[i]}:{power['name']} PRONTO", GREEN
-            g.text(g.fit(label, 92), box.x + 3, box.y + 2, color)
+            g.text(g.fit(label, 92, 10), box.x + 3, box.y, color, 10)
 
     def draw_footer(self):
         g, b = self.game, self.battle
         if b.state == "asking":
-            g.text(self.note or "1-4 responde · A S D usam poderes", 8, 141, GOLD if self.note else (110, 125, 150))
+            g.text(self.note or "1–4 responder · A/S/D poderes", 8, 157, GOLD if self.note else (110, 125, 150), 10)
             return
         if b.state == "won":
             reward = self.stage.get("rewardPower") if self.first_time else None
@@ -786,18 +799,17 @@ class CombatScene(Scene):
             if reward:
                 level = g.progress.level(reward) + 1 if reward in g.progress.powers else 1
                 text += f" {g.powers_data[reward]['name']}" + (f" subiu para o nível {level}!" if level > 1 else " conquistado!")
-            g.text(g.fit(text, 296), 8, 141, GOLD)
+            g.text(g.fit(text, 304), 8, 157, GOLD, 10)
         elif b.state == "lost":
-            g.text("DERROTA... você caiu." + (" (A/S/D: poder)" if self.note == "" and any(b.can_use(p["id"]) for p in b.powers) else ""), 8, 141, RED)
+            g.text("DERROTA... você caiu.", 8, 157, RED, 10)
         elif b.last["result"] == "hit":
-            g.text(f"Acertou! -{b.last['damage']} no monstro", 8, 141, GREEN)
+            g.text(f"Acertou! -{b.last['damage']} no monstro", 8, 157, GREEN, 10)
         elif b.last.get("dodged"):
-            g.text("Esquivou! Nenhum dano.", 8, 141, GREEN)
+            g.text("Esquivou! Nenhum dano.", 8, 157, GREEN, 10)
         else:
             why = "Tempo esgotado!" if b.last["result"] == "timeout" else "Errou!"
-            g.text(f"{why} -{b.last['damage']} de vida", 8, 141, RED)
-        g.text(g.fit(self.note or b.question.get("explanation", ""), 304), 8, 151, GOLD if self.note else (150, 165, 190))
-        g.text("Enter continua", 232, 141, (110, 125, 150))
+            g.text(f"{why} -{b.last['damage']} de vida", 8, 157, RED, 10)
+        g.text("Enter", 286, 157, (110, 125, 150), 10)
 
 
 async def main():
