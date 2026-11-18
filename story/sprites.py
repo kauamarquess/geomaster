@@ -50,7 +50,7 @@ def _outline(s):
 
 
 
-def _folklore_base(monster_id, palette, boss=False):
+def _folklore_base(monster_id, palette, boss=False, name="", legend=""):
     """Sprites autorais para as lendas brasileiras do primeiro conjunto de fases."""
     W = H = 32
     s = pygame.Surface((W, H), pygame.SRCALPHA)
@@ -158,7 +158,7 @@ def _folklore_base(monster_id, palette, boss=False):
 
 def _base(monster_id, country_id, palette, boss, name, legend):
     if str(country_id).upper() == 'BRA':
-        folklore = _folklore_base(monster_id, palette, boss)
+        folklore = _folklore_base(monster_id, palette, boss, name, legend)
         if folklore is not None:
             return folklore
     seed_text = f'{country_id}:{monster_id}:{name}:{legend}'
