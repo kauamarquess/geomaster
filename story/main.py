@@ -43,9 +43,7 @@ class Game:
     def __init__(self, screen, save_path=None):
         self.screen = screen
         self.save_path = str(save_path or default_save_path())
-        # Inclui também os tamanhos compactos usados pela interface de batalha.
-        # Sem 10 e 11, a primeira renderização da fase gerava KeyError no navegador.
-        self.fonts = {size: pygame.font.Font(None, size) for size in (10, 11, 14, 18, 28)}
+        self.fonts = {size: pygame.font.Font(None, size) for size in (14, 18, 28)}
         self.world = load_json("data/world-order.json")
         self.powers_data = load_json("data/powers.json")
         self.bank = load_bank(BASE, self.world)
@@ -755,7 +753,7 @@ class CombatScene(Scene):
         if b.state == "won": action = "defeat"
         elif b.state == "feedback" and b.last["result"] == "hit": action = "hurt"
         elif b.state == "feedback" and b.last["result"] != "hit": action = "attack"
-        sprite = monster_sprite(b.monster["id"], b.country_id, self.palette, b.boss, self.t, action)
+        sprite = monster_sprite(b.monster["id"], b.country_id, self.palette, b.boss, self.t, action, b.monster.get("name", ""), b.monster.get("legend", ""))
         g.screen.blit(sprite, (W - 12 - sprite.get_width(), 25))
         # Um pequeno brilho de arena e indicador de turno ajudam a separar a ação da pergunta.
         pygame.draw.line(g.screen, (37, 65, 91), (8, 82), (312, 82), 1)
