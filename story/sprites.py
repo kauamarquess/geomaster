@@ -49,7 +49,118 @@ def _outline(s):
                 _draw_pixel(s, x, y, INK)
 
 
+
+def _folklore_base(monster_id, palette, boss=False):
+    """Sprites autorais para as lendas brasileiras do primeiro conjunto de fases."""
+    W = H = 32
+    s = pygame.Surface((W, H), pygame.SRCALPHA)
+    ink=(18,12,22); skin=(173,103,61); light=(255,220,160)
+    green=(43,112,55); darkgreen=(20,65,42); red=(205,38,35)
+    def poly(c, pts): pygame.draw.polygon(s,c,pts)
+    def ell(c, rect): pygame.draw.ellipse(s,c,rect)
+    def line(c, pts, width=1): pygame.draw.lines(s,c,False,pts,width)
+    ell((5,8,12,125),(5,27,22,4))
+    mid=str(monster_id).lower()
+    if mid in ('saci','saci_perere'):
+        # Menino de gorro vermelho, uma perna e redemoinho de vento.
+        ell(skin,(10,9,13,13)); ell((20,20,20),(12,13,3,2)); ell(ink,(16,14,2,2))
+        poly(red,[(8,12),(7,7),(11,3),(19,3),(24,7),(22,10),(15,8),(10,12)])
+        poly((245,75,48),[(11,5),(15,2),(20,4),(22,7),(15,6)])
+        poly((54,91,55),[(9,19),(13,17),(20,18),(23,23),(19,26),(10,25)])
+        line(skin,[(10,18),(6,22),(9,24)],3); line(skin,[(20,18),(25,19),(27,16)],3)
+        line(skin,[(16,24),(15,29),(19,29)],3)
+        pygame.draw.arc(s,(183,125,75),(2,17,29,29),.1,5.8,1)
+        ell((255,180,80),(25,14,2,2))
+    elif mid == 'curupira':
+        # Guardião da mata: cabelo em chamas e pés voltados para trás.
+        ell(skin,(10,10,13,12)); ell(ink,(13,15,2,2)); ell(ink,(19,15,2,2))
+        for pts in [[(10,12),(5,8),(8,7),(7,2),(12,5)],[(13,9),(12,2),(16,0),(17,6)],[(17,8),(21,2),(24,4),(21,10)],[(20,10),(27,7),(25,13)]]: poly((238,76,25),pts)
+        poly((255,177,40),[(12,7),(14,2),(16,6),(19,3),(18,9)])
+        poly(darkgreen,[(10,20),(7,17),(10,16),(15,18),(21,16),(24,20),(21,26),(11,26)])
+        line(skin,[(11,19),(6,22),(8,25)],3); line(skin,[(21,19),(25,22),(23,25)],3)
+        # Calcanhares apontam para a frente: detalhe gráfico dos pés invertidos.
+        poly((205,145,96),[(5,24),(2,22),(3,26),(8,27)]); poly((205,145,96),[(22,24),(26,22),(25,26),(21,27)])
+        ell(green,(8,18,3,3)); ell(green,(21,18,3,3))
+    elif mid == 'boto':
+        # Boto-cor-de-rosa, corpo de golfinho e chapéu branco da versão encantada.
+        poly((232,112,151),[(3,19),(8,12),(17,11),(24,14),(29,12),(26,19),(20,23),(10,23)])
+        poly((255,177,196),[(7,17),(14,14),(22,16),(26,16),(21,20),(11,20)])
+        poly((222,91,139),[(7,18),(2,14),(4,22)]); poly((222,91,139),[(23,15),(28,10),(26,17)])
+        ell(ink,(22,15,2,2)); poly((255,255,238),[(12,9),(14,5),(20,5),(23,9),(21,10),(14,10)])
+        line((130,215,240),[(5,25),(8,27),(11,25)],1)
+    elif mid in ('mula_sem_cabeca','mula-sem-cabeca'):
+        # Corpo equino sem cabeça, com labaredas no pescoço.
+        ell((102,53,35),(7,13,19,11)); ell((75,39,31),(21,12,7,8))
+        for x in (9,13,21,25): line((58,35,29),[(x,21),(x-1,29)],2)
+        poly((255,91,16),[(20,14),(17,9),(20,10),(21,3),(24,9),(27,5),(25,14)])
+        poly((255,194,45),[(21,12),(21,6),(23,10),(25,7),(24,14)])
+        line((255,100,20),[(8,14),(5,9),(8,11),(9,6)],2)
+    elif mid == 'iara':
+        # Sereia dos rios, cabelos escuros e cauda verde-azulada.
+        ell(skin,(12,5,10,10)); ell(ink,(15,9,2,2)); ell(ink,(20,9,2,2))
+        line((20,24,42),[(13,7),(9,3),(13,1),(17,4),(22,1),(25,5),(23,13)],3)
+        poly((22,151,145),[(13,14),(21,14),(23,20),(18,24),(11,21)])
+        poly((37,202,174),[(18,21),(24,22),(29,27),(22,26),(18,29),(14,25)])
+        poly((38,112,112),[(13,15),(9,18),(13,19)]); poly((38,112,112),[(21,15),(25,18),(21,19)])
+        ell((66,225,203),(17,19,2,2)); ell((66,225,203),(21,23,2,2))
+    elif mid == 'cuca':
+        # Bruxa-crocodilo: focinho comprido, escamas e cabelo desgrenhado.
+        ell((72,145,62),(6,9,20,15)); poly((95,174,72),[(19,13),(29,15),(26,20),(18,19)])
+        poly((45,104,49),[(9,11),(5,6),(12,8),(15,3),(18,8),(24,5),(22,12)])
+        ell((255,225,90),(21,13,2,2)); ell(ink,(22,13,1,1))
+        poly((235,225,176),[(24,18),(27,17),(26,20),(24,20)])
+        for x in (11,15,19): line((35,92,43),[(x,22),(x-2,27)],2)
+        poly((107,65,145),[(7,21),(4,25),(10,24)])
+    elif mid == 'lobisomem':
+        # Licantropo de pelo cinza, focinho, garras e olhos âmbar.
+        ell((83,82,100),(6,9,20,16)); poly((101,95,112),[(18,10),(22,5),(24,12),(29,15),(23,20)])
+        poly((67,64,83),[(8,12),(4,5),(12,8),(16,3),(19,9),(25,6),(23,14)])
+        ell((255,190,55),(20,13,2,2)); ell(ink,(21,13,1,1))
+        poly((230,220,207),[(25,18),(28,18),(26,21),(24,20)])
+        for x in (8,13,20,24): line((53,48,64),[(x,22),(x-1,29)],2)
+        line((230,220,207),[(24,20),(23,22),(25,22)],1)
+    elif mid == 'caipora':
+        # Guardiã da mata, cocar de folhas, lança e companheiro caititu sugerido.
+        ell(skin,(11,8,12,12)); ell(ink,(14,13,2,2)); ell(ink,(19,13,2,2))
+        poly((190,57,36),[(8,9),(5,4),(10,6),(12,1),(15,6),(19,1),(21,7),(25,4),(22,10)])
+        poly(green,[(8,19),(12,17),(20,18),(24,23),(20,26),(10,25)])
+        line(skin,[(10,19),(6,23),(8,25)],3); line(skin,[(21,19),(25,22),(24,25)],3)
+        line((142,102,59),[(25,18),(29,8)],1); ell((75,91,46),(25,6,4,4))
+        ell((100,65,48),(2,25,7,4)); ell((100,65,48),(1,24,3,3))
+    elif mid == 'mapinguari':
+        # Gigante peludo, um olho central e boca vertical no ventre.
+        ell((93,53,40),(5,7,22,22));
+        for x,y in ((7,9),(12,5),(20,6),(25,11),(6,19),(25,21),(11,27),(21,28)):
+            poly((55,38,34),[(x,y),(x+3,y-3),(x+2,y+2)])
+        ell((255,215,80),(14,11,5,5)); ell(ink,(16,12,2,3))
+        ell((35,16,20),(12,19,9,8)); line((240,220,190),[(14,21),(16,24),(19,21)],1)
+        line((75,43,35),[(9,23),(6,29)],3); line((75,43,35),[(23,23),(26,29)],3)
+    elif mid in ('boitata','boitatá'):
+        # Serpente de fogo com escamas luminosas e olhos de brasa.
+        line((176,75,24),[(3,25),(7,21),(5,17),(11,14),(17,16),(21,11),(18,7),(23,4),(28,7)],6)
+        line((255,124,24),[(3,24),(7,20),(6,17),(12,14),(17,15),(21,10),(19,7),(24,5),(28,7)],3)
+        line((255,224,95),[(6,22),(9,19),(8,17),(13,15),(17,15),(21,10),(20,8)],1)
+        ell((255,245,130),(25,5,2,2)); ell(ink,(26,5,1,1))
+        poly((255,168,38),[(27,7),(31,5),(29,9)])
+    else:
+        return None
+    if boss:
+        pygame.draw.circle(s,(255,205,85),(16,3),2)
+        pygame.draw.circle(s,(255,245,190),(16,3),1)
+    # Contorno pixelado de alto contraste.
+    src=s.copy()
+    for y in range(H):
+        for x in range(W):
+            if src.get_at((x,y)).a and any(not(0<=x+dx<W and 0<=y+dy<H) or not src.get_at((x+dx,y+dy)).a for dx,dy in ((1,0),(-1,0),(0,1),(0,-1))):
+                s.set_at((x,y),ink)
+    return s
+
+
 def _base(monster_id, country_id, palette, boss, name, legend):
+    if str(country_id).upper() == 'BRA':
+        folklore = _folklore_base(monster_id, palette, boss)
+        if folklore is not None:
+            return folklore
     seed_text = f'{country_id}:{monster_id}:{name}:{legend}'
     rng = random.Random(seed_text)
     family = 'humanoid' if 'medusa' in (monster_id + ' ' + name).lower() else _family(f'{monster_id} {name} {legend}')
