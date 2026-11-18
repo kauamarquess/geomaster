@@ -17,6 +17,7 @@ from mapgeo import View, pick_direction
 from mapview import Terrain, draw_pin, load_map
 from progress import Progress
 from sprites import hex_to_rgb, monster_sprite
+import traveler
 import webstore
 
 BASE = Path(__file__).resolve().parent
@@ -153,7 +154,10 @@ class MenuScene(Scene):
         self.saved = game.load_progress()
         self.has_save = self.saved.has_progress()
         self.confirm = None  # None, "new" (Nova aventura sobre um save) ou "delete" (Apagar save)
-        self.message, self.message_color = "", GOLD
+        self.message, self.message_color, self.t = "", GOLD, 0.0
+
+    def update(self, dt):
+        self.t += dt
 
     def rect(self, i):
         return pygame.Rect(80, 82 + i * 21, 160, 19)
@@ -208,6 +212,8 @@ class MenuScene(Scene):
             pygame.draw.rect(g.screen, (14, 36, 62), (0, y, W, 3))
         g.text("GEOMASTER", W // 2, 24, GOLD, 28, center=True)
         g.text("MODO HISTÓRIA", W // 2, 52, INK, 18, center=True)
+        sprite = traveler.idle(self.t, 3)  # o viajante, em tamanho grande, ao lado das opções
+        g.screen.blit(sprite, (254, 100))
         for i, label in enumerate(self.OPTIONS):
             selected = i == self.index
             if selected:
@@ -242,6 +248,12 @@ LOCKED, SOON, CONTEXT, BORDER = (58, 80, 116), (90, 112, 150), (26, 42, 66), (10
 MAP_RECT = (0, 20, W, 120)  # área do mapa-múndi e dos continentes (o resto da tela é texto)
 STAGE_RECT = (0, 26, 204, 128)  # área do país com as 10 fases (o painel da fase fica à direita)
 PANEL = pygame.Rect(208, 26, 108, 130)
+
+
+def draw_traveler_marker(target, pos, t):
+    """O viajante em miniatura em pé sobre `pos`, respirando (sobe e desce 1 pixel)."""
+    sprite = traveler.mini()
+    target.blit(sprite, (pos[0] - sprite.get_width() // 2, pos[1] - sprite.get_height() - int(t * 2) % 2))
 
 
 class GlobeScene(Scene):
@@ -325,10 +337,7 @@ class GlobeScene(Scene):
         g, region = self.game, self.regions[self.region]
         g.screen.blit(self.terrain.surface, (0, 0))
         g.screen.blit(self.outline(), (0, 0))
-        if int(self.t * 2.5) % 2 == 0:  # marcador piscando no país onde a aventura está
-            x, y = self.here
-            pygame.draw.polygon(g.screen, BORDER, [(x - 4, y - 9), (x + 4, y - 9), (x, y - 2)])
-            pygame.draw.polygon(g.screen, GOLD, [(x - 3, y - 8), (x + 3, y - 8), (x, y - 3)])
+        draw_traveler_marker(g.screen, self.here, self.t)  # o viajante, no país onde a aventura está
         g.text("MAPA-MÚNDI", 8, 4, GOLD, 18)
         g.text(f"{g.progress.completed_count()}/{len(g.order)} países · poderes: {len(g.progress.powers)}", W - 8 - g.fonts[14].size(f"{g.progress.completed_count()}/{len(g.order)} países · poderes: {len(g.progress.powers)}")[0], 7, GREEN)
         done = g.progress.completed_count(region["countries"])
@@ -450,10 +459,8 @@ class WorldMapScene(Scene):
         x, y = self.centers[self.index]
         if self.index in self.tiny:
             pygame.draw.circle(g.screen, INK, (x, y), 5, 1)
-        if self.here is not None and int(self.t * 2.5) % 2 == 0:  # marcador piscando no país onde a aventura está
-            hx, hy = self.here
-            pygame.draw.polygon(g.screen, BORDER, [(hx - 4, hy - 9), (hx + 4, hy - 9), (hx, hy - 2)])
-            pygame.draw.polygon(g.screen, GOLD, [(hx - 3, hy - 8), (hx + 3, hy - 8), (hx, hy - 3)])
+        if self.here is not None:  # o viajante, no país onde a aventura está
+            draw_traveler_marker(g.screen, self.here, self.t)
         done = g.progress.completed_count(region["countries"])
         g.text(region["name"].upper(), 8, 4, GOLD, 18)
         info = f"{done}/{len(ids)} países · poderes: {len(g.progress.powers)}"
@@ -568,6 +575,9 @@ class WorldScene(Scene):
                 g.text("B" if boss else str(stage["stage"]), x, y - 4, PAPER if fill != (86, 104, 140) else INK, 14, center=True)
             if i == self.index:
                 pygame.draw.circle(g.screen, INK, (x, y), r + 3, 1)
+        here = self.points[min(done, len(stages) - 1)]  # o viajante espera na próxima fase a vencer
+        sprite = traveler.idle(self.t)
+        g.screen.blit(sprite, (here[0] - sprite.get_width() // 2, here[1] - sprite.get_height() - self.radius + 3))
         stage = stages[self.index]
         monster, boss = stage["monster"], stage.get("boss", False)
         pygame.draw.rect(g.screen, (16, 36, 62), PANEL)
@@ -645,7 +655,7 @@ class CombatScene(Scene):
 
     def __init__(self, game, battle, stage, palette=None):
         super().__init__(game)
-        self.battle, self.stage, self.note = battle, stage, ""
+        self.battle, self.stage, self.note, self.t = battle, stage, "", 0.0
         self.palette = tuple(palette or ("#101c30", "#2a4a78", "#f2c94c", "#5f8fd0"))
         self.first_time = (battle.country_id, battle.stage) not in game.progress.cleared  # só a 1ª vitória dá poder
 
@@ -706,7 +716,19 @@ class CombatScene(Scene):
                 self.advance()
 
     def update(self, dt):
+        self.t += dt
         self.battle.tick(dt)
+
+    def hero_face(self):
+        """A expressão do viajante acompanha a luta: respira, comemora o acerto, sente o golpe, cai na derrota."""
+        b = self.battle
+        if b.state == "lost":
+            return "down"
+        if b.state == "won" or (b.state == "feedback" and b.last["result"] == "hit"):
+            return "happy"
+        if b.state == "feedback":
+            return "hurt"
+        return "idle1" if int(self.t * 2) % 2 else "idle0"
 
     def bar(self, x, y, w, value, maximum, color):
         pygame.draw.rect(self.game.screen, DARK, (x, y, w, 6))
@@ -715,7 +737,8 @@ class CombatScene(Scene):
     def draw(self):
         g, b = self.game, self.battle
         g.text(g.fit(b.monster["name"] + (" (BOSS)" if b.boss else ""), 150), 8, 1, GOLD)
-        g.text("Você", 162, 1)
+        g.screen.blit(traveler.portrait(self.hero_face()), (162, 0))
+        g.text("Você", 182, 1)
         self.bar(8, 13, 150, b.monster_hp, b.monster_max, RED)
         self.bar(162, 13, 150, b.hero_hp, b.hero_max, GREEN)
         ratio = max(b.time_left, 0) / b.question_seconds
