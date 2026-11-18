@@ -14,9 +14,16 @@ def progress(world, country_id, stage):
     return (order.index(country_id) * 10 + stage - 1) / (len(order) * 10)
 
 
-def difficulty_weights(p):
-    """Quanto mais avançado o jogador, mais perguntas médias e difíceis aparecem (nunca zera nenhuma)."""
-    return {"easy": 1 - p + 0.02, "medium": 1 - abs(2 * p - 1) + 0.02, "hard": p + 0.02}
+def difficulty_weights(p, stage=1):
+    """A dificuldade sobe dentro de cada país e continua crescendo ao avançar pelo mundo."""
+    local_progress = max(0.0, min(1.0, (int(stage) - 1) / 9))
+    world_progress = max(0.0, min(1.0, float(p)))
+    t = max(local_progress, world_progress)
+    return {
+        "easy": max(0.08, 1.05 - 1.15 * t),
+        "medium": max(0.15, 0.25 + 1.0 * (1 - abs(2 * t - 1))),
+        "hard": max(0.08, 0.08 + 1.15 * t),
+    }
 
 
 def monster_stats(stage, boss=False):
@@ -50,16 +57,17 @@ class QuestionBank:
         self.country_of = question_country
         self.region_of = {c: r["id"] for r in world["order"] for c in r["countries"]}
 
-    def pick(self, country_id, p, used):
+    def pick(self, country_id, p, used, stage=1):
         free = [q for q in self.questions if q["id"] not in used]
         mine = [q for q in free if self.country_of.get(q["id"]) == country_id]
         region = [q for q in free if self.region_of.get(self.country_of.get(q["id"])) == self.region_of.get(country_id)]
+        # Prioriza conteúdo do país atual; recorre à região e ao mundo quando necessário.
         roll = self.rng.random()
-        pools = [mine, region, free] if roll < 0.5 else [region, free] if roll < 0.8 else [free]
+        pools = [mine, region, free] if roll < 0.78 else [region, free] if roll < 0.95 else [free]
         pool = next((candidates for candidates in pools if candidates), None)
         if not pool:
             return None
-        weights = difficulty_weights(p)
+        weights = difficulty_weights(p, stage)
         return self.rng.choices(pool, weights=[weights[q["difficulty"]] for q in pool])[0]
 
 
@@ -90,7 +98,7 @@ class Battle:
         self.next_question()
 
     def next_question(self):
-        self.question = self.bank.pick(self.country_id, self.p, self.used)
+        self.question = self.bank.pick(self.country_id, self.p, self.used, self.stage)
         self.used.add(self.question["id"])
         self.time_left, self.state, self.last, self.eliminated = self.question_seconds, "asking", None, set()
 

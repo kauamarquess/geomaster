@@ -26,6 +26,20 @@ class CombatRules(unittest.TestCase):
         self.assertGreater(start["easy"], start["hard"])
         self.assertGreater(end["hard"], end["easy"])
 
+    def test_difficulty_rises_inside_each_country(self):
+        first = combat.difficulty_weights(0, 1)
+        middle = combat.difficulty_weights(0, 5)
+        boss = combat.difficulty_weights(0, 10)
+        self.assertGreater(first["easy"], first["hard"])
+        self.assertGreater(middle["medium"], middle["easy"])
+        self.assertGreater(boss["hard"], boss["easy"])
+
+    def test_country_has_folklore_questions_when_authentic_lore_exists(self):
+        bank = new_bank()
+        brazil = [q for q in bank.questions if bank.country_of.get(q["id"]) == "BRA" and q["id"].startswith("gm-folk-")]
+        self.assertGreaterEqual(len(brazil), 1)
+        self.assertTrue(all(q["category"] == "culture" for q in brazil))
+
     def test_boss_is_stronger_and_damage_rewards_speed_and_streak(self):
         self.assertGreater(combat.monster_stats(10, True)[0], combat.monster_stats(9)[0])
         self.assertGreater(combat.hit_damage("easy", 30, 0), combat.hit_damage("easy", 1, 0))
