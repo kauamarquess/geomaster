@@ -1,0 +1,15 @@
+ATUALIZAÇÃO GEOMASTER — PERGUNTAS POR PAÍS E BARRAS DE VIDA
+
+O que mudou:
+- Banco principal ampliado de 2.132 para 3.384 perguntas.
+- Novas perguntas específicas vinculadas aos países da jornada.
+- Cada país da jornada possui pelo menos 5 perguntas associadas no banco.
+- A barra verde do jogador agora aparece à esquerda, sob VOCÊ.
+- A barra vermelha do monstro agora aparece à direita, sob o nome do monstro.
+
+Arquivos principais alterados:
+- data/questions.json
+- data/question-countries.json
+- story/main.py
+
+Para atualizar o site, gere/publica a versão web usando o processo normal do projeto. Se o deploy for do site completo, publique a raiz do projeto GeoMaster, preservando a pasta story/web.

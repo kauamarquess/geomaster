@@ -740,10 +740,10 @@ class CombatScene(Scene):
         g, b = self.game, self.battle
         # Cabeçalho compacto: nomes e barras legíveis, sem esmagar os personagens.
         pygame.draw.rect(g.screen, (11, 23, 42), (0, 0, W, 22))
-        g.text(g.fit(b.monster["name"] + (" · BOSS" if b.boss else ""), 145), 7, 1, GOLD)
-        g.text("VOCÊ", 171, 1, (130, 220, 255))
-        self.bar(7, 13, 145, b.monster_hp, b.monster_max, RED)
-        self.bar(171, 13, 142, b.hero_hp, b.hero_max, GREEN)
+        g.text("VOCÊ", 7, 1, (130, 220, 255))
+        g.text(g.fit(b.monster["name"] + (" · BOSS" if b.boss else ""), 142), 171, 1, GOLD)
+        self.bar(7, 13, 142, b.hero_hp, b.hero_max, GREEN)
+        self.bar(171, 13, 142, b.monster_hp, b.monster_max, RED)
         ratio = max(b.time_left, 0) / b.question_seconds
         frozen = b.freeze_left > 0
         pygame.draw.rect(g.screen, (90, 200, 240) if frozen else GOLD if ratio > 0.25 else RED, (7, 21, round(306 * ratio), 2))
