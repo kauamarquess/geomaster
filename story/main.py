@@ -660,6 +660,9 @@ class CombatScene(Scene):
         self.battle, self.stage, self.note, self.t = battle, stage, "", 0.0
         self.palette = tuple(palette or ("#101c30", "#2a4a78", "#f2c94c", "#5f8fd0"))
         self.first_time = (battle.country_id, battle.stage) not in game.progress.cleared  # só a 1ª vitória dá poder
+        self.animation_kind = ""
+        self.animation_left = 0.0
+        self.animation_duration = 0.52
 
     def rect(self, i):
         return pygame.Rect(8, 106 + i * 13, 304, 12)
@@ -669,7 +672,15 @@ class CombatScene(Scene):
 
     def answer(self, index):
         self.note = ""
-        self.battle.answer(index)
+        result = self.battle.answer(index)
+        if result:
+            if result.get("result") == "hit":
+                self.animation_kind = "hero_attack"
+            elif result.get("dodged"):
+                self.animation_kind = "hero_dodge"
+            else:
+                self.animation_kind = "monster_attack"
+            self.animation_left = self.animation_duration
 
     def use(self, slot):
         b = self.battle
@@ -720,6 +731,10 @@ class CombatScene(Scene):
     def update(self, dt):
         self.t += dt
         self.battle.tick(dt)
+        if self.animation_left > 0:
+            self.animation_left = max(0.0, self.animation_left - dt)
+            if self.animation_left <= 0:
+                self.animation_kind = ""
 
     def hero_face(self):
         """A expressão do viajante acompanha a luta: respira, comemora o acerto, sente o golpe, cai na derrota."""
@@ -748,15 +763,55 @@ class CombatScene(Scene):
         frozen = b.freeze_left > 0
         pygame.draw.rect(g.screen, (90, 200, 240) if frozen else GOLD if ratio > 0.25 else RED, (7, 21, round(306 * ratio), 2))
 
-        # Arena maior: o viajante e cada monstro ocupam área própria e animam conforme a ação.
+        progress = 0.0
+        pulse = 0.0
+        if self.animation_left > 0:
+            progress = 1.0 - self.animation_left / self.animation_duration
+            pulse = math.sin(progress * math.pi)
+        hx, hy, my = 25.0, 27.0, 25.0
+        monster_action = "idle"
+        if b.state == "won":
+            monster_action = "defeat"
+        elif self.animation_kind == "hero_attack":
+            hx += 17 * pulse
+            hy -= 3 * pulse
+            monster_action = "hurt"
+        elif self.animation_kind == "monster_attack":
+            hx -= 9 * pulse
+            hy += 3 * pulse
+            monster_action = "attack"
+        elif self.animation_kind == "hero_dodge":
+            hx -= 13 * pulse
+            hy -= 7 * pulse
+        if not self.animation_kind:
+            hy += math.sin(self.t * 3.2) * 1.2
         hero = traveler.frame(self.hero_face(), 3)
-        g.screen.blit(hero, (25, 27))
-        action = "idle"
-        if b.state == "won": action = "defeat"
-        elif b.state == "feedback" and b.last["result"] == "hit": action = "hurt"
-        elif b.state == "feedback" and b.last["result"] != "hit": action = "attack"
-        sprite = monster_sprite(b.monster["id"], b.country_id, self.palette, b.boss, self.t, action, b.monster.get("name", ""), b.monster.get("legend", ""))
-        g.screen.blit(sprite, (W - 12 - sprite.get_width(), 25))
+        hr = hero.get_rect(topleft=(round(hx), round(hy)))
+        if self.animation_kind == "hero_attack":
+            a, c = (hr.right - 5, hr.y + 31), (hr.right + 22, hr.y + 16)
+            pygame.draw.line(g.screen, (255, 222, 135), a, c, 4)
+            pygame.draw.line(g.screen, (255, 250, 220), a, c, 1)
+        g.screen.blit(hero, hr)
+        sprite = monster_sprite(b.monster["id"], b.country_id, self.palette, b.boss, self.t, monster_action, b.monster.get("name", ""), b.monster.get("legend", ""))
+        mx = W - 12 - sprite.get_width()
+        if self.animation_kind == "hero_attack":
+            mx += 12 * pulse
+            my += 2 * pulse
+        elif self.animation_kind == "monster_attack":
+            mx -= 17 * pulse
+            my -= 2 * pulse
+        elif not self.animation_kind:
+            my += math.sin(self.t * 2.7 + 0.8) * 1.4
+        mr = sprite.get_rect(topleft=(round(mx), round(my)))
+        g.screen.blit(sprite, mr)
+        if self.animation_kind == "hero_attack" and 0.12 < progress < 0.88:
+            impact = (mr.left + 8, mr.centery)
+            for angle in range(0, 360, 60):
+                rad = math.radians(angle)
+                end = (round(impact[0] + math.cos(rad) * (5 + 5 * pulse)),
+                       round(impact[1] + math.sin(rad) * (5 + 5 * pulse)))
+                pygame.draw.line(g.screen, (255, 220, 130), impact, end, 2)
+            pygame.draw.circle(g.screen, (255, 245, 190), impact, max(1, round(2 + 2 * pulse)))
         # Um pequeno brilho de arena e indicador de turno ajudam a separar a ação da pergunta.
         pygame.draw.line(g.screen, (37, 65, 91), (8, 82), (312, 82), 1)
         display_text = b.question["text"] if b.state == "asking" else (b.question.get("explanation") or b.question["text"])

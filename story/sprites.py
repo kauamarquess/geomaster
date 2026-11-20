@@ -408,8 +408,10 @@ def _frame(monster_id, country_id, palette, boss, name, legend, pose):
     base = _base(monster_id, country_id, palette, boss, name, legend)
     s = base.copy()
     if pose == 'attack':
-        s = pygame.transform.scale(base, (base.get_width()+2, base.get_height()+1))
-        pygame.draw.line(s, (255,220,130), (s.get_width()-7,12),(s.get_width()+1,9),2)
+        s = pygame.transform.scale(base, (base.get_width()+4, base.get_height()+2))
+        pygame.draw.line(s, (255,220,130), (s.get_width()-9,11),(s.get_width()+2,7),3)
+        pygame.draw.line(s, (255,245,190), (s.get_width()-5,17),(s.get_width()+3,15),2)
+        pygame.draw.circle(s, (255,205,105), (s.get_width()-2,10), 2)
     elif pose == 'hurt':
         s.fill((255,90,90,85), special_flags=pygame.BLEND_RGBA_ADD)
         for x in (4,19): pygame.draw.line(s, (255,245,200), (x,4),(x+2,1),1)
